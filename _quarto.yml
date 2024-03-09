@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "R-releases"
+  navbar:
+    logo: "logo/logo-readme.png"
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - users.qmd
+      - contributors.qmd
+      - review.qmd
+  body-footer: |
+    <br />&copy; 2024 Contributors to the R-releases project.
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
