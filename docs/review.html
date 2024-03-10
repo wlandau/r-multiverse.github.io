@@ -110,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
       <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/r-releases/r-releases">
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/r-releases/contributions">
             Contribute package
             </a>
           </li>
@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>As the <a href="contributors.html">contributors</a> page explains, updates to the R-releases package listings come from pull requests to <a href="https://github.com/r-releases/r-releases" class="uri">https://github.com/r-releases/r-releases</a> from members of the R community. In the vast majority of cases, a GitHub app automatically merges the pull request. However, some pull requests need to be manually reviewed by an R-releases moderator. This document describes this manual review process. The goals are to:</p>
+<p>As the <a href="contributors.html">contributors</a> page explains, updates to the R-releases package listings come from pull requests to <a href="https://github.com/r-releases/contributions" class="uri">https://github.com/r-releases/contributions</a> from members of the R community. In the vast majority of cases, a GitHub app automatically merges the pull request. However, some pull requests need to be manually reviewed by an R-releases moderator. This document describes this manual review process. The goals are to:</p>
 <ol type="1">
 <li>Ensure that all pull requests are reviewed using a consistent set of standards and principles that do not vary according to moderator.</li>
 <li>Ensure these standards and principles are clear and transparent for the R community.</li>
@@ -171,12 +171,12 @@ ul.task-list li input[type="checkbox"] {
 <p>The <a href="https://github.com/r-releases/r-releases.r-universe.dev/blob/main/.github/workflows/review_pull_requests.yaml"><code>review_pull_requests.yaml</code></a> <a href="https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions">GitHub Actions</a> workflow runs periodically and reviews each new open pull request using <a href="https://github.com/r-releases/r.releases.utils/blob/main/R/review_pull_request.R"><code>r.releases.utils::review_pull_request()</code></a>. Depending on the results of the automated checks, the bot will automatically merge the pull request, close it, or flag it for manual review. The bot will post an informative comment explaining the decision, and it may add a GitHub label to the pull request for triage purposes.</p>
 <p>The pull request is automatically closed if:</p>
 <ol type="1">
-<li>It attempts to add/modify/delete a file outside the <a href="https://github.com/r-releases/r-releases/tree/main/packages"><code>packages</code></a> folder.</li>
-<li>It attempts to add/modify/delete a file in a subdirectory of the <a href="https://github.com/r-releases/r-releases/tree/main/packages"><code>packages</code></a> folder.</li>
+<li>It attempts to add/modify/delete a file outside the <a href="https://github.com/r-releases/contributions/tree/main/packages"><code>packages</code></a> folder.</li>
+<li>It attempts to add/modify/delete a file in a subdirectory of the <a href="https://github.com/r-releases/contributions/tree/main/packages"><code>packages</code></a> folder.</li>
 </ol>
 <p>The pull request is automatically flagged for manual review if:</p>
 <ol type="1">
-<li>It attempts to modify or delete any existing file in <a href="https://github.com/r-releases/r-releases/tree/main/packages"><code>packages</code></a>.</li>
+<li>It attempts to modify or delete any existing file in <a href="https://github.com/r-releases/contributions/tree/main/packages"><code>packages</code></a>.</li>
 <li>A contributed text file is not a single-line file.</li>
 <li>The single line in the text file is does not have a <a href="https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline">standard newline character</a>.</li>
 <li>The text file looks like a custom JSON entry (for packages in a subdirectory of a GitHub repository).</li>

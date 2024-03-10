@@ -2,7 +2,7 @@
 title: "Review Policy"
 ---
 
-As the [contributors](contributors.html) page explains, updates to the R-releases package listings come from pull requests to <https://github.com/r-releases/r-releases> from members of the R community. In the vast majority of cases, a GitHub app automatically merges the pull request. However, some pull requests need to be manually reviewed by an R-releases moderator. This document describes this manual review process. The goals are to:
+As the [contributors](contributors.html) page explains, updates to the R-releases package listings come from pull requests to <https://github.com/r-releases/contributions> from members of the R community. In the vast majority of cases, a GitHub app automatically merges the pull request. However, some pull requests need to be manually reviewed by an R-releases moderator. This document describes this manual review process. The goals are to:
 
 1. Ensure that all pull requests are reviewed using a consistent set of standards and principles that do not vary according to moderator.
 2. Ensure these standards and principles are clear and transparent for the R community.
@@ -13,12 +13,12 @@ The [`review_pull_requests.yaml`](https://github.com/r-releases/r-releases.r-uni
 
 The pull request is automatically closed if:
 
-1. It attempts to add/modify/delete a file outside the [`packages`](https://github.com/r-releases/r-releases/tree/main/packages) folder.
-1. It attempts to add/modify/delete a file in a subdirectory of the [`packages`](https://github.com/r-releases/r-releases/tree/main/packages) folder.
+1. It attempts to add/modify/delete a file outside the [`packages`](https://github.com/r-releases/contributions/tree/main/packages) folder.
+1. It attempts to add/modify/delete a file in a subdirectory of the [`packages`](https://github.com/r-releases/contributions/tree/main/packages) folder.
 
 The pull request is automatically flagged for manual review if:
 
-1. It attempts to modify or delete any existing file in [`packages`](https://github.com/r-releases/r-releases/tree/main/packages).
+1. It attempts to modify or delete any existing file in [`packages`](https://github.com/r-releases/contributions/tree/main/packages).
 1. A contributed text file is not a single-line file.
 1. The single line in the text file is does not have a [standard newline character](https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline).
 1. The text file looks like a custom JSON entry (for packages in a subdirectory of a GitHub repository).
