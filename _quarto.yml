@@ -17,7 +17,7 @@ website:
       - icon: github
         menu:
           - text: Contribute package
-            url:  https://github.com/r-releases/r-releases
+            url:  https://github.com/r-releases/contributions
           - text: Report bug
             url:  https://github.com/r-releases/help
       - icon: rocket-takeoff
