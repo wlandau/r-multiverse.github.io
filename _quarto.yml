@@ -13,6 +13,15 @@ website:
       - users.qmd
       - contributors.qmd
       - review.qmd
+    tools:
+      - icon: github
+        menu:
+          - text: Contribute package
+            url:  https://github.com/r-releases/r-releases
+          - text: Report bug
+            url:  https://github.com/r-releases/help
+      - icon: rocket-takeoff
+        href: https://r-releases.r-universe.dev/
   body-footer: |
     <br />&copy; 2024 Contributors to the R-releases project.
 
