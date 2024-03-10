@@ -182,13 +182,13 @@ ul.task-list li input[type="checkbox"] {
 <li>The text file looks like a custom JSON entry (for packages in a subdirectory of a GitHub repository).</li>
 <li>The name of the the text file is not a valid R package name.</li>
 <li>The URL in the text file cannot be parsed.</li>
-<li>The URL scheme is anything other than https.</li>
+<li>The URL scheme is anything other than HTTPS.</li>
 <li>The domain of the URL is anything other than github.com or gitlab.com.</li>
-<li>The URL points to an organization or user such as https://github.com/r-lib rather than a repository such as https://github.com/r-lib/gh.</li>
+<li>The URL points to an organization or user such as <a href="https://github.com/r-lib" class="uri">https://github.com/r-lib</a> rather than a repository such as <a href="https://github.com/r-lib/gh" class="uri">https://github.com/r-lib/gh</a>.</li>
 <li>The URL does not exist or is not online at the time it is checked (HTTP error trying to access it).</li>
 <li>A <a href="https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases">release</a> could not be found at the repo in the URL.</li>
-<li>The version-controlled repository name in the URL is different from the name of the file. (For example, if the file is named <code>gh</code> as the package, then the URL https://github.com/r-lib/gh-package would be flagged for manual review, but https://github.com/r-lib/gh would not.)</li>
-<li>The repository is part of the CRAN mirror at https://github.com/cran. (A fundamental goal of R-releases is to serve complete package dependency chains without reliance on third-party repositories as far as possible.)</li>
+<li>The version-controlled repository name in the URL is different from the name of the file. (For example, if the file is named <code>gh</code> as the package, then the URL <a href="https://github.com/r-lib/gh-package" class="uri">https://github.com/r-lib/gh-package</a> would be flagged for manual review, but <a href="https://github.com/r-lib/gh" class="uri">https://github.com/r-lib/gh</a> would not.)</li>
+<li>The repository is part of the CRAN mirror at <a href="https://github.com/cran" class="uri">https://github.com/cran</a>. (A fundamental goal of R-releases is to serve complete package dependency chains without reliance on third-party repositories as far as possible.)</li>
 <li>The package is also on CRAN, and the URL in the pull request cannot be found in the <code>DESCRIPTION</code> file of the latest CRAN release.</li>
 </ol>
 </section>
@@ -200,10 +200,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Each contributed URL must point to an existing GitHub or GitLab repository.</li>
 <li>Each text file must apply to only one package.</li>
 <li>The text file name must be the name of the package.</li>
-<li>For JSON listings, the <code>"branch"</code> field must be <code>"*release"</code> (except in specific predetermined cases such as packages in https://github.com/cran), the <code>"subdirectory"</code> field must be supplied and exist, the <code>"url"</code> field must exist and be correct, and the <code>"package"</code> field must agree with the name of the text file.</li>
+<li>For JSON listings, the <code>"branch"</code> field must be <code>"*release"</code> (except in specific predetermined cases such as packages in <a href="https://github.com/cran" class="uri">https://github.com/cran</a>), the <code>"subdirectory"</code> field must be supplied and exist, the <code>"url"</code> field must exist and be correct, and the <code>"package"</code> field must agree with the name of the text file.</li>
 <li>The package name, URL, and all other metadata must be complete and correct.</li>
 <li>The URL must be the true/official location of the source code or a faithful mirror of the true location. The package maintainers have the authority to choose the URL. Unofficial or unsupported forks should not be included. The moderator must use discretion on a case-by-case basis because sometimes a fork becomes the true version (e.g.&nbsp;if the original maintainer abandons a package and becomes unreachable indefinitely).</li>
-<li>The URL must have a release on GitHub or GitLab so R-universe can process the package without error. As a last resort, if the maintainer does not provide their own releases, a repository from the CRAN mirror at https://github.com/cran may be registered.</li>
+<li>The URL must have a release on GitHub or GitLab so R-universe can process the package without error. As a last resort, if the maintainer does not provide their own releases, a repository from the CRAN mirror at <a href="https://github.com/cran" class="uri">https://github.com/cran</a> may be registered.</li>
 <li>If the listing of an existing package is modified, then the moderator must verify that the new information is complete and correct. In many cases, it may be necessary to obtain permission from the package maintainer.</li>
 <li>The reasons for deleting a package listing may vary on a case-by-case basis, the moderator must carefully consider the impact that deletion would have on the community and on reverse dependencies. In many cases, it may be necessary to obtain permission from the package maintainer.</li>
 </ol>
