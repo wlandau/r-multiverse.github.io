@@ -18,7 +18,7 @@ Alternatively, to prioritize CRAN over R-releases:
 options(repos = c(getOption("repos"), "https://r-releases.r-universe.dev"))
 ```
 
-Then proceed to use `install.packages()` as you would normally.
+Then proceed to use `install.packages()` or `pak::pak()` etc. as you would normally.
 
 ## A home for non-CRAN packages
 

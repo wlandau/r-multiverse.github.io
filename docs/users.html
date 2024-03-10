@@ -188,7 +188,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>R natively supports multiple repositories as a core language feature, and the above only needs to be set once per session. We recommend adding it to your <code>.Rprofile</code> so that it is always available.</p>
 <p>Alternatively, to prioritize CRAN over R-releases:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">repos =</span> <span class="fu">c</span>(<span class="fu">getOption</span>(<span class="st">"repos"</span>), <span class="st">"https://r-releases.r-universe.dev"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Then proceed to use <code>install.packages()</code> as you would normally.</p>
+<p>Then proceed to use <code>install.packages()</code> or <code>pak::pak()</code> etc. as you would normally.</p>
 </section>
 <section id="a-home-for-non-cran-packages" class="level2">
 <h2 class="anchored" data-anchor-id="a-home-for-non-cran-packages">A home for non-CRAN packages</h2>

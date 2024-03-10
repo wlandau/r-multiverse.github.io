@@ -53,14 +53,14 @@
     "href": "users.html",
     "title": "Users",
     "section": "",
-    "text": "Simply add R-releases to your repository settings:\noptions(repos = c(\"https://r-releases.r-universe.dev\", getOption(\"repos\")))\nR natively supports multiple repositories as a core language feature, and the above only needs to be set once per session. We recommend adding it to your .Rprofile so that it is always available.\nAlternatively, to prioritize CRAN over R-releases:\noptions(repos = c(getOption(\"repos\"), \"https://r-releases.r-universe.dev\"))\nThen proceed to use install.packages() as you would normally.\n© 2024 Contributors to the R-releases project."
+    "text": "Simply add R-releases to your repository settings:\noptions(repos = c(\"https://r-releases.r-universe.dev\", getOption(\"repos\")))\nR natively supports multiple repositories as a core language feature, and the above only needs to be set once per session. We recommend adding it to your .Rprofile so that it is always available.\nAlternatively, to prioritize CRAN over R-releases:\noptions(repos = c(getOption(\"repos\"), \"https://r-releases.r-universe.dev\"))\nThen proceed to use install.packages() or pak::pak() etc. as you would normally.\n© 2024 Contributors to the R-releases project."
   },
   {
     "objectID": "users.html#how-to-install-a-package-from-r-releases",
     "href": "users.html#how-to-install-a-package-from-r-releases",
     "title": "Users",
     "section": "",
-    "text": "Simply add R-releases to your repository settings:\noptions(repos = c(\"https://r-releases.r-universe.dev\", getOption(\"repos\")))\nR natively supports multiple repositories as a core language feature, and the above only needs to be set once per session. We recommend adding it to your .Rprofile so that it is always available.\nAlternatively, to prioritize CRAN over R-releases:\noptions(repos = c(getOption(\"repos\"), \"https://r-releases.r-universe.dev\"))\nThen proceed to use install.packages() as you would normally."
+    "text": "Simply add R-releases to your repository settings:\noptions(repos = c(\"https://r-releases.r-universe.dev\", getOption(\"repos\")))\nR natively supports multiple repositories as a core language feature, and the above only needs to be set once per session. We recommend adding it to your .Rprofile so that it is always available.\nAlternatively, to prioritize CRAN over R-releases:\noptions(repos = c(getOption(\"repos\"), \"https://r-releases.r-universe.dev\"))\nThen proceed to use install.packages() or pak::pak() etc. as you would normally."
   },
   {
     "objectID": "users.html#a-home-for-non-cran-packages",
