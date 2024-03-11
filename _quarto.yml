@@ -1,6 +1,12 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - about.qmd
+    - users.qmd
+    - contributors.qmd
+    - review.qmd
+    - conduct.qmd
 
 website:
   title: "R-releases"
@@ -11,6 +17,7 @@ website:
       - users.qmd
       - contributors.qmd
       - review.qmd
+      - conduct.qmd
     tools:
       - icon: github
         menu:
@@ -21,7 +28,7 @@ website:
       - icon: rocket-takeoff
         href: https://r-releases.r-universe.dev/
   body-footer: |
-    <br />&copy; 2024 Contributors to the R-releases project.
+    <br />&copy; 2024 the R-releases project
 
 format:
   html:
