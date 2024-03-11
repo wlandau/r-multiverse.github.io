@@ -11,6 +11,7 @@ website:
       - users.qmd
       - contributors.qmd
       - review.qmd
+      - conduct.qmd
     tools:
       - icon: github
         menu:
@@ -21,7 +22,7 @@ website:
       - icon: rocket-takeoff
         href: https://r-releases.r-universe.dev/
   body-footer: |
-    <br />&copy; 2024 Contributors to the R-releases project.
+    <br />&copy; 2024 Eli Lilly and Company
 
 format:
   html:
