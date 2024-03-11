@@ -2,7 +2,7 @@
 title: "Contributors"
 ---
 
-The [code of conduct](conduct.html) governs all forms of participation in the R-releases project, including package contributions, issues, discussions, and the development of infrastructure. Administrators, moderators, and contributors are all subject to its terms.
+The [code of conduct](conduct.qmd) governs all forms of participation in the R-releases project, including package contributions, issues, discussions, and the development of infrastructure. Administrators, moderators, and contributors are all subject to its terms.
 
 ## How to register your package with R-releases
 

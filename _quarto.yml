@@ -6,6 +6,7 @@ project:
 
 website:
   title: "R-releases"
+  site-url: "https://r-releases.github.io/"
   navbar:
     logo: "logo/logo-readme.png"
     left:
