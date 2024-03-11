@@ -22,7 +22,9 @@ Then proceed to use `install.packages()` or `pak::pak()` etc. as you would norma
 
 ## A home for non-CRAN packages
 
-Many R packages do not belong on CRAN. In particular, packages containing compiled code may require toolchains or binary downloads that fall outside of current CRAN policy. By [contributing](contributors.html) a package to R-releases, you may conveniently install the latest released versions of these packages from a single repository location.
+Many R packages do not belong on CRAN. In particular, packages containing compiled code may require toolchains or binary downloads that fall outside of current CRAN policy.
+
+By [contributing](contributors.html) a package to R-releases, you may conveniently install the latest released versions of these packages from a single repository location.
 
 ## A guarantee of package availability
 

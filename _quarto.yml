@@ -28,7 +28,7 @@ website:
       - icon: rocket-takeoff
         href: https://r-releases.r-universe.dev/
   body-footer: |
-    <br />&copy; 2024 the R-releases project
+    <br />&copy; 2024 the R-releases project.
 
 format:
   html:
