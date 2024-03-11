@@ -2,12 +2,7 @@ project:
   type: website
   output-dir: docs
   render:
-    - index.qmd
-    - about.qmd
-    - users.qmd
-    - contributors.qmd
-    - review.qmd
-    - conduct.qmd
+    - "*.qmd"
 
 website:
   title: "R-releases"
