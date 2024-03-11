@@ -7,8 +7,6 @@ website:
   navbar:
     logo: "logo/logo-readme.png"
     left:
-      - href: index.qmd
-        text: Home
       - about.qmd
       - users.qmd
       - contributors.qmd
@@ -17,9 +15,9 @@ website:
       - icon: github
         menu:
           - text: Contribute
-            url:  https://github.com/r-releases/contributions
+            url: https://github.com/r-releases/contributions
           - text: Report Issue
-            url:  https://github.com/r-releases/help
+            url: https://github.com/r-releases/help
       - icon: rocket-takeoff
         href: https://r-releases.r-universe.dev/
   body-footer: |
