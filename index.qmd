@@ -2,7 +2,7 @@
 title: "R-releases"
 ---
 
-<a href="https://r-releases.r-universe.dev"><img src="logo/logo-hexbin.png" align="right" width="140" /></a>
+<img src="logo/logo-hexbin.png" align="right" width="140" />
 
 R-releases is a community-curated, maintainer-driven repository of R package releases.
 
