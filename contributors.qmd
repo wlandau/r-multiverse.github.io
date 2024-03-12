@@ -4,7 +4,7 @@ title: "Contributors"
 
 The [code of conduct](conduct.qmd) governs all forms of participation in the R-releases project, including package contributions, issues, discussions, and the development of infrastructure. Administrators, moderators, and contributors are all subject to its terms.
 
-## How to register your package with R-releases
+## How to register a package with R-releases
 
 The one-time registration process proceeds as follows:
 
@@ -43,7 +43,7 @@ To edit or remove one or more packages, submit a pull request to edit the files 
 
 ## How pull requests are reviewed
 
-An automated process periodically scans each new pull request to <https://github.com/r-releases/contributions>. Depending on the results of the automated checks, the bot automatically merges the pull request, closes it, or flags it for manual review. In the latter case, an R-releases moderator will manually review your pull request and contact you if there are questions. Please see our [review policy](https://r-releases.github.io/review.html) for more information about the process.
+An automated process periodically scans each new pull request to <https://github.com/r-releases/contributions>. Depending on the results of the automated checks, the bot automatically merges the pull request, closes it, or flags it for manual review. In the latter case, an R-releases moderator will manually review your pull request and contact you if there are questions. Please see our [review policy](review.qmd) for more information about the process.
 
 ## How the R-releases universe is built
 
