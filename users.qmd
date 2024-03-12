@@ -28,14 +28,14 @@ By [contributing](contributors.qmd) a package to R-releases, you may convenientl
 
 ## A guarantee of package availability
 
-R-releases is designed to work seamlessly alongside CRAN. By prioritizing CRAN in the settings above, you can continue to get your packages from CRAN, only using R-releases as a fall-back.
+R-releases works seamlessly alongside CRAN. By prioritizing CRAN in the settings above, you can continue getting packages from CRAN, only using R-releases as a fall-back.
 
 A package may become unavailable on CRAN at any time due to its strict archival policy.
 
 - Sometimes due to the archival of a dependency, and outside the maintainer's direct control.
 - Situations can be temporary, but may take an extended time to resolve.
 
-By [contributing](contributors.qmd) a package that you rely on, you can ensure that it remains available for your critical workflows.
+By [contributing](contributors.qmd) a package that you rely on, you can ensure it always remains available for your critical workflows.
 
 ## A direct distribution channel from maintainers
 
