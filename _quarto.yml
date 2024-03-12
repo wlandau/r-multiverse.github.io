@@ -7,7 +7,7 @@ project:
 website:
   title: "R-releases"
   site-url: "https://r-releases.github.io/"
-  favicon: "logo/logo-image-light.png"
+  favicon: "logo/logo-readme.png"
   navbar:
     logo: "logo/logo-readme.png"
     left:
