@@ -18,4 +18,4 @@ Each package only needs to be registered once. Every new [release](https://docs.
 
 ## What about my personal R-universe?
 
-You can still maintain a separate R-universe for yourself or your organization. This can continue to hold either release or development versions for yourself and your colleagues. At the same time, R-releases deploys the latest package releases directly to the wider community.
+You can still maintain a separate personal or organization R-universe. This can continue to hold either release or development versions for yourself and your colleagues. At the same time, R-releases deploys the latest package releases directly to the wider community.

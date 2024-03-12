@@ -4,13 +4,13 @@ title: "Users"
 
 ## How to install a package from R-releases
 
-Simply add R-releases to your repository settings:
+R has built-in support for multiple repositories. Simply add R-releases to your repository settings:
 
 ```r
 options(repos = c("https://r-releases.r-universe.dev", getOption("repos")))
 ```
 
-R supports multiple repositories as a core language feature, and the above only needs to be set once per session. We recommend adding it to your `.Rprofile` so that it is always available.
+This only needs to be done once per session. We recommend adding it to your `.Rprofile` so that it is always available.
 
 Alternatively, to prioritize CRAN over R-releases:
 
@@ -22,7 +22,7 @@ Then proceed to use `install.packages()` or `pak::pak()` etc. as you would norma
 
 ## A home for non-CRAN packages
 
-Many R packages do not belong on CRAN. In particular, packages containing compiled code may require toolchains or binary downloads that fall outside of current CRAN policy.
+Many R packages do not belong on CRAN. In particular, packages containing compiled code may require toolchains or binary downloads that fall outside of CRAN policy.
 
 By [contributing](contributors.qmd) a package to R-releases, you may conveniently install the latest released versions of these packages from a single repository location.
 
@@ -41,7 +41,7 @@ By [contributing](contributors.qmd) a package that you rely on, you can ensure t
 
 Maintainers may use R-releases as a faster release channel, especially for packages under intensive development. 
 
-CRAN is first and foremost an archival network, and its policy restricts the frequency of package updates. R-releases allows timely dissemination of newer package versions containing critical updates or bug fixes.
+CRAN is first and foremost an archival network, and its policy restricts the frequency of package updates. R-releases allows maintainers to push critical updates or bug fixes directly to users.
 
 If a package maintainer recommends that you install a package from R-releases, please prioritize R-releases in front of CRAN in the repository settings above.
 
