@@ -9,7 +9,7 @@ The [code of conduct](conduct.qmd) governs all forms of participation in the R-r
 The one-time registration process proceeds as follows:
 
 1. Ensure that the package source code exists in a public [GitHub](https://github.com) or [GitLab](https://gitlab.com) repository with the `DESCRIPTION` file at the root of the project. Example: <https://github.com/r-lib/gh>.
-2. Ensure that the package has a [release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) for the latest production version of your package. Example: <https://github.com/r-lib/gh/releases/tag/v1.4.0>.
+2. Ensure that the package hosts a [GitHub release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) or [GitLab release](https://docs.gitlab.com/ee/user/project/releases/) for the latest version intended for distribution. Example: <https://github.com/r-lib/gh/releases/tag/v1.4.0>. Pre-releases (GitHub) and upcoming releases (GitLab) are ignored to ensure each release has the full endorsement of its maintainer.
 3. Open a [GitHub pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to <https://github.com/r-releases/contributions> to contribute one or more text files to the [`packages` folder](https://github.com/r-releases/contributions/tree/main/packages) with R package listings.
 
 The overwhelming majority of text files in (3) will be in simple URL format, which has has 3 requirements:
@@ -43,7 +43,7 @@ To edit or remove one or more packages, submit a pull request to edit the files 
 
 ## How pull requests are reviewed
 
-An automated process periodically scans each new pull request to <https://github.com/r-releases/contributions>. Depending on the results of the automated checks, the bot automatically merges the pull request, closes it, or flags it for manual review. In the latter case, an R-releases moderator will manually review your pull request and contact you if there are questions. For more information on the manual review process and when it gets triggered, please visit <https://github.com/r-releases/help/blob/main/review.md>
+An automated process periodically scans each new pull request to <https://github.com/r-releases/contributions>. Depending on the results of the automated checks, the bot automatically merges the pull request, closes it, or flags it for manual review. In the latter case, an R-releases moderator will manually review your pull request and contact you if there are questions. Please see our [review policy](https://r-releases.github.io/review.html) for more information about the process.
 
 ## How the R-releases universe is built
 
