@@ -13,7 +13,7 @@ The one-time registration process proceeds as follows:
 3. Open a [GitHub pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to <https://github.com/r-releases/contributions> to contribute one or more text files to the [`packages` folder](https://github.com/r-releases/contributions/tree/main/packages) with R package listings.
 For each contributed text file:
   - The file name should be the package name
-  - The file should contain a single line with the package URL. Example: https://github.com/r-lib/gh
+  - The file should contain a single line with the package URL. [Example](https://github.com/r-releases/contributions/blob/main/packages/gh): https://github.com/r-lib/gh
   
 The provided URL must be the true and authentic GitHub/GitLab location of the package according to its owners, or an active mirror of the true location.
 
