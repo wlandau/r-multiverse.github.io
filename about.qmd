@@ -8,8 +8,8 @@ A traditional software version cycle begins with the development phase, where bu
 
 R-releases currently aims at a space just before production, commonly referred to as QA, in that:
 
-1. Each package release has the full endorsement of its own maintainer. R-releases always gives you a version that its developer chose to distribute for general use.
-2. The user is still responsible for judging whether a package is appropriate to use. This judgement may require more than a novice understanding of [testing](https://r-pkgs.org/testing-basics.html), [versions](https://r-pkgs.org/lifecycle.html#sec-lifecycle-version-number), and package compatibility.
+1. Each package release has the full endorsement of its own maintainer. R-releases always provides a version that its developer chose to distribute for general use.
+2. The user is still responsible for judging whether a package is appropriate to use. Some releases may still have issues, and these may be indicated by the check results at <https://r-releases.r-universe.dev/builds>.
 
 ## Continuous maintainer-driven deployment
 
