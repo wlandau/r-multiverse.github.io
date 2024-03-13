@@ -20,7 +20,6 @@ The pull request is automatically flagged for manual review if:
 
 1. It attempts to modify or delete any existing file in [`packages`](https://github.com/r-releases/contributions/tree/main/packages).
 1. A contributed text file is not a single-line file.
-1. The single line in the text file is does not have a [standard newline character](https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline).
 1. The text file looks like a custom JSON entry (for packages in a subdirectory of a GitHub repository).
 1. The name of the the text file is not a valid R package name.
 1. The URL in the text file cannot be parsed.
