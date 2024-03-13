@@ -7,9 +7,9 @@ project:
 website:
   title: "R-releases"
   site-url: "https://r-releases.github.io/"
-  favicon: "logo/logo-readme.png"
+  favicon: "logo/logo-hexbin.png"
   navbar:
-    logo: "logo/logo-readme.png"
+    logo: "logo/logo-hexbin.png"
     left:
       - about.qmd
       - users.qmd
