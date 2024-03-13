@@ -16,7 +16,6 @@ The overwhelming majority of text files in (3) will be in simple URL format, whi
 
 1. The name of the file is the package name.
 2. The file contains a single line with the package URL. The URL must be authentic and genuine. It must be the true GitHub/GitLab location of the package according to its owners, or an active mirror of the true location.
-3. The file ends with a [newline character](https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline). (A terminating newline is included automatically if you create the file using the GitHub web interface.)
 
 In rare cases, the package may be in a subdirectory of a GitHub repo, in which case the contents of your text file may be a JSON list with fields `package`, `url`, `subdir`, and `branch`, and the `branch` field must be `"*release"`. [Example](https://github.com/r-releases/contributions/blob/main/packages/paws.analytics):
 
