@@ -10,7 +10,7 @@ R has built-in support for multiple repositories. Simply add R-releases to your 
 options(repos = c("https://r-releases.r-universe.dev", getOption("repos")))
 ```
 
-This only needs to be done once per session. We recommend adding it to your `.Rprofile` so that it is always available.
+This only needs to be done once per session. We recommend adding this line to your `.Rprofile` so that it is set automatically.
 
 Alternatively, to prioritize CRAN over R-releases:
 
