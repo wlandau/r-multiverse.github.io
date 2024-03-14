@@ -11,7 +11,7 @@ The [code of conduct](conduct.qmd) governs all forms of participation in the R-r
 1. Navigate to <https://github.com/r-releases/contributions>.
 2. Open a [GitHub pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to add one or more listings to the [`packages` folder](https://github.com/r-releases/contributions/tree/main/packages).
 
-Watch this 2-minute video to learn how:
+Watch this 1-minute video to learn how:
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/923333903?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="R-releases contribution tutorial"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
