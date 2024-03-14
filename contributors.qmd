@@ -17,12 +17,12 @@ Watch this 2-minute video to learn how:
 
 ### Requirements for registration
 
-Each package listing is a text file.
+Each package listing is a simple text file:
 
-1. The file name should be the package name.
-2. The file should contain a single line with the package URL. [Example](https://github.com/r-releases/contributions/blob/main/packages/gh): <https://github.com/r-lib/gh>
+1. The file name is the package name.
+2. The file contains a single line with the package URL. [Example](https://github.com/r-releases/contributions/blob/main/packages/gh): https://github.com/r-lib/gh
   
-The provided URL must be the true and authentic GitHub/GitLab location of the package according to its owners, or an active mirror of the true location.
+The URL in (2) must be the true and authentic GitHub/GitLab location of the package according to its owners, or an active mirror of the true location.
 
 ::: {.callout-note}
 ## Prerequisites for packages
