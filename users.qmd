@@ -44,7 +44,7 @@ By [contributing](contributors.qmd) a package that you rely on, you can ensure i
 :::
 
 ::: {.callout-tip collapse="true"}
-## 3. A direct distribution channel from maintainers
+## 3. A distribution channel direct from maintainers
 
 Maintainers may use R-releases as a faster release channel, especially for packages under intensive development. 
 
