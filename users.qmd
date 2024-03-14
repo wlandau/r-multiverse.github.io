@@ -33,7 +33,7 @@ By [contributing](contributors.qmd) a package to R-releases, you may convenientl
 ::: {.callout-tip collapse="true"}
 ## 2. A guarantee of package availability
 
-R-releases works seamlessly alongside CRAN. By prioritizing CRAN in the settings above, you can continue getting packages from CRAN, only using R-releases as a fall-back.
+R-releases works seamlessly alongside CRAN. By prioritizing CRAN in the settings above, you can continue to get packages from CRAN, only using R-releases as a fall-back.
 
 A package may become unavailable on CRAN at any time due to its strict archival policy.
 
