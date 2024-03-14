@@ -6,19 +6,27 @@ The [code of conduct](conduct.qmd) governs all forms of participation in the R-r
 
 ## How to register a package with R-releases
 
-For the one-time registration process:
+### The one-time registration process
 
-Open a [GitHub pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) at <https://github.com/r-releases/contributions> to contribute one or more text files to the [`packages` folder](https://github.com/r-releases/contributions/tree/main/packages) with R package listings.
+1. Navigate to <https://github.com/r-releases/contributions>.
+2. Open a [GitHub pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to add one or more listings to the [`packages` folder](https://github.com/r-releases/contributions/tree/main/packages).
 
-For each contributed text file:
+Watch this 2-minute video to learn how:
 
-  - The file name should be the package name
-  - The file should contain a single line with the package URL. [Example](https://github.com/r-releases/contributions/blob/main/packages/gh): https://github.com/r-lib/gh
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/923333903?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="R-releases contribution tutorial"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+### Requirements for registration
+
+Each package listing is a simple text file:
+
+1. The file name is the package name.
+2. The file contains a single line with the package URL. [Example](https://github.com/r-releases/contributions/blob/main/packages/gh): https://github.com/r-lib/gh
   
-The provided URL must be the true and authentic GitHub/GitLab location of the package according to its owners, or an active mirror of the true location.
+The URL in (2) must be the true and authentic GitHub/GitLab location of the package according to its owners, or an active mirror of the true location.
 
 ::: {.callout-note}
-## Prerequisites
+## Prerequisites for packages
+
 1. The package source code must exist in a public [GitHub](https://github.com) or [GitLab](https://gitlab.com) repository with the `DESCRIPTION` file at the root of the project. Example: <https://github.com/r-lib/gh>.
 2. The repository must host a [GitHub release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) or [GitLab release](https://docs.gitlab.com/ee/user/project/releases/) for the latest version intended for distribution. Example: <https://github.com/r-lib/gh/releases/tag/v1.4.0>. Pre-releases (GitHub) and upcoming releases (GitLab) are ignored to ensure each release has the full endorsement of its maintainer.
 :::
