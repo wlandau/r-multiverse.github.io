@@ -20,13 +20,18 @@ options(repos = c(getOption("repos"), "https://r-releases.r-universe.dev"))
 
 Then proceed to use `install.packages()` or `pak::pak()` etc. as you would normally.
 
-## A home for non-CRAN packages
+## What does R-releases provide?
+
+::: {.callout-tip collapse="true"}
+## 1. A home for non-CRAN packages
 
 Many R packages do not belong on CRAN. In particular, packages containing compiled code may require toolchains or binary downloads that fall outside of CRAN policy.
 
 By [contributing](contributors.qmd) a package to R-releases, you may conveniently install the latest released versions of all these packages from a single repository location.
+:::
 
-## A guarantee of package availability
+::: {.callout-tip collapse="true"}
+## 2. A guarantee of package availability
 
 R-releases works seamlessly alongside CRAN. By prioritizing CRAN in the settings above, you can continue getting packages from CRAN, only using R-releases as a fall-back.
 
@@ -36,12 +41,14 @@ A package may become unavailable on CRAN at any time due to its strict archival 
 - Situations can be temporary, but may take an extended time to resolve.
 
 By [contributing](contributors.qmd) a package that you rely on, you can ensure it always remains available for your critical workflows.
+:::
 
-## A direct distribution channel from maintainers
+::: {.callout-tip collapse="true"}
+## 3. A direct distribution channel from maintainers
 
 Maintainers may use R-releases as a faster release channel, especially for packages under intensive development. 
 
 CRAN is first and foremost an archival network, and its policy restricts the frequency of package updates. R-releases allows maintainers to push critical updates or bug fixes directly to users.
 
 If a package maintainer recommends that you install a package from R-releases, please prioritize R-releases in front of CRAN in the repository settings above.
-
+:::
