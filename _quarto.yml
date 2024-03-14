@@ -14,8 +14,6 @@ website:
       - about.qmd
       - users.qmd
       - contributors.qmd
-      - review.qmd
-      - conduct.qmd
     tools:
       - icon: github
         menu:
@@ -25,7 +23,12 @@ website:
             url: https://github.com/r-releases/help
       - icon: rocket-takeoff
         href: https://r-releases.r-universe.dev/
-  page-footer: "&copy; 2024 the R-releases project."
+  page-footer: 
+    left: 
+      - text: "&copy; 2024 the R-releases project."
+    center: 
+      - review.qmd
+      - conduct.qmd
 
 format:
   html:
