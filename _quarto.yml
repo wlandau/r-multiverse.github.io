@@ -18,6 +18,11 @@ website:
       - about.qmd
       - users.qmd
       - contributors.qmd
+      - icon: info-circle
+        aria-label: "Info"
+        menu:
+          - review.qmd
+          - conduct.qmd
     tools:
       - icon: github
         aria-label: "GitHub"
@@ -29,14 +34,10 @@ website:
       - icon: rocket-takeoff
         aria-label: "R-releases R Universe"
         href: https://r-releases.r-universe.dev/
-  body-footer: <br /><span style="color:#757575;font-size:0.875rem;">&copy; 2024 the R-releases project.</span>
   page-footer:
-    center: 
-      - review.qmd
-      - conduct.qmd
+    center: "&copy; 2024 the R-releases project."
 
 format:
   html:
     theme: cosmo
-    css: styles.css
     toc: true
