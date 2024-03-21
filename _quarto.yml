@@ -5,15 +5,15 @@ project:
     - "*.qmd"
 
 website:
-  title: "R-releases"
-  description: "A community-curated, maintainer-driven repository of R package releases."
-  site-url: "https://r-releases.github.io/"
+  title: "R-multiverse"
+  description: "A community-curated collection of R package releases, powered by R-universe."
+  site-url: "https://r-multiverse.org"
   favicon: "logo/logo-hexbin.png"
   image: "logo/logo-hexbin.png"
   open-graph: true
   navbar:
     logo: "logo/logo-hexbin.png"
-    logo-alt: "R-releases"
+    logo-alt: "R-multiverse"
     left:
       - about.qmd
       - users.qmd
@@ -28,14 +28,14 @@ website:
         aria-label: "GitHub"
         menu:
           - text: Contribute
-            url: https://github.com/r-releases/contributions
+            url: https://github.com/r-multiverse/contributions
           - text: Report Issue
-            url: https://github.com/r-releases/help
+            url: https://github.com/r-multiverse/help
       - icon: rocket-takeoff
-        aria-label: "R-releases R Universe"
-        href: https://r-releases.r-universe.dev/
+        aria-label: "R-multiverse QA Universe"
+        href: https://r-multiverse.r-universe.dev/
   page-footer:
-    center: "&copy; 2024 the R-releases project."
+    center: "&copy; 2024 the R-multiverse project."
 
 format:
   html:

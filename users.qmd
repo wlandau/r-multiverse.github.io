@@ -2,38 +2,38 @@
 title: "Users"
 ---
 
-## How to install a package from R-releases
+## How to install a package from R-multiverse
 
-R has built-in support for multiple repositories. Simply add R-releases to your repository settings:
+R has built-in support for multiple repositories. Simply add R-multiverse to your repository settings:
 
 ```r
-options(repos = c("https://r-releases.r-universe.dev", getOption("repos")))
+options(repos = c("https://r-multiverse.r-universe.dev", getOption("repos")))
 ```
 
 This is required only once per session. We recommend adding this line to your `.Rprofile` so that it is set automatically.
 
-Alternatively, to prioritize CRAN over R-releases:
+Alternatively, to prioritize CRAN over R-multiverse:
 
 ```r
-options(repos = c(getOption("repos"), "https://r-releases.r-universe.dev"))
+options(repos = c(getOption("repos"), "https://r-multiverse.r-universe.dev"))
 ```
 
 Then proceed to use `install.packages()` or `pak::pak()` etc. as you would normally.
 
-## What does R-releases provide?
+## What does R-multiverse provide?
 
 ::: {.callout-tip collapse="true"}
 ## 1. A home for non-CRAN packages
 
 Many R packages do not belong on CRAN. In particular, packages containing compiled code may require toolchains or binary downloads that fall outside of CRAN policy.
 
-By [contributing](contributors.qmd) a package to R-releases, you may conveniently install the latest released versions of all these packages from a single repository location.
+By [contributing](contributors.qmd) a package to R-multiverse, you may conveniently install the latest released versions of all these packages from a single repository location.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## 2. A guarantee of package availability
 
-R-releases works seamlessly alongside CRAN. By prioritizing CRAN in the settings above, you can continue to get packages from CRAN, only using R-releases as a fall-back.
+R-multiverse works seamlessly alongside CRAN. By prioritizing CRAN in the settings above, you can continue to get packages from CRAN, only using R-multiverse as a fall-back.
 
 A package may become unavailable on CRAN at any time due to its strict archival policy.
 
@@ -46,9 +46,9 @@ By [contributing](contributors.qmd) a package that you rely on, you can ensure i
 ::: {.callout-tip collapse="true"}
 ## 3. A distribution channel direct from maintainers
 
-Maintainers may use R-releases as a faster release channel, especially for packages under intensive development. 
+Maintainers may use R-multiverse as a faster release channel, especially for packages under intensive development. 
 
-CRAN is first and foremost an archival network, and its policy restricts the frequency of package updates. R-releases allows maintainers to push critical updates or bug fixes directly to users.
+CRAN is first and foremost an archival network, and its policy restricts the frequency of package updates. R-multiverse allows maintainers to push critical updates or bug fixes directly to users.
 
-If a package maintainer recommends that you install a package from R-releases, please prioritize R-releases in front of CRAN in the repository settings above.
+If a package maintainer recommends that you install a package from R-multiverse, please prioritize R-multiverse in front of CRAN in the repository settings above.
 :::

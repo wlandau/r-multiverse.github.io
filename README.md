@@ -1,5 +1,5 @@
-# r-releases.github.io
+# r-multiverse.github.io
 
-This is the internal repository containing the website for R-releases.
+This is the internal repository containing the website for R-multiverse.
 
-For all matters please refer to <https://r-releases.github.io/>.
+For all matters please refer to <https://r-multiverse.org>.
