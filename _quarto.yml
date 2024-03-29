@@ -18,8 +18,7 @@ website:
       - about.qmd
       - users.qmd
       - contributors.qmd
-      - icon: info-circle
-        aria-label: "Info"
+      - text: "Policies"
         menu:
           - review.qmd
           - conduct.qmd
