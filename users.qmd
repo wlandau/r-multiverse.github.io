@@ -4,13 +4,13 @@ title: "Users"
 
 ## How to install a package from R-multiverse
 
-R has built-in support for multiple repositories. Simply add R-multiverse to your repository settings, as well as other options to configure package installation. For example:
+R has built-in support for multiple repositories. Simply add R-multiverse to your repository settings. For example:
 
 ```r
 options(repos = c("https://r-multiverse.r-universe.dev", getOption("repos")))
 ```
 
-Options like `repos` are required only once per session. We recommend adding this line to your `.Rprofile` so that it is set automatically. Then proceed to use `install.packages()` or `pak::pak()` etc. as you would normally.
+Setting the `repos` option is only required once per session. We recommend adding this line to your `.Rprofile` so that it is set automatically. Then proceed to use `install.packages()` or `pak::pak()` etc. as you would normally.
 
 ## What does R-multiverse provide?
 
@@ -25,7 +25,7 @@ By [contributing](contributors.qmd) a package to R-multiverse, you may convenien
 ::: {.callout-tip collapse="true"}
 ## 2. A guarantee of package availability
 
-R-multiverse works seamlessly alongside CRAN. By prioritizing CRAN in the settings above, you can continue to get packages from CRAN, only using R-multiverse as a fall-back.
+R-multiverse works seamlessly alongside CRAN.
 
 A package may become unavailable on CRAN at any time due to its strict archival policy.
 
@@ -41,6 +41,4 @@ By [contributing](contributors.qmd) a package that you rely on, you can ensure i
 Maintainers may use R-multiverse as a faster release channel, especially for packages under intensive development. 
 
 CRAN is first and foremost an archival network, and its policy restricts the frequency of package updates. R-multiverse allows maintainers to push critical updates or bug fixes directly to users.
-
-If a package maintainer recommends that you install a package from R-multiverse, please prioritize R-multiverse in front of CRAN in the repository settings above.
 :::
