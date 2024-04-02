@@ -4,21 +4,13 @@ title: "Users"
 
 ## How to install a package from R-multiverse
 
-R has built-in support for multiple repositories. Simply add R-multiverse to your repository settings:
+R has built-in support for multiple repositories. Simply add R-multiverse to your repository settings, as well as other options to configure package installation. For example:
 
 ```r
 options(repos = c("https://r-multiverse.r-universe.dev", getOption("repos")))
 ```
 
-This is required only once per session. We recommend adding this line to your `.Rprofile` so that it is set automatically.
-
-Alternatively, to prioritize CRAN over R-multiverse:
-
-```r
-options(repos = c(getOption("repos"), "https://r-multiverse.r-universe.dev"))
-```
-
-Then proceed to use `install.packages()` or `pak::pak()` etc. as you would normally.
+Options like `repos` are required only once per session. We recommend adding this line to your `.Rprofile` so that it is set automatically. Then proceed to use `install.packages()` or `pak::pak()` etc. as you would normally.
 
 ## What does R-multiverse provide?
 
