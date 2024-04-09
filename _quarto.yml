@@ -18,6 +18,7 @@ website:
       - about.qmd
       - users.qmd
       - contributors.qmd
+      - team.qmd
       - text: "Policies"
         menu:
           - review.qmd
