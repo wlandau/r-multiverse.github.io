@@ -2,9 +2,7 @@
 title: "Team"
 ---
 
-## Administrators
-
-The R-multiverse administrators develop the infrastructure and policies, build the team, and help the [moderators](#moderators) review package contributions according to the [package review policy](review.qmd).
+## Members
 
 ::: {.container}
 
@@ -42,6 +40,13 @@ Charlie Gao is the director of Hibiki AI Limited and a co-creator of R-multivers
 
 :::
 
-## Moderators
+## Roles
 
-The R-multiverse moderators review [package contributions](contributors.qmd) according to the [package review policy](review.qmd).
+* Administrators build the team and develop governing policies.
+* Developers create and maintain software infrastructure and interfaces.
+* Moderators review [package contributions](contributors.qmd) according to the [package review policy](review.qmd).
+
+Member | Administrator | Developer | Moderator
+---|---|---|---
+Will Landau | ✓ | ✓ | ✓
+Charlie Gao | ✓ | ✓ | ✓
