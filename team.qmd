@@ -49,3 +49,25 @@ Member | Administrator | Moderator
 ---|---|---|---
 Will Landau | ✓ | ✓ 
 Charlie Gao | ✓ | ✓ 
+
+## Support
+
+::: {.container}
+
+::: {.row}
+### R Consortium
+:::: {.columns}
+::: {.column width=20%}
+<a href="https://www.r-consortium.org" target="_blank">
+  <img src="https://github.com/rconsortium.png" class="img-fluid rounded-circle">
+</a>
+:::
+::: {.column width=10%}
+:::
+::: {.column width=70%}
+We would like to thank the [R Consortium](https://www.r-consortium.org) for their support for the development of R-multiverse. 
+:::
+::::
+:::
+
+:::
