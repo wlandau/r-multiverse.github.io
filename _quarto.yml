@@ -32,7 +32,7 @@ website:
           - text: Report Issue
             url: https://github.com/r-multiverse/help
       - icon: rocket-takeoff
-        aria-label: "R-multiverse QA Universe"
+        aria-label: "R-multiverse Community Repository"
         href: https://r-multiverse.r-universe.dev/
   page-footer:
     center: "&copy; 2024 the R-multiverse project."

@@ -33,7 +33,7 @@ Will Landau is a statistician and software developer in the life sciences. He sp
 ::: {.column width=10%}
 :::
 ::: {.column width=70%}
-Charlie Gao is the director of Hibiki AI Limited and a co-creator of R-multiverse. He is the creator of R packages [mirai](https://github.com/shikokuchuo/mirai) and [nanonext](https://github.com/shikokuchuo/nanonext).
+Charlie Gao is director of Hibiki AI and a co-creator of R-multiverse. He is the creator of the [mirai](https://github.com/shikokuchuo/mirai) async framework for R and co-organizer of the [CambRidge](https://www.meetup.com/cambridge-r-user-group/) R user group.
 :::
 ::::
 :::
