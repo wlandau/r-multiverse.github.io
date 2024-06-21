@@ -1,0 +1,16 @@
+---
+title: "Security Policy"
+---
+
+Security threats and vulnerabilities affect everyone using R-multiverse. Issues may include:
+
+* Unauthorized access to <https://github.com/r-multiverse> or its repositories.
+* Malicious attempts to inundate <https://github.com/r-multiverse/contributions> with pull requests.
+* Other [denial of service attacks](https://en.wikipedia.org/wiki/Denial-of-service_attack) on the [R-multiverse bot](https://github.com/apps/r-multiverse) or other infrastructure.
+
+In the event of a vulnerability or active threat, please [report it privately](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability) so the R-multiverse administrators can patch it confidentially. before announcing <https://github.com/r-multiverse/help>:
+
+1. Navigate to <https://github.com/r-multiverse/help>.
+2. Under "Private vulnerability reporting", click "Report a vulnerability".
+3. Describe the issue in the advisory details form.
+4. At the bottom, click "Submit report". GitHub will then add you as a collaborator on the proposed security advisory you created.
