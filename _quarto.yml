@@ -33,7 +33,7 @@ website:
             url: https://github.com/r-multiverse/help
       - icon: rocket-takeoff
         aria-label: "R-multiverse Community Universe"
-        href: https://r-multiverse-community.r-universe.dev
+        href: https://community.r-multiverse.org
   page-footer:
     center: "&copy; 2024 the R-multiverse project."
 

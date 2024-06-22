@@ -65,7 +65,7 @@ An automated process periodically scans each new pull request to <https://github
 
 ## How the R-multiverse universe is built
 
-Periodically, a GitHub Actions workflow collects all the packages and URLs from the [`packages`](https://github.com/r-multiverse/contributions/tree/main/packages) folder and builds the `packages.json` file for the universe at <https://github.com/r-multiverse/community>. <https://r-multiverse-community.r-universe.dev> periodically refreshes to include the latest release of each package in `packages.json`.
+Periodically, a GitHub Actions workflow collects all the packages and URLs from the [`packages`](https://github.com/r-multiverse/contributions/tree/main/packages) folder and builds the `packages.json` file for the universe at <https://github.com/r-multiverse/community>. <https://community.r-multiverse.org> periodically refreshes to include the latest release of each package in `packages.json`.
 
 ## Ownership and attribution
 
