@@ -47,12 +47,12 @@ In rare cases, the package may be in a subdirectory of a GitHub repo. In these c
 
 ## How to create a badge
 
-[<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcommunity.r-multiverse.org%2Fapi%2Fpackages%2Fmirai&query=%24.Version&label=R-multiverse" alt="R-multiverse status" />](https://community.r-multiverse.org/mirai)
+[<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcommunity.r-multiverse.org%2Fapi%2Fpackages%2Fmirai&query=%24.Version&label=r-multiverse" alt="R-multiverse status" />](https://community.r-multiverse.org/mirai)
 
 To add a dynamic 'R-multiverse' badge for package readme files, like the one above, copy the following markdown snippet, replacing 'pkgNAME' with the actual package name in both places it appears:
 
 ```{.md}
-[![R-multiverse status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcommunity.r-multiverse.org%2Fapi%2Fpackages%2FpkgNAMEquery=%24.Version&label=R-multiverse)](https://community.r-multiverse.org/pkgNAME)
+[![R-multiverse status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcommunity.r-multiverse.org%2Fapi%2Fpackages%2F&pkgNAMEquery=%24.Version&label=R-multiverse)](https://community.r-multiverse.org/pkgNAME)
 ```
 
 ## How to edit or remove packages
