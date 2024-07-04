@@ -3,6 +3,7 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
+    - "governance.md"
 
 website:
   title: "R-multiverse"
@@ -23,6 +24,8 @@ website:
         menu:
           - review.qmd
           - conduct.qmd
+          - text: Governance Document
+            url: governance.md
           - security.qmd
     tools:
       - icon: github
