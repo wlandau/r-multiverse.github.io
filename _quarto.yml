@@ -3,7 +3,10 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
+    - "conduct.md"
     - "governance.md"
+    - "review.md"
+    - "security.md"
 
 website:
   title: "R-multiverse"
@@ -22,11 +25,11 @@ website:
       - team.qmd
       - text: "Policies"
         menu:
-          - review.qmd
-          - conduct.qmd
+          - review.md
+          - conduct.md
           - text: Governance Document
             url: governance.md
-          - security.qmd
+          - security.md
     tools:
       - icon: github
         aria-label: "GitHub"
