@@ -26,6 +26,7 @@ website:
           - conduct.qmd
           - text: Governance Document
             url: governance.md
+          - security.qmd
     tools:
       - icon: github
         aria-label: "GitHub"
