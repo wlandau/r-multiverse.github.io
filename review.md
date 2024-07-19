@@ -18,6 +18,7 @@ The pull request is automatically closed if:
 
 The pull request is automatically flagged for manual review if:
 
+1. The latest commit was not [created by the GitHub web interface](https://r-multiverse.org/contributors.html).
 1. It attempts to modify or delete any existing file in [`packages`](https://github.com/r-multiverse/contributions/tree/main/packages).
 1. A contributed text file is not a single-line file.
 1. The text file looks like a custom JSON entry (for packages in a subdirectory of a GitHub repository).
