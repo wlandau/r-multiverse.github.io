@@ -33,7 +33,7 @@ The URL in (2) must be the true and authentic GitHub/GitLab location of the pack
 
 ::: {.callout-note collapse="true"}
 ## Packages in a GitHub repo subdirectory
-In rare cases, the package may be in a subdirectory of a GitHub repo. In these cases, your text file may instead contain a JSON list with fields `package`, `url`, `subdir`, and `branch`, and the `branch` field must be `"*release"`. [Example](https://github.com/r-multiverse/contributions/blob/main/packages/paws.analytics):
+In rare cases, the package may be in a subdirectory of a GitHub repo. In these cases, your text file may instead contain a JSON list with fields `package`, `url`, `subdir`, and `branch`, and the `branch` field must be `"*release"`. Example:
 
 ```json
 {
