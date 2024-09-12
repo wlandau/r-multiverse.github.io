@@ -2,7 +2,7 @@
 title: "Team"
 ---
 
-## Members
+## Administrators
 
 ::: {.container}
 
@@ -44,11 +44,6 @@ Charlie Gao is director of Hibiki AI and a co-creator of R-multiverse. He is the
 
 * Administrators build the team, develop the infrastructure, and write the policies that govern R-multiverse.
 * Moderators review [package contributions](contributors.qmd) according to the [package review policy](review.qmd).
-
-Member | Administrator | Moderator
----|---|---|---
-Will Landau | ✓ | ✓ 
-Charlie Gao | ✓ | ✓ 
 
 ## Support
 
