@@ -37,7 +37,7 @@ The pull request is automatically flagged for manual review if:
 
 If a pull request is flagged for manual review, an R-multiverse moderator will read the pull request and ask questions if necessary. Although the moderator may make optional suggestions on a case-by-case basis, package reviews must be consistent, reliable, and inclusive whenever possible. The decision to close or merge the pull request must be based exclusively on the following pre-defined list of requirements:
 
-1. Each contribution must comply with the [code of conduct](conduct.qmd). Examples of prohibited content include profanity, malicious behavior, security risks, copyright violations, and other conduct which could reasonably be considered inappropriate in a professional setting. All this applies to the package, the URL, any other metadata in the contribution, and the contents of the package itself. 
+1. Each contribution must comply with the [code of conduct](conduct.md). Examples of prohibited content include profanity, malicious behavior, security risks, copyright violations, and other conduct which could reasonably be considered inappropriate in a professional setting. All this applies to the package, the URL, any other metadata in the contribution, and the contents of the package itself. 
 1. The package name, URL, and all other metadata must be complete and correct.
 1. Each text file must apply to only one package.
 1. The text file name must be the name of the package.
