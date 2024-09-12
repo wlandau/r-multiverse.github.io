@@ -40,6 +40,27 @@ Charlie Gao is director of Hibiki AI and a co-creator of R-multiverse. He is the
 
 :::
 
+## Moderators
+
+::: {.container}
+
+::: {.row}
+:::: {.columns}
+::: {.column width=20%}
+<a href="https://github.com/eitsupi" target="_blank">
+  SHIMA Tatsuya
+</a>
+:::
+::: {.column width=10%}
+:::
+::: {.column width=70%}
+SHIMA Tatsuya is a developer with expertise in integrating R with Rust. He is one of the maintainers for the [Rocker](https://rocker-project.org/) project, and a core developer of the [polars](https://github.com/pola-rs/r-polars) R package.
+:::
+::::
+:::
+
+:::
+
 ## Roles
 
 * Administrators build the team, develop the infrastructure, and write the policies that govern R-multiverse.
