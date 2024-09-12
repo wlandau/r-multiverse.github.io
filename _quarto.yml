@@ -3,10 +3,7 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
-    - "conduct.md"
-    - "governance.md"
-    - "review.md"
-    - "security.md"
+    - "*.md"
 
 website:
   title: "R-multiverse"
