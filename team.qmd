@@ -97,7 +97,7 @@ SHIMA Tatsuya is a developer with expertise in integrating R with Rust. He is on
 ::: {.column width=10%}
 :::
 ::: {.column width=70%}
-We would like to thank the [R Consortium](https://www.r-consortium.org) for their support for the development of R-multiverse. 
+We would like to thank the [R Consortium](https://www.r-consortium.org) for their support in the development of R-multiverse. 
 :::
 ::::
 :::
