@@ -38,6 +38,22 @@ Charlie Gao is director of Hibiki AI and a co-creator of R-multiverse. He is the
 ::::
 :::
 
+::: {.row}
+### Maëlle Salmon
+:::: {.columns}
+::: {.column width=20%}
+<a href="https://github.com/maelle" target="_blank">
+  <img src="https://github.com/maelle.png" class="img-fluid rounded-circle">
+</a>
+:::
+::: {.column width=10%}
+:::
+::: {.column width=70%}
+Maëlle is a research software engineer, part-time with rOpenSci, notably maintaining its [Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/) guide. She also created the [R-hub blog](https://blog.r-hub.io/) and co-wrote the online book [HTTP testing in R](https://books.ropensci.org/http-testing/).
+:::
+::::
+:::
+
 :::
 
 ## Moderators
