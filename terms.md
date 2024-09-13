@@ -43,7 +43,7 @@ You hereby consent to the jurisdiction of such courts.
 
 ## 7. Changes to the Terms
 
-The R-Multiverse Management Committee reserve the right to update or modify these Terms at any time without prior notice.
+The R-Multiverse Management Committee reserve the right to update or modify these Terms at any time, pursuant to the procedure described in the [R-multiverse Governance Document](governance.md).
 Your continued use of the Repository after any changes to the Terms indicates your acceptance of the revised Terms.
 
 ## 8. Termination
