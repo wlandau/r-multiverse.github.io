@@ -61,7 +61,7 @@ To edit or remove one or more packages, submit a pull request to edit the files 
 
 ## How pull requests are reviewed
 
-An automated process periodically scans each new pull request to <https://github.com/r-multiverse/contributions>. Depending on the results of the automated checks, the bot automatically merges the pull request, closes it, or flags it for manual review. In the latter case, an R-multiverse moderator will manually review your pull request and contact you if there are questions. Please see our [review policy](review.qmd) for more information about the process.
+An automated process periodically scans each new pull request to <https://github.com/r-multiverse/contributions>. Depending on the results of the automated checks, the bot automatically merges the pull request, closes it, or flags it for manual review. In the latter case, an R-multiverse moderator will manually review your pull request and contact you if there are questions. Please see our [review policy](review.md) for more information about the process.
 
 ## How the R-multiverse universe is built
 

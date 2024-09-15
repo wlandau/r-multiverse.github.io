@@ -80,7 +80,7 @@ SHIMA Tatsuya is a developer with expertise in integrating R with Rust. He is on
 ## Roles
 
 * Administrators build the team, develop the infrastructure, and write the policies that govern R-multiverse.
-* Moderators review [package contributions](contributors.qmd) according to the [package review policy](review.qmd).
+* Moderators review [package contributions](contributors.qmd) according to the [package review policy](review.md).
 
 ## Support
 
