@@ -11,10 +11,12 @@ If you do not agree with these Terms, you may not use the Repository.
 ## 2. No Warranty
 
 **AS-IS BASIS**:
-All packages and services provided through the Repository are offered "as-is," without any warranty, either express or implied.
-This includes, but is not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement, and accuracy of data.
+All packages and services provided through the Repository are offered "as-is," without any warranty of any kind.
+Without limiting this, we expressly disclaim all warranties, whether express, implied or statutory, including, but not limited to, warranties of merchantability, fitness for a particular purpose, non-infringement, title, security, and accuracy of data.
+There is no warranty that the packages and services will meet your requirements; that access to the Repository will be uninterrupted, timely, secure, or error-free; that the information provided is accurate, reliable or correct; that any defects or errors will be corrected; that the Repository will be available at any particular time or location; or that packages obtained from the Repository are free of viruses or other harmful components.
 
-Neither the R-Multiverse Management Committee, nor any Administrator, Moderator or Contributor, as defined in the [R-multiverse Governance Document](governance.md), (collectively, "the Project Participants"), shall be held responsible for any defects in the packages or any damages that result from their use.
+Neither the R-Multiverse Management Committee, nor any Administrator, Moderator or Contributor, as defined in the [R-multiverse Governance Document](governance.md), (collectively, "the Project Participants"), shall be held responsible for any defects in the packages obtained from the repository or any damages that result from their use.
+You assume full responsibility and risk of loss resulting from your downloading and/or use of files, information, content or other material obtained from the Repository.
 
 ## 3. Limitation of Liability
 
