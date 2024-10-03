@@ -27,6 +27,7 @@ You agree to indemnify, defend, and hold harmless the Project Participants from 
 
 - Your violation of these Terms.
 - Your infringement or violation of any intellectual property or other rights of third parties.
+- Your violation of any applicable laws, export control or sanctions laws, or other laws in your jurisdiction.
 - Any harm or loss resulting from any packages you download or use from the Repository.
 
 ## 5. Intellectual Property
