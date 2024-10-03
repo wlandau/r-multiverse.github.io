@@ -20,16 +20,23 @@ You assume full responsibility and risk of loss resulting from your downloading 
 
 ## 3. Limitation of Liability
 
-Under no circumstances shall the Project Participants be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenue, whether direct or indirect, arising from your use of the Repository, even if advised of the possibility of such damages.
+Under no circumstances shall the Project Participants be liable to you or any third party for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenue, whether direct or indirect, even if advised of the possibility of such damages, arising from:
+
+- Your use of or inability to use the Repository;
+- Any modification, suspension or discontinuance of access to the Repository;
+- Unauthorized access to or alterations of your transmissions or data;
+- Statements or conduct of any third party or any other user interactions encountered through your use of the Repository;
+- Any other matter relating to services provided by the Repository.
+
 Your sole remedy for dissatisfaction with the Repository or its services is to discontinue using the Repository.
 
 ## 4. Indemnification
 
 You agree to indemnify, defend, and hold harmless the Project Participants from and against any claims, liabilities, damages, losses, and expenses, including legal fees and costs, arising out of or in any way connected with your access to or use of the Repository, including but not limited to:
 
-- Your violation of these Terms.
-- Your infringement or violation of any intellectual property or other rights of third parties.
-- Your violation of any applicable laws, export control or sanctions laws, or other laws in your jurisdiction.
+- Your violation of these Terms;
+- Your infringement or violation of any intellectual property or other rights of third parties;
+- Your violation of any applicable laws, export control or sanctions laws, or other laws in your jurisdiction;
 - Any harm or loss resulting from any packages you download or use from the Repository.
 
 ## 5. Intellectual Property
