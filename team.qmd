@@ -39,6 +39,22 @@ Charlie Gao is director of Hibiki AI and a co-creator of R-multiverse. He is the
 :::
 
 ::: {.row}
+### Jeroen Ooms
+:::: {.columns}
+::: {.column width=20%}
+<a href="https://github.com/jeroen" target="_blank">
+  <img src="https://github.com/jeroen.png" class="img-fluid rounded-circle">
+</a>
+:::
+::: {.column width=10%}
+:::
+::: {.column width=70%}
+Jeroen is a software research engineer at rOpenSci where he is the creator and lead developer of R-universe, the core infrastructure upon which R-multiverse depends. He is the maintainer of many R packages including [curl](https://github.com/jeroen/curl) and [jsonlite](https://github.com/jeroen/jsonlite).
+:::
+::::
+:::
+
+::: {.row}
 ### Maëlle Salmon
 :::: {.columns}
 ::: {.column width=20%}
