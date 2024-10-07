@@ -18,8 +18,10 @@ website:
     left:
     - text: "About"
       menu:
-        - community.qmd
-        - production.qmd
+        - text: Community repository
+          url: community.qmd
+        - text: Production repository
+          url: production.qmd
     - users.qmd
     - contributors.qmd
     - team.qmd
