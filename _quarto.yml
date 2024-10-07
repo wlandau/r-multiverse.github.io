@@ -44,7 +44,8 @@ website:
         aria-label: "R-multiverse Community Universe"
         href: https://community.r-multiverse.org
   page-footer:
-    center: "&copy; 2024 the R-multiverse project."
+    left: "&copy; 2024 the R-multiverse project."
+    right: "Supported by the R Consortium."
 
 format:
   html:
