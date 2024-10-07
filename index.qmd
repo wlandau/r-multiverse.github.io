@@ -23,4 +23,4 @@ A quarterly snapshot release of R packages, designed for deployment in productio
 <br />
 <hr />
 
-This project originated from the [R Consortium Repositories Working Group](https://github.com/RConsortium/r-repositories-wg) and is supported by an R Consortium ISC grant.
+This project originated from the [R Consortium Repositories Working Group](https://github.com/RConsortium/r-repositories-wg) and is supported by an [R Consortium](https://r-consortium.org) ISC grant.
