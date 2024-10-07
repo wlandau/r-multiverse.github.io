@@ -45,7 +45,7 @@ website:
         href: https://community.r-multiverse.org
   page-footer:
     left: "&copy; 2024 the R-multiverse project."
-    right: "Supported by the R Consortium."
+    right: "<a href='https://r-consortium.org' style='text-decoration:none'>Supported by the R Consortium</a>."
 
 format:
   html:
