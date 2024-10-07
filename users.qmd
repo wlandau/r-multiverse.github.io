@@ -5,14 +5,19 @@ title: "Users"
 ## How to install a package from R-multiverse
 
 R has built-in support for multiple repositories.
+To add R-multiverse to your repository settings, a line can be added to your [`.Rprofile`](https://rstats.wtf/r-startup.html#rprofile) as follows.
 
-Simply add R-multiverse to your repository settings. For example:
+For Community:
 
 ```r
 options(repos = c("https://community.r-multiverse.org", getOption("repos")))
 ```
 
-Setting the `repos` option is only required once per session. We recommend adding this line to your `.Rprofile` so that it is set automatically.
+For Production:
+*[Our first Production release is scheduled for 15 November 2024, and prior to that, a sample repository is available at <https://r-multiverse.org/snapshot>]*
+```r
+options(repos = c("https://production.r-multiverse.org", getOption("repos")))
+```
 
 Then proceed to use `install.packages()` or `pak::pak()` etc. as you would normally.
 
@@ -44,5 +49,6 @@ By [contributing](contributors.qmd) a package that you rely on, you can ensure i
 
 Maintainers may use R-multiverse as a faster release channel, especially for packages under intensive development. 
 
-CRAN is first and foremost an archival network, and its policy restricts the frequency of package updates. R-multiverse allows maintainers to push critical updates or bug fixes directly to users.
+CRAN is first and foremost an archival network, and its policy restricts the frequency of package updates.
+R-multiverse allows maintainers to push critical updates or bug fixes directly to users.
 :::

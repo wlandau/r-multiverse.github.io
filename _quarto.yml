@@ -7,7 +7,7 @@ project:
 
 website:
   title: "R-multiverse"
-  description: "A community-curated collection of R package releases, powered by R-universe."
+  description: "A community-curated package repository system, powered by R-universe"
   site-url: "https://r-multiverse.org"
   favicon: "logo/logo-hexbin.png"
   image: "logo/logo-hexbin.png"
@@ -16,17 +16,20 @@ website:
     logo: "logo/logo-hexbin.png"
     logo-alt: "R-multiverse"
     left:
-      - about.qmd
-      - users.qmd
-      - contributors.qmd
-      - team.qmd
-      - text: "Policies"
-        menu:
-          - review.md
-          - conduct.md
-          - text: Governance Document
-            url: governance.md
-          - security.md
+    - text: "About"
+      menu:
+        - community.qmd
+        - production.qmd
+    - users.qmd
+    - contributors.qmd
+    - team.qmd
+    - text: "Policies"
+      menu:
+        - review.md
+        - conduct.md
+        - text: Governance Document
+          url: governance.md
+        - security.md
     tools:
       - icon: github
         aria-label: "GitHub"
