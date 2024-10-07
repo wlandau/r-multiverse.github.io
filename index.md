@@ -8,7 +8,7 @@ title: "R-multiverse"
 
 #### Community
 
-[community.r-multiverse.org](community.qmd)
+[community.r-multiverse.org](community.md)
 
 An open and inclusive R package repository with transparent governance standards, built on open source infrastructure.
 
@@ -16,7 +16,7 @@ An open and inclusive R package repository with transparent governance standards
 
 #### Production
 
-[production.r-multiverse.org](production.qmd)
+[production.r-multiverse.org](production.md)
 
 A quarterly snapshot release of R packages, designed for deployment in production environments.
 

@@ -2,7 +2,7 @@
 title: "Review Policy"
 ---
 
-As the [contributors](contributors.qmd) page explains, updates to the R-multiverse package listings come from pull requests to <https://github.com/r-multiverse/contributions> from members of the R community. In the vast majority of cases, a GitHub app automatically merges the pull request. However, some pull requests need to be manually reviewed by an R-multiverse moderator. This document describes this manual review process. The goals are to:
+As the [contributors](contributors.md) page explains, updates to the R-multiverse package listings come from pull requests to <https://github.com/r-multiverse/contributions> from members of the R community. In the vast majority of cases, a GitHub app automatically merges the pull request. However, some pull requests need to be manually reviewed by an R-multiverse moderator. This document describes this manual review process. The goals are to:
 
 1. Ensure that all pull requests are reviewed using a consistent set of standards and principles that do not vary according to moderator.
 2. Ensure these standards and principles are clear and transparent for the R community.

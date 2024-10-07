@@ -18,7 +18,7 @@ Some releases may still have issues, as indicated by their check results, public
 
 ## Continuous maintainer-driven deployment
 
-Anyone can [contribute](contributors.qmd) packages to Community via GitHub.
+Anyone can [contribute](contributors.md) packages to Community via GitHub.
 Each package only needs to be registered once.
 
 Every new [release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) then automatically deploys to the repository without needing to go through R-multiverse again.

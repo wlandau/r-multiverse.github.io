@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
   render:
-    - "*.qmd"
+    - "*.md"
     - "*.md"
 
 website:
@@ -19,12 +19,12 @@ website:
     - text: "About"
       menu:
         - text: Community repository
-          url: community.qmd
+          url: community.md
         - text: Production repository
-          url: production.qmd
-    - users.qmd
-    - contributors.qmd
-    - team.qmd
+          url: production.md
+    - users.md
+    - contributors.md
+    - team.md
     - text: "Policies"
       menu:
         - review.md

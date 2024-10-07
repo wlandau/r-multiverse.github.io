@@ -23,7 +23,7 @@ jobs:
           path: |
             docs
             _freeze
-          key: site-render-${{ hashFiles('**/*qmd') }}
+          key: site-render-${{ hashFiles('**/*md') }}
           restore-keys: site-render-
 
       - name: Render

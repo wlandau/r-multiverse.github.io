@@ -28,7 +28,7 @@ Then proceed to use `install.packages()` or `pak::pak()` etc. as you would norma
 
 Many R packages do not belong on CRAN. In particular, packages containing compiled code may require toolchains or binary downloads that fall outside of CRAN policy.
 
-By [contributing](contributors.qmd) a package to R-multiverse, you may conveniently install the latest released versions of all these packages from a single repository location.
+By [contributing](contributors.md) a package to R-multiverse, you may conveniently install the latest released versions of all these packages from a single repository location.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -41,7 +41,7 @@ A package may become unavailable on CRAN at any time due to its strict archival 
 - Sometimes due to the archival of a dependency, and outside the maintainer's direct control.
 - Situations can be temporary, but may take an extended time to resolve.
 
-By [contributing](contributors.qmd) a package that you rely on, you can ensure it always remains available for your critical workflows.
+By [contributing](contributors.md) a package that you rely on, you can ensure it always remains available for your critical workflows.
 :::
 
 ::: {.callout-tip collapse="true"}
