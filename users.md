@@ -15,7 +15,7 @@ options(repos = c("https://community.r-multiverse.org", getOption("repos")))
 
 For Production:
 
-*[Our first Production release is scheduled for 15 November 2024, and prior to that, a sample repository is available at <https://snapshot.r-multiverse.org/>]*
+*[Our first Production release is scheduled for 15 November 2024, and prior to that, a sample repository is available at <https://snapshot.r-multiverse.org>]*
 ```r
 options(repos = c("https://production.r-multiverse.org", getOption("repos")))
 ```

@@ -24,13 +24,13 @@ This has the advantage that:
 
 We take quarterly snapshots on the 15th of each month in May, August, November and February.
 
-*[Our first Production release is scheduled for 15 November 2024, and prior to that, a sample repository is available at <https://snapshot.r-multiverse.org/>]*
+*[Our first Production release is scheduled for 15 November 2024, and prior to that, a sample repository is available at <https://snapshot.r-multiverse.org>]*
 
 ## The Production Staging Process
 
 Before each quarterly release, packages go through a one-month 'staging' process, which helps ensure packages continue to meet the high standards required of Production.
 
-Packages enter into the Staging repository at <https://staging.r-multiverse.org/>.
+Packages enter into the Staging repository at <https://staging.r-multiverse.org>.
 For those with passing checks, the package version is frozen.
 
 - Even if another package release is made and Community updates, the version in Staging remains the same.
@@ -58,4 +58,4 @@ To query available packages:
 ```r
 available.packages(repos = "https://production.r-multiverse.org")
 ```
-*[Our first Production release is scheduled for 15 November 2024, and prior to that, a sample repository is available at <https://snapshot.r-multiverse.org/>]*
+*[Our first Production release is scheduled for 15 November 2024, and prior to that, a sample repository is available at <https://snapshot.r-multiverse.org>]*
