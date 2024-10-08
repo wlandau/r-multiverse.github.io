@@ -24,7 +24,7 @@ This has the advantage that:
 
 We take quarterly snapshots on the 15th of each month in May, August, November and February.
 
-*[Our first Production release is scheduled for 15 November 2024, and prior to that, a sample repository is available at <https://r-multiverse.org/snapshot>]*
+*[Our first Production release is scheduled for 15 November 2024, and prior to that, a sample repository is available at <https://snapshot.r-multiverse.org/>]*
 
 ## The Production Staging Process
 
@@ -58,4 +58,4 @@ To query available packages:
 ```r
 available.packages(repos = "https://production.r-multiverse.org")
 ```
-*[Our first Production release is scheduled for 15 November 2024, and prior to that, a sample repository is available at <https://r-multiverse.org/snapshot>]*
+*[Our first Production release is scheduled for 15 November 2024, and prior to that, a sample repository is available at <https://snapshot.r-multiverse.org/>]*
