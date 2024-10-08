@@ -47,8 +47,8 @@ The Project Participants make no claims regarding the ownership of any packages 
 
 ## 6. Jurisdiction
 
-These Terms shall be governed by and construed in accordance with the laws of [England and Wales], without regard to its conflict of laws principles.
-Any legal actions arising out of or relating to these Terms shall be filed exclusively in the courts of [England and Wales].
+These Terms shall be governed by and construed in accordance with the laws of England and Wales, without regard to its conflict of laws principles.
+Any legal actions arising out of or relating to these Terms shall be filed exclusively in the courts of England and Wales.
 You hereby consent to the jurisdiction of such courts.
 
 ## 7. Changes to the Terms
