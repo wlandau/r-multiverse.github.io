@@ -6,6 +6,8 @@ title: "Terms of Use"
 
 The terms "R-multiverse", "User", "Contributor", "Moderator" and "Administrator" shall have the meaning as defined in the [R-multiverse Governance Document](governance.md).
 The term "Project Participants" refers to R-Multiverse Administrators, Moderators and Contributors, both collectively and individually.
+The term "You" or "Your" refers to any individual or entity that accesses, uses, contributes to, or interacts with R-multiverse, including but not limited to Users and Project Participants.
+
 These Terms of Use (the "Terms") govern your use of R-multiverse (the "Repository").
 By using the Repository, you agree to comply with these Terms.
 If you do not agree with these Terms, you may not use the Repository. 
