@@ -7,7 +7,7 @@ title: "Terms of Use"
 The terms "R-multiverse", "User", "Contributor", "Moderator" and "Administrator" shall have the meaning as defined in the [R-multiverse Governance Document](governance.md).
 The term "Project Participants" refers to R-Multiverse Administrators, Moderators and Contributors, both collectively and individually.
 The term "You" or "Your" refers to any individual or entity that accesses, uses, contributes to, or interacts with R-multiverse, including but not limited to Users and Project Participants.
-The term "Package" refers to a computer file or files containing code, data or documentation that extends the R programming language.
+The term "Package" refers to a computer file or files containing code, data or documentation that extends the capabilities of the R programming language.
 The term "Services" refers to any functionalities or utilities that R-multiverse provides, including but not limited to the ability to browse, download and install Packages, as well as access any related tools, support, or features offered within R-multiverse.
 
 These Terms of Use (the "Terms") govern your use of R-multiverse (the "Repository").
