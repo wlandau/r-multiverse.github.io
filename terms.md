@@ -7,6 +7,8 @@ title: "Terms of Use"
 The terms "R-multiverse", "User", "Contributor", "Moderator" and "Administrator" shall have the meaning as defined in the [R-multiverse Governance Document](governance.md).
 The term "Project Participants" refers to R-Multiverse Administrators, Moderators and Contributors, both collectively and individually.
 The term "You" or "Your" refers to any individual or entity that accesses, uses, contributes to, or interacts with R-multiverse, including but not limited to Users and Project Participants.
+The term "Package" refers to a computer file or files containing code, data and documentation that extends the R programming language.
+The term "Services" refers to any functionalities or utilities that R-multiverse provides, including but not limited to the ability to browse, download and install Packages, as well as access any related tools, support, or features offered within R-multiverse.
 
 These Terms of Use (the "Terms") govern your use of R-multiverse (the "Repository").
 By using the Repository, you agree to comply with these Terms.
@@ -15,11 +17,11 @@ If you do not agree with these Terms, you may not use the Repository.
 ## 2. No Warranty
 
 **AS-IS BASIS**:
-All packages and services provided through the Repository are offered "as-is", without any warranty of any kind.
+All Packages and Services provided through the Repository are offered "as-is", without any warranty of any kind.
 Without limiting this, we expressly disclaim all warranties, whether express, implied or statutory, including, but not limited to, warranties of merchantability, fitness for a particular purpose, non-infringement, title, security, and accuracy of data.
-There is no warranty that the packages and services will meet your requirements; that access to the Repository will be uninterrupted, timely, secure, or error-free; that the information provided is accurate, reliable or correct; that any defects or errors will be corrected; that the Repository will be available at any particular time or location; or that packages obtained from the Repository are free of viruses or other harmful components.
+There is no warranty that the Packages and Services will meet your requirements; that access to the Repository will be uninterrupted, timely, secure, or error-free; that the information provided is accurate, reliable or correct; that any defects or errors will be corrected; that the Repository will be available at any particular time or location; or that Packages obtained from the Repository are free of viruses or other harmful components.
 
-The Project Participants shall not be held responsible for any defects in the packages obtained from the repository or any damages that result from their use.
+The Project Participants shall not be held responsible for any defects in the Packages obtained from the repository or any damages that result from their use.
 You assume full responsibility and risk of loss resulting from your downloading and/or use of files, information, content or other material obtained from the Repository.
 
 ## 3. Limitation of Liability
@@ -30,9 +32,9 @@ Under no circumstances shall the Project Participants be liable to you or any th
 - Any modification, suspension or discontinuance of access to the Repository;
 - Unauthorized access to or alterations of your transmissions or data;
 - Statements or conduct of any third party or any other user interactions encountered through your use of the Repository;
-- Any other matter relating to services provided by the Repository.
+- Any other matter relating to Services provided by the Repository.
 
-Your sole remedy for dissatisfaction with the Repository or its services is to discontinue using the Repository.
+Your sole remedy for dissatisfaction with the Repository or its Services is to discontinue using the Repository.
 
 ## 4. Indemnification
 
@@ -41,13 +43,13 @@ You agree to indemnify, defend, and hold harmless the Project Participants, from
 - Your violation of these Terms;
 - Your infringement or violation of any intellectual property or other rights of third parties;
 - Your violation of any applicable laws, export control or sanctions laws, or other laws in your jurisdiction;
-- Any harm or loss resulting from any packages you download or use from the Repository.
+- Any harm or loss resulting from any Packages you download or use from the Repository.
 
 ## 5. Intellectual Property
 
-Packages made available through the Repository are provided under the specific open-source licenses chosen by the package maintainers.
-You are responsible for reviewing the license of each package before use.
-The Project Participants make no claims regarding the ownership of any packages made available through the Repository.
+Packages made available through the Repository are provided under the specific open-source licenses chosen by the Package maintainers.
+You are responsible for reviewing the license of each Package before use.
+The Project Participants make no claims regarding the ownership of any Packages made available through the Repository.
 
 ## 6. Jurisdiction
 
