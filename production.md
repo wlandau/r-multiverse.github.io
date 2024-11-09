@@ -22,7 +22,7 @@ This has the advantage that:
 2. Using fixed package versions aids reproducibility.
 3. Suited to environments without the ability to update over the internet.
 
-We take quarterly snapshots on the 15th of each month in May, August, November and February.
+We take quarterly snapshots on the 15th of each month in February, May, August, and November.
 
 *[Our first Production release is scheduled for 15 November 2024, and prior to that, a sample repository is available at <https://snapshot.r-multiverse.org>]*
 
@@ -39,7 +39,7 @@ Packages with failing checks, however, will continue to update from Community if
 
 This process helps maintainers to fix bugs, whilst minimizing the chances of last minute issues affecting large cohorts of packages.
 
-Staging opens on the 15th of each month in April, July, October and January.
+Staging opens on the 15th of each month in January, April, July, and October.
 
 ## Current Snapshot
 
