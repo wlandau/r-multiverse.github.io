@@ -28,6 +28,7 @@ website:
     - text: "Policies"
       menu:
         - terms.md
+        - aup.md
         - review.md
         - conduct.md
         - text: Governance Document
