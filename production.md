@@ -12,7 +12,7 @@ So whilst Community will always offer the latest packages, as released by mainta
 
 ## A Snapshot Model for Production
 
-To provide a true production experience, we adopt a slighty different model.
+To provide a true production experience, we adopt an alternative distribution model.
 Instead of CRAN's continuous rolling deployment, we provide snapshots of fixed package versions.
 
 This has the following advantages:
