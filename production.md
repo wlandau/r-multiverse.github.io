@@ -12,19 +12,16 @@ So whilst Community will always offer the latest packages, as released by mainta
 
 ## A Snapshot Model for Production
 
-But we take it one step further.
+To provide a true production experience, we adopt a slighty different model.
+Instead of CRAN's continuous rolling deployment, we provide snapshots of fixed package versions.
 
-Instead of the continuous rolling deployment model that CRAN provides, we provide snapshots of fixed package versions.
-This has the advantage that:
+This has the following advantages:
 
-1. All packages within a snapshot are guaranteed to work with each other.
- + At any one point in time on CRAN, there will be packages that fail checks but are within grace periods and have not yet been updated or archived.
+1. All packages within a snapshot are guaranteed to work with each other (at any one point in time on CRAN, there will be packages that fail checks but are within grace periods and have not yet been updated or archived).
 2. Using fixed package versions aids reproducibility.
 3. Suited to environments without the ability to update over the internet.
 
 We take quarterly snapshots on the 15th of each month in February, May, August, and November.
-
-*[Our first Production release is scheduled for 15 November 2024, and prior to that, a sample repository is available at <https://snapshot.r-multiverse.org>]*
 
 ## The Production Staging Process
 
@@ -43,7 +40,7 @@ Staging opens on the 15th of each month in January, April, July, and October.
 
 ## Current Snapshot
 
-The current snapshot release will be available at <https://production.r-multiverse.org>.
+The current (November 2004) snapshot release is available at <https://production.r-multiverse.org>.
 
 This repository provides:
 
@@ -58,4 +55,3 @@ To query available packages:
 ```r
 available.packages(repos = "https://production.r-multiverse.org")
 ```
-*[Our first Production release is scheduled for 15 November 2024, and prior to that, a sample repository is available at <https://snapshot.r-multiverse.org>]*
