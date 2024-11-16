@@ -12,31 +12,31 @@ So whilst Community will always offer the latest packages, as released by mainta
 
 ## A Snapshot Model for Production
 
-To provide a true production experience, we adopt an alternative distribution model.
-Instead of CRAN's continuous rolling deployment, we provide snapshots of fixed package versions.
+A true production experience calls for an alternative distribution model.
+Instead of adopting continuous rolling deployment like CRAN, we provide snapshots of fixed package versions.
 
-This has the following advantages:
+This has the advantage that:
 
 1. All packages within a snapshot are guaranteed to work with each other (at any one point in time on CRAN, there will be packages that fail checks but are within grace periods and have not yet been updated or archived).
-2. Using fixed package versions aids reproducibility.
-3. Suited to environments without the ability to update over the internet.
+2. Fixed package versions aids reproducibility.
+3. Does not require access to updates over the internet.
 
-We take quarterly snapshots on the 15th of each month in February, May, August, and November.
+We take quarterly snapshots on the 15th of each of February, May, August, and November.
 
 ## The Production Staging Process
 
 Before each quarterly release, packages go through a one-month 'staging' process, which helps ensure packages continue to meet the high standards required of Production.
 
 Packages enter into the Staging repository at <https://staging.r-multiverse.org>.
-For those with passing checks, the package version is frozen.
 
-- Even if another package release is made and Community updates, the version in Staging remains the same.
+- For those with passing checks, the package version is frozen.
+  + Even if another package release is made and Community updates, the version in Staging stays the same.
 
-Packages with failing checks, however, will continue to update from Community if a new release is made.
+- Packages with failing checks will continue to update from Community if a new release is made.
 
 This process helps maintainers to fix bugs, whilst minimizing the chances of last minute issues affecting large cohorts of packages.
 
-Staging opens on the 15th of each month in January, April, July, and October.
+Staging opens on the 15th of each of January, April, July, and October.
 
 ## Current Snapshot
 
@@ -50,7 +50,8 @@ This repository provides:
 - Mac arm64: R-4.4 binary, R-4.3 binary
 
 It may be used in R repository settings or directly as the 'repos' argument to `install.packages()`.
-To query available packages:
+
+The currently available packages may be queried using:
 
 ```r
 available.packages(repos = "https://production.r-multiverse.org")
