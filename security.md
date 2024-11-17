@@ -9,7 +9,7 @@ Security threats and vulnerabilities affect everyone using R-multiverse. Issues 
 * Malicious attempts to inundate <https://github.com/r-multiverse/contributions/pulls> with pull requests.
 * Other [denial of service (DoS) attacks](https://en.wikipedia.org/wiki/Denial-of-service_attack) on the [R-multiverse bot](https://github.com/apps/r-multiverse) or other infrastructure.
 
-# Protecting package users
+# Protecting R-multiverse users
 
 If you notice a security issue or other vulnerability in an R package contributed to R-multiverse, please report it:
 
