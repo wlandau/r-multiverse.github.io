@@ -37,10 +37,9 @@ and if the author of the [pull request](https://github.com/r-multiverse/contribu
 
 1. Is a [public member](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/publicizing-or-hiding-organization-membership) of one of the trusted [GitHub organizations](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations) listed at <https://github.com/r-multiverse/contributions/blob/main/organizations>.
 
-In addition, the GitHub/GitLab repository owner must consent to contribute the repository to R-multiverse. Any of the following is sufficient evidence of consent:
+In addition, the GitHub/GitLab repository owner must consent to contribute the repository to R-multiverse. Either of the following is sufficient evidence of consent:
 
 1. The author of the [pull request](https://github.com/r-multiverse/contributions/pulls) is the GitHub owner of the repository.
-1. The author of the [pull request](https://github.com/r-multiverse/contributions/pulls) is a [public member](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/publicizing-or-hiding-organization-membership) of the GitHub organization that owns the repository.
 1. The `URL` field of the package `DESCRIPTION` file points to an R-multiverse URL (for example, <https://production.r-multiverse.org> or <https://community.r-multiverse.org/packageName>).
 
 ## Manual review
