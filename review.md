@@ -17,7 +17,7 @@ When it reviews a [new pull request](https://github.com/r-multiverse/contributio
 The bot automatically accepts the contribution if the [pull request](https://github.com/r-multiverse/contributions/pulls):
 
 1. Was [created by the GitHub web interface](contributors.md).
-1. Adds new contributed listings to the [`packages` folder](https://github.com/r-multiverse/contributions/tree/main/packages) and makes no other changes to any files.
+1. Adds new contributed listings to the [`packages` folder](https://github.com/r-multiverse/contributions/tree/main/packages).
 1. Does not add, modify, or delete any other files in <https://github.com/r-multiverse/contributions>.
 
 and if each new [contributed listing](https://github.com/r-multiverse/contributions/tree/main/packages):
