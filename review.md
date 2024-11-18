@@ -14,11 +14,11 @@ When it reviews a [new pull request](https://github.com/r-multiverse/contributio
 
 ## Automatic acceptance
 
-The bot automatically accepts the contribution if the [pull request](https://github.com/r-multiverse/contributions/pulls) author:
+The bot automatically accepts the contribution if the author of the [pull request](https://github.com/r-multiverse/contributions/pulls):
 
 1. Is a [public member](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/publicizing-or-hiding-organization-membership) of one of the trusted [GitHub organizations](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations) listed at <https://github.com/r-multiverse/contributions/blob/main/organizations>.
 
-and the [pull request](https://github.com/r-multiverse/contributions/pulls) itself:
+and if the [pull request](https://github.com/r-multiverse/contributions/pulls) itself:
 
 1. Was [created by the GitHub web interface](contributors.md).
 1. Adds new contributed listings to the [`packages` folder](https://github.com/r-multiverse/contributions/tree/main/packages).
