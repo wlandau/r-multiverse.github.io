@@ -3,20 +3,20 @@ title: "Review Policy"
 ---
 
 This policy dictates the process by which R-multiverse reviews and accepts contributed R packages.
-All contributions must comply with R-multiverse policies, including but not limited to [Acceptable Use](https://r-multiverse.org/aup.html), [Terms of Use](https://r-multiverse.org/terms.html), and [Code of Conduct](https://r-multiverse.org/conduct.html).
+All contributions must comply with R-multiverse policies, including but not limited to [Acceptable Use](aup.md), [Terms of Use](terms.md), and [Code of Conduct](conduct.md).
 
 ## How review works
 
 When it reviews a [new pull request](https://github.com/r-multiverse/contributions/pulls), the bot makes one of three choices:
 
 1. Merge the pull request to accept the contribution.
-2. Flag the pull request for manual review by a [moderator](https://r-multiverse.org/governance.html#moderator).
+2. Flag the pull request for manual review by a [moderator](governance.md#moderator).
 
 ## Automatic acceptance
 
 The bot automatically accepts the contribution if the [pull request](https://github.com/r-multiverse/contributions/pulls):
 
-1. Was [created by the GitHub web interface](https://r-multiverse.org/contributors.html).
+1. Was [created by the GitHub web interface](contributors.md).
 1. Adds new contributed listings to the [`packages` folder](https://github.com/r-multiverse/contributions/tree/main/packages) and makes no other changes to any files.
 1. Does not add, modify, or delete any other files in <https://github.com/r-multiverse/contributions>.
 
@@ -45,13 +45,13 @@ In addition, the GitHub/GitLab repository owner must consent to contribute the r
 
 ## Manual review
 
-R-multiverse [moderators](https://r-multiverse.org/governance.html#moderator) review [pull requests](https://github.com/r-multiverse/contributions/pulls) that the bot flags for manual review.
-The [moderator](https://r-multiverse.org/governance.html#moderator) inspects the package for compliance with R-multiverse policies, including but not limited to [Acceptable Use](https://r-multiverse.org/aup.html), [Terms of Use](https://r-multiverse.org/terms.html), and [Code of Conduct](https://r-multiverse.org/conduct.html).
+R-multiverse [moderators](governance.md#moderator) review [pull requests](https://github.com/r-multiverse/contributions/pulls) that the bot flags for manual review.
+The [moderator](governance.md#moderator) inspects the package for compliance with R-multiverse policies, including but not limited to [Acceptable Use](aup.md), [Terms of Use](terms.md), and [Code of Conduct](conduct.md).
 The moderator accepts the contribution if and only if it complies with all policies.
 
 ## Recommended licenses
 
-The [Acceptable Use Policy](https://r-multiverse.org/aup.html) prohibits packages that "violate any applicable laws, regulations, or third-party rights, including intellectual property rights".
+The [Acceptable Use Policy](aup.md) prohibits packages that "violate any applicable laws, regulations, or third-party rights, including intellectual property rights".
 In practice, this implies each package must have a valid open-source license.
 The following is a list of valid open-source licenses that the bot automatically accepts during reviews:
 
