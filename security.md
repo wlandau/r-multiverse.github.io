@@ -4,7 +4,7 @@ title: "Security Policy"
 
 Security threats and vulnerabilities affect everyone using R-multiverse. Issues may include (but are not limited to):
 
-* Malware in R packages contributed to R-multiverse.
+* Malware or exploitable code in R packages contributed to R-multiverse.
 * Unauthorized access to <https://github.com/r-multiverse> or its repositories.
 * Malicious attempts to inundate <https://github.com/r-multiverse/contributions/pulls> with pull requests.
 * Other [denial of service (DoS) attacks](https://en.wikipedia.org/wiki/Denial-of-service_attack) on the [R-multiverse bot](https://github.com/apps/r-multiverse) or other infrastructure.
