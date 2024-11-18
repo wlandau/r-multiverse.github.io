@@ -37,22 +37,26 @@ and if the author of the [pull request](https://github.com/r-multiverse/contribu
 
 1. Is a [public member](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/publicizing-or-hiding-organization-membership) of one of the trusted [GitHub organizations](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations) listed at <https://github.com/r-multiverse/contributions/blob/main/organizations>.
 
-In addition, the GitHub/GitLab repository owner must consent to contribute the repository to R-multiverse. Either of the following is sufficient evidence of consent:
-
-1. The author of the [pull request](https://github.com/r-multiverse/contributions/pulls) is the GitHub owner of the repository.
-1. The `URL` field of the package `DESCRIPTION` file points to an R-multiverse URL (for example, <https://production.r-multiverse.org> or <https://community.r-multiverse.org/packageName>).
-
 ## Manual review
 
 R-multiverse [moderators](governance.md#moderator) review [pull requests](https://github.com/r-multiverse/contributions/pulls) that the bot flags for manual review.
 The [moderator](governance.md#moderator) inspects the package for compliance with R-multiverse policies, including but not limited to [Acceptable Use](aup.md), [Terms of Use](terms.md), and [Code of Conduct](conduct.md).
 The moderator accepts the contribution if and only if it complies with all policies.
 
+## Removal
+
+R-multiverse may remove a package from its own repositories at any time if the package violates R-multiverse policies.
+
+## Modification
+
+No R-multiverse staff member (administrator, moderator, or otherwise) may modify a package in R-multiverse without the explicit consent of the owners declared in the license of the package.
+
 ## Recommended licenses
 
 The [Acceptable Use Policy](aup.md) prohibits packages that "violate any applicable laws, regulations, or third-party rights, including intellectual property rights".
-In practice, this implies each package must have a valid open-source license.
-The following is a list of valid open-source licenses that the bot automatically accepts during reviews:
+In practice, this means each package must have a valid open-source license.
+The following is a list of valid open-source licenses that the bot automatically accepts during reviews.
+If the package includes one of the license below, it implies that the authors consent to distribute the package in R-multiverse.
 
 * [Artistic 2.0](https://opensource.org/license/artistic-2-0)
 * [BSD 2-Clause](https://opensource.org/license/bsd-2-clause)
