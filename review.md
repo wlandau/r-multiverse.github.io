@@ -27,11 +27,15 @@ and if each new [contributed listing](https://github.com/r-multiverse/contributi
 
 and if the contributed GitHub/GitLab repository:
 
-1. Includes an R package at the top level whose package name is the same as the repository name.
-1. Includes a license from the "Recommended licenses" section at the end of this policy.
 1. Includes a GitHub/GitLab [release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases).
+1. Includes an R package at the top level whose package name is the same as the repository name.
+1. Is listed in the `URL` field of the corresponding CRAN page (if a package with the same name is on CRAN).
+
+and if the R package:
+
+1. Includes a license from the "Recommended licenses" section at the end of this policy.
+1. Does not have an advisory in the [R Consortium Advisory Database](https://github.com/RConsortium/r-advisory-database).
 1. Is not part of the CRAN mirror at <https://github.com/cran>.
-1. Is mentioned in the `URL` field of the corresponding CRAN page (if a package with the same name is on CRAN).
 
 and if the author of the [pull request](https://github.com/r-multiverse/contributions/pulls):
 
