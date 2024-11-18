@@ -10,15 +10,14 @@ All contributions must comply with R-multiverse policies, including but not limi
 When it reviews a [new pull request](https://github.com/r-multiverse/contributions/pulls), the bot makes one of three choices:
 
 1. Merge the pull request to accept the contribution.
-2. Close the pull request to reject the contribution.
-3. Flag the pull request for manual review by a [moderator](https://r-multiverse.org/governance.html#moderator).
+2. Flag the pull request for manual review by a [moderator](https://r-multiverse.org/governance.html#moderator).
 
 ## Automatic acceptance
 
 The bot automatically accepts the contribution if the [pull request](https://github.com/r-multiverse/contributions/pulls):
 
 1. Was [created by the GitHub web interface](https://r-multiverse.org/contributors.html).
-1. Adds new contributed listings to the [`packages` folder](https://github.com/r-multiverse/contributions/tree/main/packages).
+1. Adds new contributed listings to the [`packages` folder](https://github.com/r-multiverse/contributions/tree/main/packages) and makes no other changes to any files.
 1. Does not add, modify, or delete any other files in <https://github.com/r-multiverse/contributions>.
 
 and if each new [contributed listing](https://github.com/r-multiverse/contributions/tree/main/packages):
@@ -43,13 +42,6 @@ In addition, the GitHub/GitLab repository owner must consent to contribute the r
 1. The author of the [pull request](https://github.com/r-multiverse/contributions/pulls) is the GitHub owner of the repository.
 1. The author of the [pull request](https://github.com/r-multiverse/contributions/pulls) is a [public member](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/publicizing-or-hiding-organization-membership) of the GitHub organization that owns the repository.
 1. The `URL` field of the package `DESCRIPTION` file points to an R-multiverse URL (for example, <https://production.r-multiverse.org> or <https://community.r-multiverse.org/packageName>).
-
-## Automatic rejection
-
-The bot automatically rejects [pull requests](https://github.com/r-multiverse/contributions/pulls) which attempt to:
-
-1. Add/modify/delete files outside the [`packages`](https://github.com/r-multiverse/contributions/tree/main/packages) folder, or
-1. Add/modify/delete files in a subdirectory of the [`packages`](https://github.com/r-multiverse/contributions/tree/main/packages) folder.
 
 ## Manual review
 
