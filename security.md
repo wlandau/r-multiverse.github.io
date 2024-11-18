@@ -17,7 +17,7 @@ If you notice a security issue in an R package contributed to R-multiverse, plea
 
 First, please inform the package authors about the issue. If the vulnerability is still active, please report privately to prevent potential attackers from learning about it.
 Some packages support [private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability) through GitHub,
-while in other cases, you may need to email the maintainer listed in the packages `DESCRIPTION` file.
+while in other cases, you may need to email the maintainer listed in the package `DESCRIPTION` file.
 
 ### Contact R-multiverse
 
