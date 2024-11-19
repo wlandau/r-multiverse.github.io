@@ -62,6 +62,7 @@ In practice, this means each package must have a valid open-source license.
 The following is a list of valid open-source licenses that the bot automatically accepts during reviews.
 If the package includes one of the license below, it implies that the authors consent to distribute the package in R-multiverse.
 
+* [Apache 2.0](https://opensource.org/license/apache-2-0)
 * [Artistic 2.0](https://opensource.org/license/artistic-2-0)
 * [BSD 2-Clause](https://opensource.org/license/bsd-2-clause)
 * [BSD 3-Clause](https://opensource.org/license/bsd-3-clause)
