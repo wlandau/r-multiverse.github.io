@@ -58,7 +58,7 @@ No R-multiverse staff member (administrator, moderator, or otherwise) may modify
 ## Recommended licenses
 
 The [Acceptable Use Policy](aup.md) prohibits packages that "violate any applicable laws, regulations, or third-party rights, including intellectual property rights".
-In practice, this means each package must have a valid open-source license.
+If a package has a valid open-source license, this ensures that distribution by R-multiverse does not violate the intellectual property rights of the package authors.
 The following is a list of valid open-source licenses that the bot automatically accepts during reviews.
 If the package includes one of the license below, it implies that the authors consent to distribute the package in R-multiverse.
 
