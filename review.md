@@ -51,10 +51,6 @@ The moderator accepts the contribution if and only if it complies with all polic
 
 R-multiverse may remove a package from its own repositories at any time if the package violates R-multiverse policies.
 
-## Modification
-
-No R-multiverse staff member (administrator, moderator, or otherwise) may modify a package in R-multiverse without the explicit consent of the owners declared in the license of the package.
-
 ## Recommended licenses
 
 The [Acceptable Use Policy](aup.md) prohibits packages that "violate any applicable laws, regulations, or third-party rights, including intellectual property rights".
