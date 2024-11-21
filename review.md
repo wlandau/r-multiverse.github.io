@@ -54,7 +54,7 @@ R-multiverse may remove a package from its own repositories at any time if the p
 ## Licenses
 
 The [Acceptable Use Policy](aup.md) prohibits packages that "violate any applicable laws, regulations, or third-party rights, including intellectual property rights".
-Each package contributed to R-multiverse must have a valid open-source license to protect the intellectual property rights of the package owners.
+Each contributed package must have a valid free and open-source ([FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)) license to protect the intellectual property rights of the package owners.
 The following is a list of valid open-source licenses that the bot automatically accepts during reviews.
 
 * [Apache 2.0](https://opensource.org/license/apache-2-0)
