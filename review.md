@@ -37,7 +37,7 @@ and if the contributed GitHub/GitLab repository:
 
 and if the R package:
 
-1. Includes a license from the "Recommended licenses" section at the end of this policy.
+1. Includes a license from the "Licenses" section at the end of this policy.
 1. Does not have an advisory in the [R Consortium Advisory Database](https://github.com/RConsortium/r-advisory-database).
 1. Is not part of the CRAN mirror at <https://github.com/cran>.
 
@@ -51,10 +51,10 @@ The moderator accepts the contribution if and only if it complies with all polic
 
 R-multiverse may remove a package from its own repositories at any time if the package violates R-multiverse policies.
 
-## Recommended licenses
+## Licenses
 
 The [Acceptable Use Policy](aup.md) prohibits packages that "violate any applicable laws, regulations, or third-party rights, including intellectual property rights".
-If a package has a valid open-source license, this ensures that distribution by R-multiverse does not violate the intellectual property rights of the package authors.
+Each package contributed to R-multiverse must have a valid open-source license to protect the intellectual property rights of the package authors.
 The following is a list of valid open-source licenses that the bot automatically accepts during reviews.
 
 * [Apache 2.0](https://opensource.org/license/apache-2-0)
