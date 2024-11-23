@@ -6,9 +6,9 @@ title: "Production"
 
 Available at <https://production.r-multiverse.org>, the Production repository is designed to go one step beyond Community.
 
-It is comprised only of Community packages that pass additional checks, including `R CMD check` on all major platforms, ensuring a cohort of packages that work seamlessly togther.
+It is comprised only of Community packages that pass additional checks, including `R CMD check` on all major platforms, ensuring a cohort of packages that work seamlessly together.
 
-So whilst Community will always offer the latest packages, as released by maintainers, they will only make it to Production if they pass these additional quality controls.
+So whilst Community will always offer the latest packages as released by maintainers, only by passing these additional quality controls will they make it to Production.
 
 ## A Snapshot Model for Production
 
@@ -18,10 +18,10 @@ Instead of adopting continuous rolling deployment like CRAN, we provide snapshot
 This has the advantage that:
 
 1. All packages within a snapshot are guaranteed to work with each other (at any one point in time on CRAN, there will be packages that fail checks but are within grace periods and have not yet been updated or archived).
-2. Fixed package versions aids reproducibility.
-3. Does not require access to updates over the internet.
+2. Using fixed package versions aids reproducibility.
+3. Does not require constant updates to the latest package versions over the internet.
 
-We take quarterly snapshots on the 15th of each of February, May, August, and November.
+We take quarterly snapshots on the 15th of each month of February, May, August, and November.
 
 ## The Production Staging Process
 
@@ -36,11 +36,11 @@ Packages enter into the Staging repository at <https://staging.r-multiverse.org>
 
 This process helps maintainers to fix bugs, whilst minimizing the chances of last minute issues affecting large cohorts of packages.
 
-Staging opens on the 15th of each of January, April, July, and October.
+Staging opens on the 15th of each month of January, April, July, and October.
 
 ## Current Snapshot
 
-The current (November 2004) snapshot release is available at <https://production.r-multiverse.org>.
+The current (November 2024) snapshot release is available at <https://production.r-multiverse.org>.
 
 This repository provides:
 
