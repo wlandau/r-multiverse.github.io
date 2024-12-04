@@ -66,6 +66,11 @@ As part of this process, an intermediate Staging repository hosts
 packages and performs checks.
 Visit [this page](production.md) to learn more about [Production](production.md).
 
+## Status
+
+It is good practice to check the health of your contributed package using [R-multiverse status system](https://r-multiverse.org/status/index.html).
+You can read more about it [here in the Production page](production.md#status).
+
 ## Topics
 
 R-multiverse has a ["topics" system](https://r-multiverse.org/topics/index.html) for organizing packages into subject matter areas.
