@@ -16,13 +16,12 @@ website:
     logo: "logo/logo-hexbin.png"
     logo-alt: "R-multiverse"
     left:
-    - text: "About"
+    - text: "Repositories"
       menu:
         - text: Community repository
           url: community.md
         - text: Production repository
           url: production.md
-    - users.md
     - contributors.md
     - team.md
     - text: "Policies"
