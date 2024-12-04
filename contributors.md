@@ -49,11 +49,15 @@ in the title of the pull request.
 
 ## Community
 
-After registration, the package will automatically appear in the [Community](community.md) repository.
+After registration, the latest release of the package will
+automatically appear in the [Community](community.md) repository.
 [GitHub Actions](https://github.com/features/actions) workflows periodically
 read all the [package listings](https://github.com/r-multiverse/contributions/tree/main/packages),
 generate an [R-universe](https://r-universe.dev) [`packages.json`](https://github.com/r-multiverse/community/blob/main/packages.json) file,
 and host the [Community](community.md) repository as a [universe](https://r-universe.dev).
+The [Community](community.md) repository automatically distributes new releases
+that the package maintainer 
+[creates on GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)/[GitLab](https://docs.gitlab.com/ee/user/project/releases/).
 
 ## Production
 
