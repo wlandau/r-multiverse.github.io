@@ -3,7 +3,7 @@ title: "R-multiverse"
 ---
 
 R-multiverse is a general-purpose R package repository system with
-[transparent governance](governance.md) and open source infrastructure.
+[transparent governance](policies.md) and open source infrastructure.
 R-multiverse provides:
 
 1. A home for packages that fall outside the

@@ -24,15 +24,7 @@ website:
           url: production.md
     - contributors.md
     - team.md
-    - text: "Policies"
-      menu:
-        - terms.md
-        - aup.md
-        - review.md
-        - conduct.md
-        - text: Governance Document
-          url: governance.md
-        - security.md
+    - policies.md
     tools:
       - icon: github
         aria-label: "GitHub"
