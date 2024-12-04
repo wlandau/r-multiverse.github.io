@@ -4,6 +4,19 @@ title: "Production repository"
 
 The Production repository comprises a subset of [Community](community.md) package releases which are mutually compatible and meet a high standard of quality.
 
+## Users
+
+Users can install releases from the current Production snapshot
+by setting the `repos` argument in `install.packages()`.
+For example:
+
+```r
+install.packages(
+  "polars",
+  repos = c("https://production.r-multiverse.org", getOption("repos"))
+)
+```
+
 ## Checks
 
 To reach Production, a package release must pass the following R-multiverse checks:
@@ -25,42 +38,89 @@ Packages change slowly in Production, but they are mutually compatible.
 ## Staging
 
 Rather than pull releases directly from [Community](community.md),
-Production draws from an intermediate repository called [Staging](https://staging.r-multiverse.org).
-The [Staging](https://staging.r-multiverse.org) repository is active during the month-long period prior to each snapshot.
-During that time, [Staging](https://staging.r-multiverse.org) stabilizes the Production candidates
+Production draws from an intermediate repository called [Staging](#staging).
+The [Staging](#staging) repository is active during the month-long period prior to each snapshot.
+During that time, [Staging](#staging) stabilizes the Production candidates
 while still allowing bug fixes.
 
-While [Staging](https://staging.r-multiverse.org) is active, if a package is failing one or more [R-multiverse checks](#checks),
+While [Staging](#staging) is active, if a package is failing one or more [R-multiverse checks](#checks),
 then new releases of that package are continuously pulled from [Community](community.md).
-Otherwise, [Staging](https://staging.r-multiverse.org) freezes the package at its current release
+Otherwise, [Staging](#staging) freezes the package at its current release
 and no longer accepts updates from [Community](community.md).
 This freeze prevents new problems in reverse dependencies downstream.
 
 At snapshot time, Production creates the snapshot from the subset of package releases in
-[Staging](https://staging.r-multiverse.org) which pass [R-multiverse checks](#checks).
-A month after the snapshot, [Staging](https://staging.r-multiverse.org) resets (removes all its packages)
+[Staging](#staging) which pass [R-multiverse checks](#checks).
+A month after the snapshot, [Staging](#staging) resets (removes all its packages)
 so that an entirely new set of [Community](community.md) releases can become candidates for Production.
 
 ## Schedule
 
-Every year, [Staging](https://staging.r-multiverse.org) and Production follow a schedule given by the dates below.
+Every year, [Staging](#staging) and Production follow a schedule given by the dates below.
 
-| Quarter | [Staging](https://staging.r-multiverse.org) resets | [Staging](https://staging.r-multiverse.org) becomes active | Production snapshot |
+| Quarter | [Staging](#staging) resets | [Staging](#staging) becomes active | Production snapshot |
 |---|---|---|---|
 | Q1 | December 15 | January 15 | February 15 |
 | Q2 | March 15 | April 15 | May 15 |
 | Q3 | June 15 | July 15 | August 15 |
 | Q4 | September 15 | October 15 | November 15 |
 
-## Users
+## Status
 
-Users can install releases from the current Production snapshot
-by setting the `repos` argument in `install.packages()`.
-For example:
+R-multiverse has a [status system](https://r-multiverse.org/status/index.html) to broadcast the latest [R-multiverse check results](#checks) of each package.
+In each of [Community](community.md) and [Staging](#staging), there is an HTML page for every package.
+Example:
+
+* <https://r-multiverse.org/status/community/polars.html>
+* <https://r-multiverse.org/status/staging/polars.html>
+
+In addition, each package has an RSS feed that updates on each new package release to each repository:^[except in Staging when Staging is currently inactive.]
+
+* <https://r-multiverse.org/status/community/polars.xml>
+* <https://r-multiverse.org/status/staging/polars.xml>
+
+## Debugging
+
+`R CMD check` errors in [Staging](production.md#staging)
+may be difficult to diagnose. 
+For example, [Staging](production.md#staging) might have different versions
+of dependencies than you have on your local machine.
+
+The [`packages.json`](https://github.com/r-multiverse/staging/blob/main/packages.json)
+file has all the Git commit hashes
+of all the versions of packages in [Staging](production.md#staging).
+If you can identify the specific
+dependency that is causing problems, you can install the version in [Staging](production.md#staging)
+and reproduce the issue locally.
+For example, if [`packages.json`](https://github.com/r-multiverse/staging/blob/main/packages.json)
+lists a dependency:
+
+```json
+  {
+    "package": "polars",
+    "url": "https://github.com/pola-rs/r-polars",
+    "branch": "a76b8d56e6f39a6157880069f9d32f3cc1f574d7"
+  },
+```
+
+then you can install the version of that dependency from R:
 
 ```r
-install.packages(
-  "polars",
-  repos = c("https://production.r-multiverse.org", getOption("repos"))
+remotes::install_github(
+  "pola-rs/r-polars",
+  ref = "a76b8d56e6f39a6157880069f9d32f3cc1f574d7"
 )
 ```
+
+then restart R and run the following to reproduce the issue:
+
+```r
+devtools::check("yourPackage")
+```
+
+
+Alternatively, you can create your own personal [universe](https://r-universe.dev),
+give it a strategic subset of dependencies from
+[`packages.json`](https://github.com/r-multiverse/staging/blob/main/packages.json),
+and omit the `"branch"` field from your package so the checks run on every commit.
+Visit <https://ropensci.org/r-universe/> to learn more about using R-universe directly.

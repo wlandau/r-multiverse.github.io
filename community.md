@@ -3,15 +3,6 @@ title: "Community repository"
 ---
 
 The R-multiverse Community repository democratizes the distribution and deployment of R package releases.
-Anyone can [contribute](contributors.md) packages to Community via GitHub.
-After a one-time registration process for a package,
-the package maintainer directly controls distribution through the
-[release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
-system on GitHub/GitLab.
-Each new
-[release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
-automatically deploys to the repository without any manual intervention.
-^[This maintainer-driven experience was made possible by the incredible infrastructure of [rOpenSci's R-universe system](https://ropensci.org/r-universe/).]
 
 ## Users
 
@@ -25,6 +16,18 @@ install.packages(
   repos = c("https://community.r-multiverse.org", getOption("repos"))
 )
 ```
+
+## Contributors
+
+Anyone can [contribute](contributors.md) packages to Community via GitHub.
+After a one-time registration process for a package,
+the package maintainer directly controls distribution through the
+[release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+system on GitHub/GitLab.
+Each new
+[release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+automatically deploys to the repository without any manual intervention.
+^[This maintainer-driven experience was made possible by the incredible infrastructure of [rOpenSci's R-universe system](https://ropensci.org/r-universe/).]
 
 ## Limitations
 

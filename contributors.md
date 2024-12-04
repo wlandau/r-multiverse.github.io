@@ -61,24 +61,10 @@ that the package maintainer
 
 ## Production
 
-R-multiverse creates [Production](production.md) snapshots every 3 months.
-Each [Production](production.md) snapshot contains the subset of releases from [Community](community.md) which pass checks.
-In the month leading up to each snapshot, checks are monitored in a separate [Staging universe](https://staging.r-multiverse.org).
-For details, please visit the page on [Production](production.md).
-
-## Status
-
-R-multiverse has a [status system](https://r-multiverse.org/status/index.html) to broadcast the check results of each package.
-In each of [Community](community.md) and [Staging](https://staging.r-multiverse.org), there is an HTML page for every package.
-Example:
-
-* <https://r-multiverse.org/status/community/polars.html>
-* <https://r-multiverse.org/status/staging/polars.html>
-
-In addition, each package has an RSS feed that updates on each new package release to each repository:^[except in Staging when Staging is currently inactive.]
-
-* <https://r-multiverse.org/status/community/polars.xml>
-* <https://r-multiverse.org/status/staging/polars.xml>
+R-multiverse updates the [Production](production.md) repository in quarterly snapshots.
+As part of this process, an intermediate Staging repository hosts
+packages and performs checks.
+Visit [this page](production.md) to learn more about [Production](production.md).
 
 ## Topics
 
@@ -91,16 +77,7 @@ A bot periodically scans [Community](community.md) and updates the list of packa
 To contribute a topic, submit a pull request to <https://github.com/r-multiverse/topics> to add a new text file (with no file extension) whose name is the topic name and whose contents describe the topic.
 The bot generates HTML pages from these text files.
 
-## Deregistration
-
-If it becomes necessary to deregister a package from R-multiverse, you may submit a
-[pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
-to remove the [package listing](https://github.com/r-multiverse/contributions/tree/main/packages).
-To prevent a package of the same name from registering in R-multiverse,
-you may contribute a listing with free-form text (not a URL or JSON list).
-Packages with missing or free-form listings are removed from [Community](community.md), and the subsequent [Production](production.md) snapshot will not include them. 
-
-## How to create a badge
+## Badges
 
 [<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcommunity.r-multiverse.org%2Fapi%2Fpackages%2Fmirai&query=%24.Version&label=r-multiverse" alt="R-multiverse status" />](https://community.r-multiverse.org/mirai)
 
@@ -110,7 +87,17 @@ To add a dynamic 'R-multiverse' badge for package readme files, like the one abo
 [![R-multiverse status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcommunity.r-multiverse.org%2Fapi%2Fpackages%2FpkgNAME&query=%24.Version&label=r-multiverse)](https://community.r-multiverse.org/pkgNAME)
 ```
 
-## Getting help
+## Deregistration
+
+If it becomes necessary to deregister a package from R-multiverse, you may submit a
+[pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+to remove the [package listing](https://github.com/r-multiverse/contributions/tree/main/packages).
+To prevent a package of the same name from registering in R-multiverse,
+you may contribute a listing with free-form text (not a URL or JSON list).
+Packages with missing or free-form listings are removed from [Community](community.md), and the subsequent [Production](production.md) snapshot will not include them. 
+
+
+## Help
 
 Please report bugs to <https://github.com/r-multiverse/help/issues> and send other feedback and questions to <https://github.com/r-multiverse/help/discussions>.
 Please note that <https://github.com/r-multiverse/contributions> can only accept pull requests to add or modify package entries.
