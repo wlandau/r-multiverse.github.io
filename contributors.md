@@ -61,7 +61,35 @@ that the package maintainer
 
 ## Production
 
+R-multiverse creates [Production](production.md) snapshots every 3 months.
+Each [Production](production.md) snapshot contains the subset of releases from [Community](community.md) which pass checks.
+In the month leading up to each snapshot, checks are monitored in a separate [Staging universe](https://staging.r-multiverse.org).
+For details, please visit the page on [Production](production.md).
 
+## Status
+
+R-multiverse has a [status system](https://r-multiverse.org/status/index.html) to broadcast the check results of each package.
+In each of [Community](community.md) and [Staging](https://staging.r-multiverse.org), there is an HTML page for every package.
+Example:
+
+* <https://r-multiverse.org/status/community/polars.html>
+* <https://r-multiverse.org/status/staging/polars.html>
+
+In addition, each package has an RSS feed that updates on each new package release to each repository:^[except in Staging when Staging is currently inactive.]
+
+* <https://r-multiverse.org/status/community/polars.xml>
+* <https://r-multiverse.org/status/staging/polars.xml>
+
+## Topics
+
+R-multiverse has a ["topics" system](https://r-multiverse.org/topics/index.html) for organizing packages into subject matter areas.
+Each topic has a page that lists the packages in its area ([example](https://r-multiverse.org/topics/bayesian.html)).
+To contribute a package to a topic, simply list the topic URL in the `DESCRIPTION` file ([example](https://github.com/ropensci/stantargets/blob/db7d119ea0599eac3ce01a42bee27c9908754943/DESCRIPTION#L22)).
+and then create a new GitHub/GitLab release.
+A bot periodically scans [Community](community.md) and updates the list of packages in each topic.
+
+To contribute a topic, submit a pull request to <https://github.com/r-multiverse/topics> to add a new text file (with no file extension) whose name is the topic name and whose contents describe the topic.
+The bot generates HTML pages from these text files.
 
 ## Deregistration
 

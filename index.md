@@ -20,13 +20,6 @@ of R package releases pulled directly from their maintainers via GitHub and GitL
 2. [Production](production.md): a quarterly snapshot from [Community](community.md)
 of releases which pass transparent automated checks.
 
-[Community](community.md) updates continuously, and [Production](production.md) updates on the following days each year:
-
-* February 15
-* May 15
-* August 15
-* November 15
-
 ## Installing packages
 
 Each R-multiverse repository has a URL for the `repos` argument of `install.packages()`.
