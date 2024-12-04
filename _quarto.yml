@@ -18,9 +18,9 @@ website:
     left:
     - text: "Repositories"
       menu:
-        - text: Community repository
+        - text: Community
           url: community.md
-        - text: Production repository
+        - text: Production
           url: production.md
     - contributors.md
     - team.md
