@@ -1,58 +1,66 @@
 ---
-title: "Production"
+title: "Production repository"
 ---
 
-## Beyond Community
+The Production repository comprises a subset of [Community](community.md) package releases which are mutually compatible and meet a high standard of quality.
 
-Available at <https://production.r-multiverse.org>, the Production repository is designed to go one step beyond Community.
+## Checks
 
-It is comprised only of Community packages that pass additional checks, including `R CMD check` on all major platforms, ensuring a cohort of packages that work seamlessly together.
+To reach Production, a package release must pass the following R-multiverse checks:
 
-So whilst Community will always offer the latest packages as released by maintainers, only by passing these additional quality controls will they make it to Production.
+1. `R CMD check` must pass (no errors or warnings) on Mac (R-release), Windows (R-release), Linux (R-devel).
+1. The release must not have an active [security advisory](https://github.com/RConsortium/r-advisory-database).
+1. The `DESCRIPTION` file must not have a `Remotes:` field.
+1. The current version number must be greater than the version numbers of past releases of the same package.
+1. The release must not strongly depend (`Depends:`, `Imports:`, `LinkingTo:`) on an R-multiverse package with any any of the above issues.
+^[However, an R-multiverse package can strongly depend a package from CRAN, regardless of CRAN check status, as long as that package remains available on CRAN.]
 
-## A Snapshot Model for Production
+## Snapshots
 
-A true production experience calls for an alternative distribution model.
-Instead of adopting continuous rolling deployment like CRAN, we provide snapshots of fixed package versions.
+Once every 3 months, Production updates all its packages simultaneously and deploys a snapshot.
+Production does not add, remove, or update packages at any other time.
+Packages change slowly in Production, but they are mutually compatible.
+^[And compatible with versions of dependencies that were on CRAN at the time of the snapshot.]
 
-This has the advantage that:
+## Staging
 
-1. All packages within a snapshot are guaranteed to work with each other (at any one point in time on CRAN, there will be packages that fail checks but are within grace periods and have not yet been updated or archived).
-2. Using fixed package versions aids reproducibility.
-3. Does not require constant updates to the latest package versions over the internet.
+Rather than pull releases directly from [Community](community.md),
+Production draws from an intermediate repository called [Staging](https://staging.r-multiverse.org).
+The [Staging](https://staging.r-multiverse.org) repository is active during the month-long period prior to each snapshot.
+During that time, [Staging](https://staging.r-multiverse.org) stabilizes the Production candidates
+while still allowing bug fixes.
 
-We take quarterly snapshots on the 15th of each month of February, May, August, and November.
+While [Staging](https://staging.r-multiverse.org) is active, if a package is failing one or more [R-multiverse checks](#checks),
+then new releases of that package are continuously pulled from [Community](community.md).
+Otherwise, [Staging](https://staging.r-multiverse.org) freezes the package at its current release
+and no longer accepts updates from [Community](community.md).
+This freeze prevents new problems in reverse dependencies downstream.
 
-## The Production Staging Process
+At snapshot time, Production creates the snapshot from the subset of package releases in
+[Staging](https://staging.r-multiverse.org) which pass [R-multiverse checks](#checks).
+A month after the snapshot, [Staging](https://staging.r-multiverse.org) resets (removes all its packages)
+so that an entirely new set of [Community](community.md) releases can become candidates for Production.
 
-Before each quarterly release, packages go through a one-month 'staging' process, which helps ensure packages continue to meet the high standards required of Production.
+## Schedule
 
-Packages enter into the Staging repository at <https://staging.r-multiverse.org>.
+Every year, [Staging](https://staging.r-multiverse.org) and Production follow a schedule given by the dates below.
 
-- For those with passing checks, the package version is frozen.
-  + Even if another package release is made and Community updates, the version in Staging stays the same.
+| Quarter | [Staging](https://staging.r-multiverse.org) resets | [Staging](https://staging.r-multiverse.org) becomes active | Production snapshot |
+|---|---|---|---|
+| Q1 | December 15 | January 15 | February 15 |
+| Q2 | March 15 | April 15 | May 15 |
+| Q3 | June 15 | July 15 | August 15 |
+| Q4 | September 15 | October 15 | November 15 |
 
-- Packages with failing checks will continue to update from Community if a new release is made.
+## Users
 
-This process helps maintainers to fix bugs, whilst minimizing the chances of last minute issues affecting large cohorts of packages.
-
-Staging opens on the 15th of each month of January, April, July, and October.
-
-## Current Snapshot
-
-The current (November 2024) snapshot release is available at <https://production.r-multiverse.org>.
-
-This repository provides:
-
-- Source files
-- Windows: R-4.4 binary, R-4.3 binary
-- Mac x86: R-4.4 binary, R-4.3 binary
-- Mac arm64: R-4.4 binary, R-4.3 binary
-
-It may be used in R repository settings or directly as the 'repos' argument to `install.packages()`.
-
-The currently available packages may be queried using:
+Users can install releases from the current Production snapshot
+by setting the `repos` argument in `install.packages()`.
+For example:
 
 ```r
-available.packages(repos = "https://production.r-multiverse.org")
+install.packages(
+  "polars",
+  repos = c("https://production.r-multiverse.org", getOption("repos"))
+)
 ```

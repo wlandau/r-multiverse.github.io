@@ -2,8 +2,6 @@
 title: "Community repository"
 ---
 
-## Contributors
-
 The R-multiverse Community repository democratizes the distribution and deployment of R package releases.
 Anyone can [contribute](contributors.md) packages to Community via GitHub.
 After a one-time registration process for a package,
