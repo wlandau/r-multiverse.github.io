@@ -2,7 +2,8 @@
 title: "Community repository"
 ---
 
-The R-multiverse Community repository democratizes the distribution and deployment of R package releases.
+The R-multiverse Community repository simplifies the distribution and deployment of R package releases,
+and it puts this power in the hands of package maintainers.
 
 ## Users
 
