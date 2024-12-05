@@ -25,7 +25,7 @@ jobs:
 
       - name: Install R package dependencies.
         run: install.packages(c("knitr", "rmarkdown"))
-        
+        shell: Rscript {0}
 
       - name: Cache results
         uses: actions/cache@v2
