@@ -2,7 +2,6 @@
 title: ""
 about:
   template: jolla
-  image: logo/logo.png
   links:
     - icon: star
       text: Overview page
@@ -14,6 +13,12 @@ about:
       text: Help forum
       href: https://github.com/r-multiverse/help
 ---
+
+<center>
+<img src="logo/logo.png" width="271px" height="313px">
+</center>
+<br>
+<br>
 
 R-multiverse is a general-purpose R package repository system with
 [transparent governance](policies.md) and open source infrastructure.
