@@ -37,6 +37,7 @@ and if the contributed GitHub/GitLab repository:
 
 and if the R package:
 
+1. Attributes ownership and authorship clearly and consistently.
 1. Includes a license from the "Licenses" section at the end of this policy.
 1. Does not have an advisory in the [R Consortium Advisory Database](https://github.com/RConsortium/r-advisory-database).
 1. Is not part of the CRAN mirror at <https://github.com/cran>.
@@ -54,7 +55,9 @@ R-multiverse may remove a package from its own repositories at any time if the p
 ## Licenses
 
 The [Acceptable Use Policy](aup.md) prohibits packages that "violate any applicable laws, regulations, or third-party rights, including intellectual property rights".
-Each contributed package must have a valid free and open-source ([FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)) license to protect the intellectual property rights of the package owners.
+To protect the intellectual property rights of the package owners,
+each contributed package must have a valid free and open-source ([FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)) license,
+and the package owners must be correctly attributed.
 The following is a list of valid open-source licenses that the bot automatically accepts during reviews.
 
 * [Apache 2.0](https://opensource.org/license/apache-2-0)
