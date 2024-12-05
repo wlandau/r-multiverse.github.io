@@ -4,8 +4,7 @@ title: "Overview"
 
 R-multiverse provides:
 
-1. A home for packages that fall outside the
-[CRAN Repository Policy](https://cran.r-project.org/web/packages/policies.html).
+1. A home for packages that fall outside the scope of other repositories such as CRAN and Bioconductor.
 2. Direct and timely distribution of package releases.
 3. Assurance of package quality for production scenarios.
 
