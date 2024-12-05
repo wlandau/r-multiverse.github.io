@@ -16,6 +16,7 @@ website:
     logo: "logo/logo-hexbin.png"
     logo-alt: "R-multiverse"
     left:
+    - overview.md
     - text: "Repositories"
       menu:
         - text: Community
