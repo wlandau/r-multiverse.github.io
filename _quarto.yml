@@ -3,7 +3,7 @@ project:
   output-dir: docs
   render:
     - "*.md"
-    - "*.md"
+    - "*.qmd"
 
 website:
   title: "R-multiverse"
@@ -16,13 +16,13 @@ website:
     logo: "logo/logo-hexbin.png"
     logo-alt: "R-multiverse"
     left:
-    - overview.md
+    - overview.qmd
     - text: "Repositories"
       menu:
         - text: Community
           url: community.md
         - text: Production
-          url: production.md
+          url: production.qmd
     - contributors.md
     - team.md
     - policies.md

@@ -10,6 +10,12 @@ and it puts this power in the hands of package maintainers.
 Users can navigate to <https://community.r-multiverse.org> to learn more about packages in Community.
 To install a package, set the `repos` argument in `install.packages()`.
 For example:
+^[
+Caution: when setting two repositories in the `repos` argument,
+the same package may be in both.
+`install.packages()` chooses the most current version,
+which could be in either repository.
+]
 
 ```r
 install.packages(
@@ -45,5 +51,5 @@ Some releases may still have issues, as indicated by their check results, public
 
 You can deploy a package through a personal or [organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations)-level
 universe even if the package also is part of R-multiverse.
-In fact, a personal universe [may help reproduce and diagnose](production.md#debugging) `R CMD check` issues
-as you prepare a package for [Production](production.md).
+In fact, a personal universe [may help reproduce and diagnose](production.qmd#debugging) `R CMD check` issues
+as you prepare a package for [Production](production.qmd).

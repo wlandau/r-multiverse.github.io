@@ -17,4 +17,4 @@ about:
 
 R-multiverse is a general-purpose R package repository system with
 [transparent governance](policies.md) and open source infrastructure.
-Visit the [overview page](overview.md) to learn more.
+Visit the [overview page](overview.qmd) to learn more.

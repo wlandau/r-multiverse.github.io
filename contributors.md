@@ -61,15 +61,15 @@ that the package maintainer
 
 ## Production
 
-R-multiverse updates the [Production](production.md) repository in quarterly snapshots.
+R-multiverse updates the [Production](production.qmd) repository in quarterly snapshots.
 As part of this process, an intermediate Staging repository hosts
 packages and performs checks.
-Visit [this page](production.md) to learn more about [Production](production.md).
+Visit [this page](production.qmd) to learn more about [Production](production.qmd).
 
 ## Status
 
 It is good practice to check the health of your contributed package using [R-multiverse status system](https://r-multiverse.org/status/index.html).
-You can read more about it [here in the Production page](production.md#status).
+You can read more about it [here in the Production page](production.qmd#status).
 
 ## Topics
 
@@ -99,7 +99,7 @@ If it becomes necessary to deregister a package from R-multiverse, you may submi
 to remove the [package listing](https://github.com/r-multiverse/contributions/tree/main/packages).
 To prevent a package of the same name from registering in R-multiverse,
 you may contribute a listing with free-form text (not a URL or JSON list).
-Packages with missing or free-form listings are removed from [Community](community.md), and the subsequent [Production](production.md) snapshot will not include them. 
+Packages with missing or free-form listings are removed from [Community](community.md), and the subsequent [Production](production.qmd) snapshot will not include them. 
 
 
 ## Help

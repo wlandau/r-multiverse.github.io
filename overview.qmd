@@ -15,13 +15,19 @@ R-multiverse hosts two R package repositories:
 
 1. [Community](community.md): an open, inclusive, community-curated repository
 of R package releases pulled directly from their maintainers via GitHub and GitLab.
-2. [Production](production.md): a quarterly snapshot from [Community](community.md)
+2. [Production](production.qmd): a quarterly snapshot from [Community](community.md)
 of releases which pass transparent automated checks.
 
 ## Installing packages
 
 Each R-multiverse repository has a URL for the `repos` argument of `install.packages()`.
 For example, to install [`polars`](https://pola-rs.github.io/r-polars/) from [Community](community.md):
+^[
+Caution: when setting two repositories in the `repos` argument,
+the same package may be in both.
+`install.packages()` chooses the most current version,
+which could be in either repository.
+]
 
 ```r
 install.packages(
@@ -30,13 +36,28 @@ install.packages(
 )
 ```
 
-and from [Production](production.md):
+and from [Production](production.qmd):
+^[
+The second link in the `repos` argument is the [Posit Public Package Manager (p3m)](https://packagemanager.posit.co/)
+snapshot of CRAN on the day the current R-multiverse Production snapshot was created.
+This alignment ensures that the versions of packages you install from R-multiverse Production
+are compatible with the versions of CRAN dependencies you install.
+]
 
-```r
-install.packages(
-  "polars",
-  repos = c("https://production.r-multiverse.org", getOption("repos"))
+```{r, eval = TRUE, echo = FALSE, results = "asis"}
+source("R/utils.R")
+text <- c(
+  "```{r}",
+  "install.packages(",
+  "  \"polars\",",
+  "  repos = c(",
+  "    \"https://production.r-multiverse.org\",",
+  sprintf("    \"https://packagemanager.posit.co/cran/%s\"", date_latest_snapshot()),
+  "  )",
+  ")",
+  "```"
 )
+cat(text, sep = "\n")
 ```
 
 ## Other repositories
@@ -44,7 +65,7 @@ install.packages(
 R-multiverse does not replace CRAN.
 In fact, most R-multiverse packages depend on CRAN packages.
 In production environments,
-[Production](production.md) snapshots should be deployed alongside
+[Production](production.qmd) snapshots should be deployed alongside
 the CRAN dependencies from the same day that the R-multiverse snapshot was created.
 
 ## Infrastructure
