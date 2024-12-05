@@ -108,10 +108,7 @@ lists a dependency:
 then you can install the version of that dependency from R:
 
 ```r
-remotes::install_github(
-  "pola-rs/r-polars",
-  ref = "a76b8d56e6f39a6157880069f9d32f3cc1f574d7"
-)
+pak::pkg_install("pola-rs/r-polars@a76b8d56e6f39a6157880069f9d32f3cc1f574d7")
 ```
 
 then restart R and run the following to reproduce the issue:
@@ -119,7 +116,6 @@ then restart R and run the following to reproduce the issue:
 ```r
 devtools::check("yourPackage")
 ```
-
 
 Alternatively, you can create your own personal [universe](https://r-universe.dev),
 give it a strategic subset of dependencies from
