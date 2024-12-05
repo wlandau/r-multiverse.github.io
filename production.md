@@ -32,6 +32,8 @@ To reach Production, a package release must pass the following R-multiverse chec
 
 Once every 3 months, Production updates all its packages simultaneously and deploys a snapshot.
 Production does not add, remove, or update packages at any other time.
+^[A package is only removed from a snapshot if it becomes absolutely necessary to do so,
+e.g. because of an egregious [policy](policies.md) violation.]
 Packages change slowly in Production, but they are mutually compatible.
 ^[And compatible with versions of dependencies that were on CRAN at the time of the snapshot.]
 
