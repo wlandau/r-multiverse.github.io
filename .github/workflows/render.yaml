@@ -1,6 +1,12 @@
 on:
+  workflow_dispatch:
   push:
     branches: main
+  schedule:
+    - cron: '0 12 15 2 *'  # February 15 at noon UTC
+    - cron: '0 12 15 5 *'  # May 15 at noon UTC
+    - cron: '0 12 15 8 *'  # August 15 at noon UTC
+    - cron: '0 12 15 11 *' # November 15 at noon UTC
 
 name: render
 

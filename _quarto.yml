@@ -3,7 +3,7 @@ project:
   output-dir: docs
   render:
     - "*.md"
-    - "*.md"
+    - "*.qmd"
 
 website:
   title: "R-multiverse"
@@ -16,24 +16,16 @@ website:
     logo: "logo/logo-hexbin.png"
     logo-alt: "R-multiverse"
     left:
-    - text: "About"
+    - overview.qmd
+    - text: "Repositories"
       menu:
-        - text: Community repository
+        - text: Community
           url: community.md
-        - text: Production repository
-          url: production.md
-    - users.md
+        - text: Production
+          url: production.qmd
     - contributors.md
     - team.md
-    - text: "Policies"
-      menu:
-        - terms.md
-        - aup.md
-        - review.md
-        - conduct.md
-        - text: Governance Document
-          url: governance.md
-        - security.md
+    - policies.md
     tools:
       - icon: github
         aria-label: "GitHub"
