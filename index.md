@@ -1,8 +1,8 @@
 ---
 title: ""
 about:
-  template: marquee
-  image: logo/logo-website.png
+  template: jolla
+  image: logo/logo.png
   links:
     - icon: star
       text: Overview page
