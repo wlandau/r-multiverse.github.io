@@ -45,5 +45,5 @@ Some releases may still have issues, as indicated by their check results, public
 
 You can deploy a package through a personal or [organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations)-level
 universe even if the package also is part of R-multiverse.
-In fact, a personal universe may help reproduce and diagnose `R CMD check` issues
+In fact, a personal universe [may help reproduce and diagnose](production.md#debugging) `R CMD check` issues
 as you prepare a package for [Production](production.md).
