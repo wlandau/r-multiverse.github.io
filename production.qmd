@@ -2,40 +2,38 @@
 title: "Production repository"
 ---
 
-The Production repository comprises a subset of [Community](community.md) package releases which are mutually compatible and meet a high standard of quality.
+```{r, eval = TRUE, echo = FALSE}
+source("R/utils.R")
+```
+
+The Production repository comprises a subset of [Community](community.md) package releases
+which are mutually compatible and meet a high standard of quality.
 
 ## Users
 
-Users can install releases from the current Production snapshot
-by setting the `repos` argument in `install.packages()`.
-For example:
+Production deploys in periodic snapshots throughout the year (details below).
+The current Production snapshot was created on `r snapshot_date()` when base R had version `r snapshot_r()`.
+All packages passed automated checks at that time.
+However, the same checks might not pass using a different version of R or
+different versions of dependencies from [CRAN](https://cran.r-project.org/).
+
+To ensure compatibility, please use R version `r snapshot_r()` and [CRAN](https://cran.r-project.org/) dependencies
+from `r snapshot_date()`. [Posit Public Package Manager (p3m)](https://packagemanager.posit.co) can help. Example:^[Caveat: when setting two URLs in the repos argument, the same package may be in both repositories, and the highest version is always preferred.]
 
 ```{r, eval = TRUE, echo = FALSE, results = "asis"}
-source("R/utils.R")
 text <- c(
-  "```{r}",
+  "```r",
   "install.packages(",
   "  \"polars\",",
   "  repos = c(",
   "    \"https://production.r-multiverse.org\",",
-  sprintf("    \"https://packagemanager.posit.co/cran/%s\"", date_latest_snapshot()),
+  sprintf("    \"https://packagemanager.posit.co/cran/%s\"", snapshot_date()),
   "  )",
   ")",
   "```"
 )
 cat(text, sep = "\n")
 ```
-
-The second link in the `repos` argument is the [Posit Public Package Manager (p3m)](https://packagemanager.posit.co/)
-snapshot of CRAN on the day the current R-multiverse Production snapshot was created.
-This alignment helps ensure that the versions of packages you install from R-multiverse Production
-are compatible with the versions of CRAN dependencies you install.
-^[
-However, please keep in mind that when setting two repositories in the `repos` argument,
-the same package may be in both.
-`install.packages()` chooses the most current version,
-which could be in either repository.
-]
 
 ## Checks
 
