@@ -17,8 +17,10 @@ All packages passed automated checks at that time.
 However, the same checks might not pass using a different version of R or
 different versions of dependencies from [CRAN](https://cran.r-project.org/).
 
-To ensure compatibility, please use R version `r snapshot_r()` and [CRAN](https://cran.r-project.org/) dependencies
-from `r snapshot_date()`. [Posit Public Package Manager (p3m)](https://packagemanager.posit.co) can help. Example:^[Caveat: when setting two URLs in the repos argument, the same package may be in both repositories, and the highest version is always preferred.]
+For the current snapshot, please use R version `r snapshot_r()` and [CRAN](https://cran.r-project.org/) dependencies
+from `r snapshot_date()` to ensure compatibility.
+[Posit Public Package Manager (p3m)](https://packagemanager.posit.co) can help.
+Example:^[Caveat: when setting two URLs in the repos argument, the same package may be in both repositories, and the highest version is always preferred.]
 
 ```{r, eval = TRUE, echo = FALSE, results = "asis"}
 text <- c(
