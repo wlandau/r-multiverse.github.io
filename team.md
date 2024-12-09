@@ -119,7 +119,9 @@ He is one of the maintainers for the [Rocker](https://rocker-project.org/) proje
 ::: {.column width=10%}
 :::
 ::: {.column width=70%}
-We would like to thank the [R Consortium](https://www.r-consortium.org) for their support in the development of R-multiverse. 
+R-multiverse originated from the R Consortium [Repositories Working Group](https://github.com/RConsortium/r-repositories-wg),
+and it was supported by [R Consortium](https://r-consortium.org) ISC grant 24-ISC-1-05.
+We would like to thank the [R Consortium](https://www.r-consortium.org) for this support in the development of R-multiverse. 
 :::
 ::::
 :::
