@@ -56,7 +56,7 @@ and triage access to <https://github.com/r-multiverse/help> and <https://github.
 
 # Scope
 
-This section explains the privileges and responsibilities of [moderator](governance.md#moderator),
+This section explains the privileges and responsibilities of [moderators](governance.md#moderator),
 All these privileges and responsibilities are also shared with the [administrators](governance.md#administrator).
 If you have a question, please post a discussion to <https://github.com/r-multiverse/help/discussions>
 or confidentially reach out to one of the current [administrators](team.md#administrators).
