@@ -66,10 +66,9 @@ Simply search [contributions](https://github.com/r-multiverse/contributions/pull
 ## Topics
 
 We encourage moderators to contribute [R-multiverse topics](https://r-multiverse.org/topics/) about their fields of expertise.
-To do so, submit a pull request to <https://github.com/r-multiverse/topics>^[ Through triage access, R-multiverse [moderators](governance.md#moderator) are authorized to merge these pull requests.
+To do so, submit a pull request to <https://github.com/r-multiverse/topics>^[Through triage access, R-multiverse [moderators](governance.md#moderator) are authorized to merge these pull requests.
 Please only edit the plain files without file extensions.
-All the HTML files are automatically generated.
-] to add a text file describing the subject matter ( [example here](https://github.com/r-multiverse/topics/blob/main/bayesian)).
+All the HTML files are automatically generated.] to add a text file describing the subject matter ( [example here](https://github.com/r-multiverse/topics/blob/main/bayesian)).
 A bot periodically rebuilds the website based on these text files.
 Seasoned [contributors](governance.md#contributor) will see your topic [listed here](https://r-multiverse.org/topics/) and add keywords to their [contributions](https://github.com/r-multiverse/contributions/pulls) accordingly.
 
