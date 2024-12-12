@@ -72,7 +72,7 @@ and the public source code repositories in the [R-multiverse GitHub organization
 
 ## How you can help
 
-* Share R-multiverse with your colleagues.
+* Spread the word: share R-multiverse with your colleagues.
 * [Contribute your packages](contributors.md) to R-multiverse.
 * Volunteer to become a [moderator](moderators.md).
 
