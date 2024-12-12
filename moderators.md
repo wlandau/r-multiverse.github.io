@@ -37,17 +37,14 @@ Here is just a small list of examples:
 * Organize an [R user group](https://jumpingrivers.github.io/meetingsR/r-user-groups.html)
 * Publish R-focused articles in journals such as the [R Journal](https://journal.r-project.org), the [Journal of Statistical Software](https://www.jstatsoft.org), or the [Journal of Open Source Software](https://joss.theoj.org).
 
-## Joining
+## Documentation
 
-If selected by an [administrator](governance.md#administrator), you may become a [moderator](governance.md#moderator).
-To request to join, submit a pull request to edit <https://github.com/r-multiverse/r-multiverse.github.io/blob/main/team.md> and add yourself to the [moderator](governance.md#moderator) list.
-Please include your full name, a description, and your GitHub profile photo if available.
-In addition, if you are representing your company in your capacity as a [moderator](governance.md#moderator), please note your affiliation in [this discussion](https://github.com/r-multiverse/help/discussions/93) and update it if your affiliation changes.
-When an [administrator](governance.md#administrator) merges the pull request, you are officially a [moderator](governance.md#moderator).
+If you become a [moderator](governance.md#moderator), please submit a pull request the [website repository](https://github.com/r-multiverse/r-multiverse.github.io) to add yourself to the [moderator](governance.md#moderator) list on the [teams page](https://github.com/r-multiverse/r-multiverse.github.io/blob/main/team.md).
+Please include your full name, a description, your GitHub profile photo if available, and your professional affiliation if feasible.
 
 ## Access
 
-After you join, an [administrator](governance.md#administrator) will add you to the [R-multiverse moderator team](https://github.com/orgs/r-multiverse/teams/moderators) on GitHub.
+If you become a [moderator](governance.md#moderator), an [administrator](governance.md#administrator) will add you to the [R-multiverse moderator team](https://github.com/orgs/r-multiverse/teams/moderators) on GitHub.
 this team grants you maintainer access to <https://github.com/r-multiverse/contributions> and triage access to <https://github.com/r-multiverse/help> and <https://github.com/r-multiverse/topics>.
 
 # Scope
