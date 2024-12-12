@@ -85,8 +85,7 @@ A [moderator](governance.md#moderator) may close an [issue](https://github.com/r
 [Moderators](governance.md#moderator) must understand [all R-multiverse policies](policies.md) and be prepared to enforce them.
 [Moderators](governance.md#moderator) must respond immediately and quickly to the following rare cases:
 
-1. If an R-multiverse package or [R-multiverse stakeholder](governance.md#r-multiverse-stakeholders) violates any applicable laws,
-  contact the appropriate law enforcement agency.
+1. If an R-multiverse package or [R-multiverse stakeholder](governance.md#r-multiverse-stakeholders) violates any applicable laws, contact an [administrator](team.md#administrators) who will then contact the appropriate law enforcement agency.
 2. If an R-multiverse package on GitHub and violates any [GitHub policies](https://docs.github.com/en/site-policy),
   [report the violation to GitHub](https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam).
 3. If an R-multiverse package on GitLab and violates any [GitLab policies](https://handbook.gitlab.com/handbook/legal/#gitlab-policies)
