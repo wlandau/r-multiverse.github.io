@@ -3,7 +3,8 @@ title: "Moderators"
 ---
 
 A [moderator](governance.md#moderator) is a volunteer gatekeeper who manages contributions and discussions from [contributors](governance.md#contributor) and [users](governance.md#user).
-[Moderators](governance.md#moderator) are vital to the health and success of R-multiverse.
+[Moderators](governance.md#moderator) are vital to the health and success of R-multiverse: they help the R community understand how to use R-multiverse, they ensure new [package contributions](contributors.md) are reviewed in a timely manner, they maintain the integrity of the R-multiverse package ecosystem.
+If you would like to help improve R-multiverse, please consider becoming a [moderator](governance.md#moderator).
 This page explains the prerequisites, selection criteria, and scope of the [moderator](governance.md#moderator) role.
 
 # Prerequisites
