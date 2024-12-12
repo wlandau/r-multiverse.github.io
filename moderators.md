@@ -24,13 +24,18 @@ This page explains the prerequisites, selection criteria, and scope of the [mode
 Beyond the [prerequisites](#prerequisites) above, [administrators](governance.md#administrator) choose [moderators](governance.md#moderator) based on trust.
 A [moderator](governance.md#moderator) should have a positive, strong, visible, verifiable presence in the R community.
 If you would like to be a [moderator](governance.md#moderator), please help [R-multiverse stakeholders](governance.md#r-multiverse-stakeholders) understand who you are and what you work on.
-There are many ways to grow your public reputation, including but not limited to:
+There are countless ways to grow your public reputation, and each individual [moderator](governance.md#moderator) has their own unique type of impact.
+Here is just a small list of examples:
 
-1. Contributing packages to well-known repositories (or R-multiverse).
-2. [Reviewing packages](https://ropensci.org/software-review/) for [rOpenSci](https://ropensci.org).
-3. Speaking at an [R-focused conference](https://www.r-project.org/conferences/).
-4. Contributing to an [R Consortium ISC working group](https://r-consortium.org/all-projects/isc-working-groups.html).
-5. Contributing to an [ASA](https://community.amstat.org/) group such as [openstatsware](https://www.openstatsware.org).
+* Contribute packages to well-known repositories (or R-multiverse).
+* Contribute or [review](https://ropensci.org/software-review/) for [rOpenSci](https://ropensci.org).
+* Organize or speak at an [R-focused conference](https://www.r-project.org/conferences/).
+* Organize a chapter of [R-Ladies](https://www.meetup.com/R-ladies/).
+* Curate [R Weekly](https://rweekly.org).
+* Contribute to an [R Consortium ISC working group](https://r-consortium.org/all-projects/isc-working-groups.html).
+* Contribute to an [ASA](https://community.amstat.org/) group such as [openstatsware](https://www.openstatsware.org).
+* Organize an [R user group](https://jumpingrivers.github.io/meetingsR/r-user-groups.html)
+* Publish R-focused articles in journals such as the [R Journal](https://journal.r-project.org), the [Journal of Statistical Software](https://www.jstatsoft.org), or the [Journal of Open Source Software](https://joss.theoj.org).
 
 ## Joining
 
