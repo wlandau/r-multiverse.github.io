@@ -85,16 +85,16 @@ A [moderator](governance.md#moderator) may close an [issue](https://github.com/r
 [Moderators](governance.md#moderator) must understand [all R-multiverse policies](policies.md) and be prepared to enforce them.
 [Moderators](governance.md#moderator) must respond immediately and quickly to the following rare cases:
 
-1. If an R-multiverse package or [R-multiverse stakeholder](governance.md#r-multiverse-stakeholders) violates any applicable laws, contact an [administrator](team.md#administrators) who will then contact the appropriate law enforcement agency.
-2. If an R-multiverse package on GitHub and violates any [GitHub policies](https://docs.github.com/en/site-policy),
+1. If an R-multiverse package or [R-multiverse stakeholder](governance.md#r-multiverse-stakeholders) violates any applicable laws, contact an [administrator](team.md#administrators), who will then contact the appropriate law enforcement agency.
+1. If an R-multiverse package on GitHub and violates any [GitHub policies](https://docs.github.com/en/site-policy),
   [report the violation to GitHub](https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam).
-3. If an R-multiverse package on GitLab and violates any [GitLab policies](https://handbook.gitlab.com/handbook/legal/#gitlab-policies)
+1. If an R-multiverse package on GitLab and violates any [GitLab policies](https://handbook.gitlab.com/handbook/legal/#gitlab-policies)
   such as [Acceptable Use](https://handbook.gitlab.com/handbook/legal/acceptable-use-policy/),
   [report the violation to GitLab](https://docs.gitlab.com/ee/user/report_abuse.html).
-4. In case of an extreme policy violation, or repeated violations of the [code of conduct](conduct.md),
+1. In case of an extreme policy violation, or repeated violations of the [code of conduct](conduct.md),
   block the user from [R-multiverse GitHub repositories](https://github.com/r-multiverse)
   by adding the GitHub username to the [list of blocked users](https://github.com/organizations/r-multiverse/settings/blocked_users).
-5. If an R-multiverse package has a security vulnerability such as malware,
+1. If an R-multiverse package has a security vulnerability such as malware,
   report all relevant versions of the package to the [R Advisory Database](https://github.com/rconsortium/r-advisory-database).
 
 If a package violates any R-multiverse [policy](policies.md) (for example, if the [license](https://en.wikipedia.org/wiki/Free_and_open-source_software) is invalid ^[ [This list](https://github.com/r-multiverse/community/blob/main/nonstandard_licenses.json) automatically track packages without valid [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) licenses.
