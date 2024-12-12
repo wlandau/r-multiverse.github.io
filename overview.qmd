@@ -74,7 +74,7 @@ and the public source code repositories in the [R-multiverse GitHub organization
 
 * Share R-multiverse with your colleagues.
 * [Contribute your packages](contributors.md) to R-multiverse.
-* Become a [moderator](moderators.md).
+* Volunteer to become a [moderator](moderators.md).
 
 ## Support
 
