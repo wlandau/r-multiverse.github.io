@@ -66,7 +66,7 @@ Simply search [contributions](https://github.com/r-multiverse/contributions/pull
 ## Topics
 
 We encourage moderators to contribute [R-multiverse topics](https://r-multiverse.org/topics/) about their fields of expertise.
-To do so, submit a pull request to <https://github.com/r-multiverse/topics> to add a text file describing the subject matter ( [example here](https://github.com/r-multiverse/topics/blob/main/bayesian)).^[Through triage access, R-multiverse [moderators](governance.md#moderator) are authorized to merge these pull requests.
+To do so, submit a pull request to <https://github.com/r-multiverse/topics> to add a text file describing the subject matter ([example here](https://github.com/r-multiverse/topics/blob/main/bayesian)).^[Through triage access, R-multiverse [moderators](governance.md#moderator) are authorized to merge these pull requests.
 Please only edit the plain files without file extensions.
 All the HTML files are automatically generated.]
 A bot periodically rebuilds the website based on these text files.
@@ -82,14 +82,16 @@ A [moderator](governance.md#moderator) may close an [issue](https://github.com/r
 ## Enforcement
 
 [Moderators](governance.md#moderator) must understand [all R-multiverse policies](policies.md) and be prepared to enforce them.
-[Moderators](governance.md#moderator) must respond immediately and quickly to the following rare cases:
+[Moderators](governance.md#moderator) must respond immediately and quickly to the following rare cases.
+Each incident, the actions taken to respond to the incident, and the resolution must be reported as an issue at <https://github.com/r-multiverse/help/issues> with the label "policy violation".
+If you do not feel comfortable taking direct action yourself, contact an [administrator](team.md#administrators) immediately and ask the [administrator](team.md#administrators) handle the situation.
 
 1. In case of an extreme policy violation, or repeated violations of the [code of conduct](conduct.md),
   block the user from [R-multiverse GitHub repositories](https://github.com/r-multiverse)
   by adding the GitHub username to the [list of blocked users](https://github.com/organizations/r-multiverse/settings/blocked_users).
-1. If an R-multiverse package or [R-multiverse stakeholder](governance.md#r-multiverse-stakeholders) violates any applicable laws, contact an [administrator](team.md#administrators), who will then contact the appropriate law enforcement agency.
+1. If an R-multiverse package or [R-multiverse stakeholder](governance.md#r-multiverse-stakeholders) violates any applicable laws, contact the appropriate law enforcement agency.
 1. If an R-multiverse package on GitHub and violates any [GitHub policies](https://docs.github.com/en/site-policy),
-  [report the violation to GitHub](https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam).
+  [report the violation to GitHub](https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam)
 1. If an R-multiverse package on GitLab and violates any [GitLab policies](https://handbook.gitlab.com/handbook/legal/#gitlab-policies)
   such as [Acceptable Use](https://handbook.gitlab.com/handbook/legal/acceptable-use-policy/),
   [report the violation to GitLab](https://docs.gitlab.com/ee/user/report_abuse.html).
