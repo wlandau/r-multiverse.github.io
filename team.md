@@ -17,7 +17,7 @@ title: "Team"
 ::: {.column width=10%}
 :::
 ::: {.column width=70%}
-Will Landau is a statistician and software developer in the life sciences.
+Will Landau is a statistician and software developer at Eli Lilly and Company.
 He specializes in Bayesian statistics, high-performance computing, and clinical trials.
 He is a co-creator of R-multiverse and the author of packages [`targets`](https://docs.ropensci.org/targets) and [`crew`](https://wlandau.github.io/crew).
 :::
