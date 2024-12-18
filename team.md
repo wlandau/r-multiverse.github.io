@@ -17,7 +17,7 @@ title: "Team"
 ::: {.column width=10%}
 :::
 ::: {.column width=70%}
-Will Landau is a statistician and software developer in the life sciences.
+Will Landau is a statistician and software developer at Eli Lilly and Company.
 He specializes in Bayesian statistics, high-performance computing, and clinical trials.
 He is a co-creator of R-multiverse and the author of packages [`targets`](https://docs.ropensci.org/targets) and [`crew`](https://wlandau.github.io/crew).
 :::
@@ -102,7 +102,7 @@ He is one of the maintainers for the [Rocker](https://rocker-project.org/) proje
 ## Roles
 
 * Administrators build the team, develop the infrastructure, and write the policies that govern R-multiverse.
-* Moderators review [package contributions](contributors.md) according to the [package review policy](review.md).
+* Moderators review [package contributions](contributors.md) according to the [package review policy](review.md), and they moderate issues and discussions raised in the [`r-multiverse/help`](https://github.com/r-multiverse/help) repository and other forums on R-multiverse.
 
 ## Support
 
@@ -119,7 +119,9 @@ He is one of the maintainers for the [Rocker](https://rocker-project.org/) proje
 ::: {.column width=10%}
 :::
 ::: {.column width=70%}
-We would like to thank the [R Consortium](https://www.r-consortium.org) for their support in the development of R-multiverse. 
+R-multiverse originated from the R Consortium [Repositories Working Group](https://github.com/RConsortium/r-repositories-wg),
+and it was supported by [R Consortium](https://r-consortium.org) ISC grant 24-ISC-1-05.
+We would like to thank the [R Consortium](https://www.r-consortium.org) for this support in the development of R-multiverse. 
 :::
 ::::
 :::
