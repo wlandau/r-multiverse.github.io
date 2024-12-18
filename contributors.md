@@ -41,8 +41,9 @@ you may instead write custom JSON list with fields `package`, `url`, `subdir`, a
 ### Pull request review
 
 An automated process periodically scans and reviews each new pull request to <https://github.com/r-multiverse/contributions>.
-Depending on the automated checks, the bot either merges the pull request
-or flags it for manual review by a [moderator](governance.md#moderator).
+The bot either merges the pull request or flags it for manual review by a [moderator](governance.md#moderator),
+depending on criteria explained in the [review policy](review.md).
+
 Some moderators only review packages specific to a subject matter area,
 so please consider mentioning a [topic](https://r-multiverse.org/topics/index.html)
 in the title of the pull request.
