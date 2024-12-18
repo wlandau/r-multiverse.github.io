@@ -5,9 +5,13 @@ title: "Moderators"
 A [moderator](governance.md#moderator) is a volunteer gatekeeper who manages contributions and discussions from [contributors](governance.md#contributor) and [users](governance.md#user).
 [Moderators](governance.md#moderator) are vital to the health and success of R-multiverse: they help the R community understand how to use R-multiverse, they ensure new [package contributions](contributors.md) are reviewed in a timely manner, they maintain the integrity of the R-multiverse package ecosystem.
 If you would like to help improve R-multiverse, please consider becoming a [moderator](governance.md#moderator).
-This page explains the prerequisites, selection criteria, and scope of the [moderator](governance.md#moderator) role.
+This page explains the how to become a [moderator](governance.md#moderator) and the scope of the [moderator](governance.md#moderator) role.
 
-# Prerequisites
+# Joining
+
+This section describes the process to become a [moderator](governance.md#moderator).
+
+## Prerequisites
 
 [Moderators](governance.md#moderator) must be:
 
@@ -18,7 +22,7 @@ This page explains the prerequisites, selection criteria, and scope of the [mode
   [issue](https://github.com/r-multiverse/help/issues) and [discussion](https://github.com/r-multiverse/help/discussions) forums.
 5. Prepared to enforce [all R-multiverse policies](policies.md).
 
-# Selection
+## Selection
 
 [Administrators](governance.md#administrator) are responsible for selecting [moderators](governance.md#moderator).
 Beyond the [prerequisites](#prerequisites) above, [administrators](governance.md#administrator) choose [moderators](governance.md#moderator) based on trust.
@@ -36,6 +40,26 @@ Here is just a small list of examples:
 * Contribute to an [ASA](https://community.amstat.org/) group such as [openstatsware](https://www.openstatsware.org).
 * Organize an [R user group](https://jumpingrivers.github.io/meetingsR/r-user-groups.html)
 * Publish R-focused articles in journals such as the [R Journal](https://journal.r-project.org), the [Journal of Statistical Software](https://www.jstatsoft.org), or the [Journal of Open Source Software](https://joss.theoj.org).
+
+## Volunteering
+
+If you would like to volunteer as a [moderator](governance.md#moderator), please fill out [this web form](). The form asks you about yourself:
+
+1. What is your full name?
+1. What is your professional affiliation?
+1. What is your GitHub username?
+1. Please list links that point to your online presence.
+1. What is your level of experience in R package development?
+Which packages, if any, have you created or contributed to?
+1. What other ways, if any, are you involved in the R community?
+1. What are your areas of subject matter expertise?
+
+and the ways you would like to get involved:
+
+1. Have you read the [moderator documentation](moderators.md) and [all R-multiverse policies](policies.md)? (Required for moderators.)
+1. Are you prepared to enforce [all R-multiverse policies](policies.md)? (Required for moderators.)
+1. How many hours per month will you commit to reviewing [contributed packages](contributions.md)? (Any amount is okay.)
+1. How many hours per month will you commit to moderating [issues](https://github.com/r-multiverse/help/issues) and [discussions](https://github.com/r-multiverse/help/discussions)? (Any amount is okay.)
 
 ## Documentation
 
@@ -110,4 +134,4 @@ If a package violates any R-multiverse [policy](policies.md) (for example, if th
 
 # Contact
 
-If you would like to be a [moderator](governance.md#moderator), please reach out to one of the [current Administrators](team.md#administrators).
+If you have questions, please post a [discussion thread](https://github.com/r-multiverse/help/discussions).
