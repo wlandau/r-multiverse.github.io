@@ -43,7 +43,7 @@ Here is just a small list of examples:
 
 ## Volunteering
 
-If you would like to volunteer as a [moderator](governance.md#moderator), please fill out [this web form](). The form asks you about yourself:
+If you would like to volunteer as a [moderator](governance.md#moderator), [please fill out the application web form](). The form asks you about yourself:
 
 1. What is your full name?
 1. What is your professional affiliation?
