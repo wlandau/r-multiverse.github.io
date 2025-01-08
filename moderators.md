@@ -33,7 +33,7 @@ Here is just a small list of examples:
 
 * Contribute packages to well-known repositories (or R-multiverse).
 * Contribute or [review](https://ropensci.org/software-review/) for [rOpenSci](https://ropensci.org).
-* Organize or speak at an [R-focused conference](https://www.r-project.org/conferences/).
+* Organize or speak at an R-focused conference ([examples](https://www.r-project.org/conferences/)).
 * Organize a chapter of [R-Ladies](https://www.meetup.com/R-ladies/).
 * Curate [R Weekly](https://rweekly.org).
 * Contribute to an [R Consortium ISC working group](https://r-consortium.org/all-projects/isc-working-groups.html).
