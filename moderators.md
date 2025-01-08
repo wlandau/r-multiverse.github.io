@@ -120,7 +120,7 @@ If you do not feel comfortable taking direct action yourself, contact an [admini
 1. In case of an extreme policy violation, or repeated violations of the [code of conduct](conduct.md),
   block the user from [R-multiverse GitHub repositories](https://github.com/r-multiverse)
   by adding the GitHub username to the [list of blocked users](https://github.com/organizations/r-multiverse/settings/blocked_users).
-1. If an R-multiverse package or [R-multiverse stakeholder](governance.md#r-multiverse-stakeholders) violates any applicable laws, contact the appropriate law enforcement agency.
+1. If an R-multiverse package or [R-multiverse stakeholder](governance.md#r-multiverse-stakeholders) violates any applicable laws, ask an [administrator](team.md#administrators) to contact the appropriate law enforcement agency.
 1. If an R-multiverse package on GitHub and violates any [GitHub policies](https://docs.github.com/en/site-policy),
   [report the violation to GitHub](https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam)
 1. If an R-multiverse package on GitLab and violates any [GitLab policies](https://handbook.gitlab.com/handbook/legal/#gitlab-policies)
