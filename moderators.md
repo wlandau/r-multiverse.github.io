@@ -46,7 +46,7 @@ Here is just a small list of examples:
 If you would like to volunteer as a [moderator](governance.md#moderator), [please fill out the application web form](). The form asks you about yourself:
 
 1. What is your full name?
-1. What is your professional affiliation?
+1. If applicable, please write your professional affiliation. (For context, please refer to [this discussion thread in the R-multiverse help repository](https://github.com/r-multiverse/help/discussions/93).)
 1. What is your GitHub username?
 1. Please list links that point to your online presence.
 1. What is your level of experience in R package development?
