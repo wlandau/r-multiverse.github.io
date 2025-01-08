@@ -37,7 +37,7 @@ Here is just a small list of examples:
 * Organize a chapter of [R-Ladies](https://www.meetup.com/R-ladies/).
 * Curate [R Weekly](https://rweekly.org).
 * Contribute to an [R Consortium ISC working group](https://r-consortium.org/all-projects/isc-working-groups.html).
-* Contribute to an [ASA](https://community.amstat.org/) group such as [openstatsware](https://www.openstatsware.org).
+* Contribute to a professional organization such as an [ASA](https://community.amstat.org/) like [openstatsware](https://www.openstatsware.org).
 * Organize an R user group. ([Meetup](https://www.meetup.com/pro/r-user-groups/) and [Jumping Rivers](https://jumpingrivers.github.io/meetingsR/r-user-groups.html) list examples.)
 * Publish R-focused articles in journals such as the [R Journal](https://journal.r-project.org), the [Journal of Statistical Software](https://www.jstatsoft.org), or the [Journal of Open Source Software](https://joss.theoj.org).
 
