@@ -50,11 +50,12 @@ If you would like to volunteer as a [moderator](governance.md#moderator), [pleas
 1. What are your pronouns? (Examples: they/them, she/her, he/him)
 1. If applicable, please write your professional affiliation. (For context, please refer to [this discussion thread in the R-multiverse help repository](https://github.com/r-multiverse/help/discussions/93).)
 1. What is your GitHub username?
-1. Please list links that point to your online presence: for example, personal websites, social media profile pages, project websites, and/or presentations.
-1. What is your level of experience in R package development?
-Which packages, if any, have you created or contributed to?
+1. Please share links to R packages you have authored or contributed to.
+1. Please share links that point to your online presence: for example, personal websites, social media profile pages, project websites, Shiny apps, presentations, and/or software reviews (e.g. for [rOpenSci](https://ropensci.org) or [JOSS](https://joss.theoj.org), etc.).
 1. What other ways, if any, are you involved in the R community?
-1. What are your areas of subject matter expertise?
+1. How many years, if any, have you developed or contributed to R packages?
+1. How many years, if any, have you been involved in the R community?
+1. What are your areas of professional subject matter expertise? (For example: statistics, databases, ecology, genomics, clinical trials, etc.)
 
 and the ways you would like to get involved:
 
