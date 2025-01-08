@@ -38,7 +38,7 @@ Here is just a small list of examples:
 * Curate [R Weekly](https://rweekly.org).
 * Contribute to an [R Consortium ISC working group](https://r-consortium.org/all-projects/isc-working-groups.html).
 * Contribute to an [ASA](https://community.amstat.org/) group such as [openstatsware](https://www.openstatsware.org).
-* Organize an [R user group](https://jumpingrivers.github.io/meetingsR/r-user-groups.html)
+* Organize an R user group. ([Meetup](https://www.meetup.com/pro/r-user-groups/) and [Jumping Rivers](https://jumpingrivers.github.io/meetingsR/r-user-groups.html) list examples.)
 * Publish R-focused articles in journals such as the [R Journal](https://journal.r-project.org), the [Journal of Statistical Software](https://www.jstatsoft.org), or the [Journal of Open Source Software](https://joss.theoj.org).
 
 ## Volunteering
@@ -61,7 +61,7 @@ and the ways you would like to get involved:
 1. How many hours per month will you commit to reviewing [contributed packages](contributions.md)? (Any amount is okay.)
 1. How many hours per month will you commit to moderating [issues](https://github.com/r-multiverse/help/issues) and [discussions](https://github.com/r-multiverse/help/discussions)? (Any amount is okay.)
 
-## Documentation
+## Onboarding
 
 If you become a [moderator](governance.md#moderator), please submit a pull request the [website repository](https://github.com/r-multiverse/r-multiverse.github.io) to add yourself to the [moderator](governance.md#moderator) list on the [teams page](https://github.com/r-multiverse/r-multiverse.github.io/blob/main/team.md).
 Please include your full name, a description, your GitHub profile photo if available, and your professional affiliation if feasible.
@@ -69,7 +69,7 @@ Please include your full name, a description, your GitHub profile photo if avail
 ## Access
 
 If you become a [moderator](governance.md#moderator), an [administrator](governance.md#administrator) will add you to the [R-multiverse moderator team](https://github.com/orgs/r-multiverse/teams/moderators) on GitHub.
-this team grants you maintainer access to <https://github.com/r-multiverse/contributions> and triage access to <https://github.com/r-multiverse/help> and <https://github.com/r-multiverse/topics>.
+This team has maintainer access to <https://github.com/r-multiverse/contributions> and triage access to <https://github.com/r-multiverse/help> and <https://github.com/r-multiverse/topics>.
 
 # Scope
 
