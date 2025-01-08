@@ -117,7 +117,7 @@ A [moderator](governance.md#moderator) may close an [issue](https://github.com/r
 Each incident, the actions taken to respond to the incident, and the resolution must be reported as an issue at <https://github.com/r-multiverse/help/issues> with the label "policy violation".
 If you do not feel comfortable taking direct action yourself, contact an [administrator](team.md#administrators) immediately and ask the [administrator](team.md#administrators) handle the situation.
 
-1. In case of an extreme policy violation, or repeated violations of the [code of conduct](conduct.md),
+1. In case of an extreme policy violation,
   block the user from [R-multiverse GitHub repositories](https://github.com/r-multiverse)
   by adding the GitHub username to the [list of blocked users](https://github.com/organizations/r-multiverse/settings/blocked_users).
 1. If an R-multiverse package or [R-multiverse stakeholder](governance.md#r-multiverse-stakeholders) violates any applicable laws, ask an [administrator](team.md#administrators) to contact the appropriate law enforcement agency.
@@ -128,6 +128,7 @@ If you do not feel comfortable taking direct action yourself, contact an [admini
   [report the violation to GitLab](https://docs.gitlab.com/ee/user/report_abuse.html).
 1. If an R-multiverse package has a security vulnerability such as malware,
   report all relevant versions of the package to the [R Advisory Database](https://github.com/rconsortium/r-advisory-database).
+1. For [Code of Conduct](conduct.html) violations, please follow the [Code of Conduct enforcement guidelines](https://r-multiverse.org/conduct.html#enforcement-guidelines).
 
 If a package violates any R-multiverse [policy](policies.md) (for example, if the [license](https://en.wikipedia.org/wiki/Free_and_open-source_software) is invalid ^[ [This list](https://github.com/r-multiverse/community/blob/main/nonstandard_licenses.json) automatically track packages without valid [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) licenses.
 [Moderators](governance.md#moderator) should block each package in this list until the package authors add a valid [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) license and resolve all other [policy](policies.md) violations.
