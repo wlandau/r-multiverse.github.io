@@ -83,7 +83,7 @@ If you have a question, please post a discussion to <https://github.com/r-multiv
 ## Contributions
 
 [Moderators](governance.md#moderator) review R package contributions to R-multiverse.
-The contribution process is described at [on the website](https://r-multiverse.org/contributors.html) and is governed by the official [R-multiverse review policy](review.md).
+[The contribution process is described on the website](https://r-multiverse.org/contributors.html) and is governed by the official [R-multiverse review policy](review.md).
 
 The role of a [moderator](governance.md#moderator) is to read contributions at <https://github.com/r-multiverse/contributions/pulls>, merge the pull requests that comply with [R-multiverse official policies](policies.md), and either close the pull request (without merging) or ask for changes in non-compliant cases.
 
