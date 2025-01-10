@@ -13,7 +13,7 @@ Violations of this Policy may result in the suspension or termination of your ac
 
 Users and Contributors must not submit, post, or share any content that:
 
-- **Illegal or Unlawful**: Violates any applicable laws. Examples include (but are not limited to) content that promotes illegal activities, constitutes fraud, violates intellectual property rights, or violates other laws, regulations, or guidelines in any of the relevant jurisdictions.
+- **Illegal or Unlawful**: Violates any applicable laws. Examples include (but are not limited to) content that promotes illegal activities, constitutes fraud, violates intellectual property rights, or violates other laws, regulations, or guidelines in your jurisdiction or that of England and Wales.
 - **Malicious Software**: Contains viruses, malware, ransomware, trojan horses, or any other harmful or malicious code designed to disrupt, damage, or interfere with the proper functioning of any software, hardware, or network.
 - **Sabotage and Cyberattacks**: Engages in or supports any form of sabotage or cyberattack, including but not limited to attacks on research, infrastructure, or industrial control systems of any third party.
 - **Harassment and Hate Speech**: Includes language or content that is abusive, defamatory, harassing, discriminatory, threatening, or hateful based on race, gender, ethnicity, religion, disability, sexual orientation, or any other protected characteristic.
