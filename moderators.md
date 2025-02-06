@@ -115,16 +115,19 @@ A [moderator](governance.md#moderator) may close an [issue](https://github.com/r
 [Administrators](team.md#administrators) take primary responsibility for enforcing all [R-multiverse policies](policies.md).
 [Moderators](governance.md#moderator) are granted the following limited-scope privileges and responsibilities to assist [administrators](team.md#administrators) with enforcement.
 
-### Reporting
+### Blocking users
 
-[Moderators](governance.md#moderator) have access to the private repository at <https://github.com/r-multiverse/moderation>.
-In the event of any [policy](policies.md) violation, [moderators](governance.md#moderator) are responsible for immediately reporting the incident to a new thread at <https://github.com/r-multiverse/moderation/issues>.
+Attackers and may attempt to spam or sabotage R-multiverse infrastructure.
+Examples include but are not limited to:
 
-The [administrators](team.md#administrators) and [moderators](governance.md#moderator) will confidentially discuss and resolve the issue.
-After resolution, an [administrator](team.md#administrators) will publicly notify all R-multiverse stakeholders in a new issue thread at <https://github.com/r-multiverse/help>.
-The public thread will not disclose the identities of any victims of the incident or any [moderators](governance.md#moderator) involved in its resolution.
+* [Contributing](contributors.md) malware with a clear intent to cause harm.
+* Posting repetitive comments, unsolicited advertisements, or inappropriate material at <https://github.com/r-multiverse/help> or <https://github.com/r-multiverse/contributions/pulls>.
+* Overwhelming <https://github.com/r-multiverse/contributions/pulls> with spam pull requests.
 
-### Packages
+Please quickly add malicious GitHub users to the blocked users list at <https://github.com/organizations/r-multiverse/settings/blocked_users>.
+This will impede ongoing attacks by blocking the users from the [R-multiverse GitHub organization](https://github.com/r-multiverse).
+
+### Removing packages from Community
 
 [Moderators](governance.md#moderator) are responsible for removing R packages from <https://github.com/r-multiverse/contributions> which contain malware, invalid licenses^[[`nonstandard_licenses.json`](https://github.com/r-multiverse/community/blob/main/nonstandard_licenses.json) is a continuously updating list of packages with non-standard licenses.], or otherwise violate [acceptable use](aup.md).
 To remove a package, edit the text in its [contribution listing file](https://github.com/r-multiverse/contributions/tree/main/packages):
@@ -136,13 +139,33 @@ This package was removed from R-multiverse because the latest release had "LICEN
 
 The [Community repository](https://github.com/r-multiverse/community) will then automatically detect the unstructured text and remove the package.
 
-### Vulnerabilities
+In an emergency that requires the immediate removal of a package, please also manually delete the [Community `packages.json` file](https://github.com/r-multiverse/community/blob/main/packages.json) and [Staging `packages.json` file](https://github.com/r-multiverse/staging/blob/main/packages.json).
 
-If a package contains malware or exploitable vulnerabilities, [moderators](governance.md#moderator) are responsible for reporting the affected package versions to the [R Consortium Advisory Database](https://github.com/RConsortium/r-advisory-database).
+### Repairing other damage
 
-### Spam
+After blocking a malicious user, please delete any comments or [contributed package listings](https://github.com/r-multiverse/contributions/tree/main/packages) which cause harm or constitute spam.
 
-TBD
+### Reporting to R-multiverse
+
+Please report all known [policy](policies.md) violations to the [issue tracker](https://github.com/r-multiverse/moderation) in the private repository at <https://github.com/r-multiverse/moderation>.
+An [administrator](team.md#administrators) will respond and work with you on a resolution.
+After resolving the issue, the [administrator](team.md#administrators) will publicly notify all R-multiverse stakeholders in a new issue thread at <https://github.com/r-multiverse/help>.
+The public thread will not disclose the identities of any victims of the incident or any [moderators](governance.md#moderator) involved in its resolution.
+
+### Reporting to GitHub/GitLab
+
+A violation of [R-multiverse policies](policies.md) may also violate [GitHub policies](https://docs.github.com/en/site-policy) or [GitLab policies](https://handbook.gitlab.com/handbook/legal/): for example, a malicious user or a package with malware.
+If that is the case, please immediately report the user and/or package using [GitHub's "Report abuse or spam" webform](https://support.github.com/contact/report-abuse?category=report-abuse&report=other&report_type=unspecified) or [GitLab's "Report abuse" procedure](https://docs.gitlab.com/ee/user/report_abuse.html).
+
+### Reporting to the R Consortium Advisory Database
+
+If a package contains malware or exploitable vulnerabilities, please report the affected package versions to the [R Consortium Advisory Database](https://github.com/RConsortium/r-advisory-database).
+
+### Out of scope
+
+[Moderators](governance.md#moderator) should not attempt to directly confront malicious users/contributors, resolve [code of conduct](conduct.md) violations, or engage with legal matters relating to policy violations.
+[Administrator](team.md#administrators) directly handle these and similar cases.
+Please post to <https://github.com/r-multiverse/moderation/issues> to notify an [administrator](team.md#administrators).
 
 # Contact
 
