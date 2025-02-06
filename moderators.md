@@ -173,3 +173,5 @@ Please post to <https://github.com/r-multiverse/moderation/issues> to notify an 
 # Contact
 
 If you have questions, please post a [discussion thread](https://github.com/r-multiverse/help/discussions).
+If you need to communicate confidentially, please email `administrators@r-multiverse.org`.
+
