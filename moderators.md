@@ -19,9 +19,9 @@ This section describes the process to become a [moderator](governance.md#moderat
 1. Proficient in the English language.
 1. Able to manage content on [GitHub](https://github.com) such as repositories, pull requests, issues, and discussions.
 1. Prepared to facilitate the [process to contribute packages to R-multiverse](https://r-multiverse.org/contributors.html).
-1. Prepared to facilitate discussions and answer questions on the [`r-multiverse/help`](https://github.com/r-multiverse/help)
-  [issue](https://github.com/r-multiverse/help/issues) and [discussion](https://github.com/r-multiverse/help/discussions) forums.
-1. Prepared to enforce [all R-multiverse policies](policies.md).
+1. Prepared to facilitate discussions and answer questions on the [`r-multiverse/help`](https://github.com/r-multiverse/help) [issue](https://github.com/r-multiverse/help/issues) and [discussion](https://github.com/r-multiverse/help/discussions) forums.
+1. Familiar with [all R-multiverse policies](policies.md).
+1. Prepared to assist with the enforcement of [R-multiverse policies](policies.md) (see the "Policy Enforcement" section below).
 
 ## Selection
 
@@ -72,7 +72,7 @@ If you are selected as a [moderator](governance.md#moderator) and you agree to j
 Please include your full name, a description, your GitHub profile photo if available, and your professional affiliation if applicable.
 An [administrator](governance.md#administrator) will review and merge the pull request.
 1. Next, an [administrator](governance.md#administrator) will add you to the [R-multiverse GitHub moderator team](https://github.com/orgs/r-multiverse/teams/moderators).
-This team has maintainer access to <https://github.com/r-multiverse/contributions> and triage access to <https://github.com/r-multiverse/help> and <https://github.com/r-multiverse/topics>.
+This team has maintainer access to <https://github.com/r-multiverse/contributions>, triage access to <https://github.com/r-multiverse/help> and <https://github.com/r-multiverse/topics>, and read access to <https://github.com/r-multiverse/moderation>.
 
 ## Offboarding
 
@@ -112,33 +112,37 @@ A [moderator](governance.md#moderator) may close an [issue](https://github.com/r
 
 ## Enforcement
 
-[Moderators](governance.md#moderator) must understand [all R-multiverse policies](policies.md) and be prepared to enforce them.
-[Moderators](governance.md#moderator) must respond immediately and quickly to the following rare cases.
-Each incident, the actions taken to respond to the incident, and the resolution must be reported as an issue at <https://github.com/r-multiverse/help/issues> with the label "policy violation".
-If you do not feel comfortable taking direct action yourself, contact an [administrator](team.md#administrators) immediately and ask the [administrator](team.md#administrators) handle the situation.
+[Administrators](team.md#administrators) take primary responsibility for enforcing all [R-multiverse policies](policies.md).
+[Moderators](governance.md#moderator) are granted the following limited-scope privileges and responsibilities to assist [administrators](team.md#administrators) with enforcement.
 
-1. In case of an extreme policy violation,
-  block the user from [R-multiverse GitHub repositories](https://github.com/r-multiverse)
-  by adding the GitHub username to the [list of blocked users](https://github.com/organizations/r-multiverse/settings/blocked_users).
-1. If an R-multiverse package or [R-multiverse stakeholder](governance.md#r-multiverse-stakeholders) violates any applicable laws, ask an [administrator](team.md#administrators) to contact the appropriate law enforcement agency.
-1. If an R-multiverse package on GitHub and violates any [GitHub policies](https://docs.github.com/en/site-policy),
-  [report the violation to GitHub](https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam)
-1. If an R-multiverse package on GitLab and violates any [GitLab policies](https://handbook.gitlab.com/handbook/legal/#gitlab-policies)
-  such as [Acceptable Use](https://handbook.gitlab.com/handbook/legal/acceptable-use-policy/),
-  [report the violation to GitLab](https://docs.gitlab.com/ee/user/report_abuse.html).
-1. If an R-multiverse package has a security vulnerability such as malware,
-  report all relevant versions of the package to the [R Advisory Database](https://github.com/rconsortium/r-advisory-database).
-1. For [Code of Conduct](conduct.html) violations, please follow the [Code of Conduct enforcement guidelines](https://r-multiverse.org/conduct.html#enforcement-guidelines).
+### Reporting
 
-If a package violates any R-multiverse [policy](policies.md) (for example, if the [license](https://en.wikipedia.org/wiki/Free_and_open-source_software) is invalid ^[ [This list](https://github.com/r-multiverse/community/blob/main/nonstandard_licenses.json) automatically track packages without valid [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) licenses.
-[Moderators](governance.md#moderator) should block each package in this list until the package authors add a valid [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) license and resolve all other [policy](policies.md) violations.
-]), a [moderator](governance.md#moderator) must block it from R-multiverse:
+[Moderators](governance.md#moderator) have access to the private repository at <https://github.com/r-multiverse/moderation>.
+In the event of any [policy](policies.md) violation, [moderators](governance.md#moderator) are responsible for immediately reporting the incident to a new thread at <https://github.com/r-multiverse/moderation/issues>.
 
-1. Locate the [package listing](https://github.com/r-multiverse/contributions/tree/main/packages)
-  in the [contributions repository](https://github.com/r-multiverse/contributions).
-2. Replace the URL or custom JSON in the listing with free-form text (not a URL or parseable JSON) explaining why the package was blocked.
-  ^[If the listing cannot be parsed as a URL or JSON, then a bot will automatically remove the package from R-multiverse infrastructure.]
-3. Contact the package authors (confidentially if needed) to inform them of these actions.
+The [administrators](team.md#administrators) and [moderators](governance.md#moderator) will confidentially discuss and resolve the issue.
+After resolution, an [administrator](team.md#administrators) will publicly notify all R-multiverse stakeholders in a new issue thread at <https://github.com/r-multiverse/help>.
+The public thread will not disclose the identities of any victims of the incident or any [moderators](governance.md#moderator) involved in its resolution.
+
+### Packages
+
+[Moderators](governance.md#moderator) are responsible for removing R packages from <https://github.com/r-multiverse/contributions> which contain malware, invalid licenses^[[`nonstandard_licenses.json`](https://github.com/r-multiverse/community/blob/main/nonstandard_licenses.json) is a continuously updating list of packages with non-standard licenses.], or otherwise violate [acceptable use](aup.md).
+To remove a package, edit the text in its [contribution listing file](https://github.com/r-multiverse/contributions/tree/main/packages):
+replace the URL/JSON with free-form text that explains why the package was removed. For example:
+
+```
+This package was removed from R-multiverse because the latest release had "LICENSE: TBD" in the DESCRIPTION file, which is not a valid FOSS license. R-multiverse requires a valid FOSS license to ensure the copyrights of the authors are protected (see https://r-multiverse.org/aup.html#intellectual-property and https://r-multiverse.org/aup.html#enforcement-and-reporting-violations).
+```
+
+The [Community repository](https://github.com/r-multiverse/community) will then automatically detect the unstructured text and remove the package.
+
+### Vulnerabilities
+
+If a package contains malware or exploitable vulnerabilities, [moderators](governance.md#moderator) are responsible for reporting the affected package versions to the [R Consortium Advisory Database](https://github.com/RConsortium/r-advisory-database).
+
+### Spam
+
+TBD
 
 # Contact
 
