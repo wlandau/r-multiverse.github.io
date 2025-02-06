@@ -44,25 +44,28 @@ Here is just a small list of examples:
 
 ## Volunteering
 
-If you would like to volunteer as a [moderator](governance.md#moderator), [please fill out the application web form](). The form asks you about yourself:
+If you would like to volunteer as a [moderator](governance.md#moderator), please fill out the email template below and send it to `administrators@r-multiverse.org` with the subject line "Joining as Moderator".
+Each occurrence of `___` in the template below is a placeholder for a response from you.
+All the other text can remain exactly as shown below, with no modification.
 
-1. What is your full name?
-1. What are your pronouns? (Examples: they/them, she/her, he/him)
-1. If applicable, please write your professional affiliation.
-1. What is your GitHub username?
-1. Please share links to R packages you have authored or contributed to.
-1. Please share links that point to your online presence: for example, personal websites, social media profile pages, project websites, Shiny apps, presentations, and/or software reviews (e.g. for [rOpenSci](https://ropensci.org) or [JOSS](https://joss.theoj.org), etc.).
-1. What other ways, if any, are you involved in the R community?
-1. How many years, if any, have you developed or contributed to R packages?
-1. How many years, if any, have you been involved in the R community?
-1. What are your areas of professional subject matter expertise? (For example: statistics, databases, ecology, genomics, clinical trials, etc.)
+```
+To the R-multiverse Administrators:
 
-and the ways you would like to get involved:
+I would like to join R-multiverse as a Moderator. Please find my responses below.
 
-1. Have you read the [moderator documentation](moderators.md) and [all R-multiverse policies](policies.md)? (Required for moderators.)
-1. Are you prepared to enforce [all R-multiverse policies](policies.md)? (Required for moderators.)
-1. How many hours per month will you commit to reviewing [contributed packages](contributions.md)? (Any amount is okay.)
-1. How many hours per month will you commit to moderating [issues](https://github.com/r-multiverse/help/issues) and [discussions](https://github.com/r-multiverse/help/discussions)? (Any amount is okay.)
+* Full name: ___
+* Pronouns (examples: they/them, she/her, he/him): ___
+* Professional affiliation, if applicable: ___
+* GitHub user name: ___
+* Links to R packages I have authored or contributed to, if any: ___
+* Links that point to my online presence (for example, personal websites, social media profile pages, project websites, Shiny apps, presentations, and/or software reviews (e.g. for rOpenSci or the Journal of Open Source Software)): ___
+* Other ways, if any, that I am involved in the R community: ___
+* Number of years, if any, that I have developed or contributed to R packages: ___
+* Number of years, if any, that I have been involved in the R community: ___
+* Areas of professional subject matter expertise (or example: statistics, databases, ecology, genomics, clinical trials, etc.): ___
+* Number of hours per month I will commit to reviewing contributed packages (any number is okay): ___
+* Number of hours per month I will commit to moderating issues and discussions at https://github.com/r-multiverse/help: ___
+```
 
 ## Onboarding
 
