@@ -66,8 +66,14 @@ The R-multiverse project is managed through a collaborative, consensus-based app
 
 Communication is always done publicly via GitHub, and all decisions related to the project are made in public.
 
-An exception exists for confidential security and conduct-related matters, for which there is a private GitHub repository accessible by administrators only.
-The use of this private repository ensures that even confidential conversations remain accountable and open to audit.
+Exceptions exists for:
+
+1. Confidential security and conduct-related matters, for which there is a private GitHub repository accessible by administrators only.
+1. Reporting, tracking, and resolving [policy](policies.md) violations.
+For this, there is a second private GitHub repository accessible by administrators and moderators only.
+[Policy](policies.md) violations are always reported publicly to <https://github.com/r-multiverse/help> after they are resolved, without disclosing the identities of the victims or Moderators involved.
+
+The use of these two private repositories ensures that even confidential conversations remain accountable and open to audit.
 
 Private mailing lists are not used by the project.
 
