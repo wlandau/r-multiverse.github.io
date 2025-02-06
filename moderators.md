@@ -48,7 +48,7 @@ If you would like to volunteer as a [moderator](governance.md#moderator), [pleas
 
 1. What is your full name?
 1. What are your pronouns? (Examples: they/them, she/her, he/him)
-1. If applicable, please write your professional affiliation. (For context, please refer to [this discussion thread in the R-multiverse help repository](https://github.com/r-multiverse/help/discussions/93).)
+1. If applicable, please write your professional affiliation.
 1. What is your GitHub username?
 1. Please share links to R packages you have authored or contributed to.
 1. Please share links that point to your online presence: for example, personal websites, social media profile pages, project websites, Shiny apps, presentations, and/or software reviews (e.g. for [rOpenSci](https://ropensci.org) or [JOSS](https://joss.theoj.org), etc.).
