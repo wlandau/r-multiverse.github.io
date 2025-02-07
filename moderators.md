@@ -17,7 +17,7 @@ This section describes the process to become a [moderator](governance.md#moderat
 
 1. Proficient in [R package development](https://r-pkgs.org/).
 1. Proficient in the English language.
-1. Able to manage content on [GitHub](https://github.com) such as repositories, pull requests, issues, and discussions.
+1. Able to manage content on [GitHub](https://happygitwithr.com/) such as repositories, pull requests, issues, and discussions.
 1. Prepared to facilitate the [process to contribute packages to R-multiverse](https://r-multiverse.org/contributors.html).
 1. Prepared to facilitate discussions and answer questions on the [`r-multiverse/help`](https://github.com/r-multiverse/help) [issue](https://github.com/r-multiverse/help/issues) and [discussion](https://github.com/r-multiverse/help/discussions) forums.
 1. Familiar with [all R-multiverse policies](policies.md).
