@@ -80,7 +80,8 @@ This team has maintainer access to <https://github.com/r-multiverse/contribution
 
 ## Offboarding
 
-If you no longer wish to serve as a [moderator](governance.md#moderator), please inform an [administrator](governance.md#administrator). The administrator will remove you from the [R-multiverse GitHub moderator team](https://github.com/orgs/r-multiverse/teams/moderators) and submit a pull request to remove your entry from the [teams page on the website](https://github.com/r-multiverse/r-multiverse.github.io/blob/main/team.md).
+If you no longer wish to serve as a [moderator](governance.md#moderator), please inform an [administrator](governance.md#administrator).
+The administrator will remove you from the [R-multiverse GitHub moderator team](https://github.com/orgs/r-multiverse/teams/moderators) and submit a pull request to remove your entry from the [teams page on the website](https://github.com/r-multiverse/r-multiverse.github.io/blob/main/team.md).
 
 # Scope
 
