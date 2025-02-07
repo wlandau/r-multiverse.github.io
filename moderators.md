@@ -89,7 +89,7 @@ This section explains the privileges and responsibilities of [moderators](govern
 All these privileges and responsibilities are also shared with the [administrators](governance.md#administrator).
 If you have a question, please post a discussion to <https://github.com/r-multiverse/help/discussions> or confidentially reach out to one of the current [administrators](team.md#administrators).
 
-## Contributions
+## Reviewing Contributions
 
 [Moderators](governance.md#moderator) review R package contributions to R-multiverse.
 [The contribution process is described on the website](https://r-multiverse.org/contributors.html) and is governed by the official [R-multiverse review policy](review.md).
@@ -98,6 +98,29 @@ The role of a [moderator](governance.md#moderator) is to read contributions at <
 
 As a [moderator](governance.md#moderator), you may optionally restrict your review to packages in your area of expertise.
 Simply search [contributions](https://github.com/r-multiverse/contributions/pulls) for relevant keywords, including [R-multiverse topics](https://r-multiverse.org/topics/).
+
+## Maintaining Contributions
+
+[Moderators](governance.md#moderator) stay involved and engaged even after contributed packages are accepted.
+For example, a community member may report name conflicts between R-multiverse and CRAN.
+In that case, a [moderator](governance.md#moderator) should contact the maintainers of the respective packages and work together toward a solution which is agreeable to the maintainers and which ensures the compatibility between R-multiverse and CRAN where possible.
+If you have trouble, please ask an [administrator](governance.md#administrator) for help.
+
+## Removing Contributions
+
+It may become necessary to remove packages from R-multiverse, either because of [policy](policies.md) violations or at the request of the maintainers.
+To remove a package, edit the text in its [contribution listing file](https://github.com/r-multiverse/contributions/tree/main/packages):
+replace the URL/JSON with free-form text that explains why the package was removed. For example:
+
+```
+This package was removed from R-multiverse because the latest release had "LICENSE: TBD" in the DESCRIPTION file, which is not a valid FOSS license. R-multiverse requires a valid FOSS license to ensure the copyrights of the authors are protected (see https://r-multiverse.org/aup.html#intellectual-property and https://r-multiverse.org/aup.html#enforcement-and-reporting-violations).
+```
+
+The [Community repository](https://github.com/r-multiverse/community) will then automatically detect the unstructured text and remove the package.
+Unless the package name itself violates R-multiverse [policies](policies.md), please do not delete the [contribution listing file](https://github.com/r-multiverse/contributions/tree/main/packages).
+^[In this case, the [contribution listing file](https://github.com/r-multiverse/contributions/tree/main/packages) serves as a placeholder in case a contributor wants to reuse the same name for a different package.]
+
+In an emergency that requires the immediate removal of a package, please also manually delete the [Community `packages.json` file](https://github.com/r-multiverse/community/blob/main/packages.json) and [Staging `packages.json` file](https://github.com/r-multiverse/staging/blob/main/packages.json).
 
 ## Topics
 
@@ -135,16 +158,7 @@ This will impede ongoing attacks by blocking the users from the [R-multiverse Gi
 ### Removing packages from Community
 
 [Moderators](governance.md#moderator) are responsible for removing R packages from <https://github.com/r-multiverse/contributions> which contain malware, invalid licenses^[[`nonstandard_licenses.json`](https://github.com/r-multiverse/community/blob/main/nonstandard_licenses.json) is a continuously updating list of packages with non-standard licenses.], or otherwise violate [acceptable use](aup.md).
-To remove a package, edit the text in its [contribution listing file](https://github.com/r-multiverse/contributions/tree/main/packages):
-replace the URL/JSON with free-form text that explains why the package was removed. For example:
-
-```
-This package was removed from R-multiverse because the latest release had "LICENSE: TBD" in the DESCRIPTION file, which is not a valid FOSS license. R-multiverse requires a valid FOSS license to ensure the copyrights of the authors are protected (see https://r-multiverse.org/aup.html#intellectual-property and https://r-multiverse.org/aup.html#enforcement-and-reporting-violations).
-```
-
-The [Community repository](https://github.com/r-multiverse/community) will then automatically detect the unstructured text and remove the package.
-
-In an emergency that requires the immediate removal of a package, please also manually delete the [Community `packages.json` file](https://github.com/r-multiverse/community/blob/main/packages.json) and [Staging `packages.json` file](https://github.com/r-multiverse/staging/blob/main/packages.json).
+To remove a package, please follow the instructions from the "Removing Contributions" section above.
 
 ### Repairing other damage
 
