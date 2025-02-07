@@ -30,6 +30,7 @@ Beyond the [prerequisites](#prerequisites) above, [administrators](governance.md
 A [moderator](governance.md#moderator) should have a positive, strong, visible, verifiable presence in the R community.
 If you would like to be a [moderator](governance.md#moderator), please help [R-multiverse stakeholders](governance.md#r-multiverse-stakeholders) understand who you are and what you work on.
 There are countless ways to grow your public reputation, and each individual [moderator](governance.md#moderator) has their own unique type of impact.
+
 Here is just a small list of examples:
 
 * Contribute packages to well-known repositories (or R-multiverse).
@@ -38,7 +39,7 @@ Here is just a small list of examples:
 * Organize a chapter of [R-Ladies](https://www.meetup.com/R-ladies/).
 * Curate [R Weekly](https://rweekly.org).
 * Contribute to an [R Consortium ISC working group](https://r-consortium.org/all-projects/isc-working-groups.html).
-* Contribute to a professional organization such as an [ASA](https://community.amstat.org/) like [openstatsware](https://www.openstatsware.org).
+* Contribute to a professional organization such as an [ASA](https://community.amstat.org/) group or [openstatsware](https://www.openstatsware.org).
 * Organize an R user group. ([Meetup](https://www.meetup.com/pro/r-user-groups/) and [Jumping Rivers](https://jumpingrivers.github.io/meetingsR/r-user-groups.html) list examples.)
 * Publish R-focused articles in journals such as the [R Journal](https://journal.r-project.org), the [Journal of Statistical Software](https://www.jstatsoft.org), or the [Journal of Open Source Software](https://joss.theoj.org).
 
