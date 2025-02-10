@@ -81,7 +81,7 @@ This team has maintainer access to <https://github.com/r-multiverse/contribution
 
 ## Offboarding
 
-If you no longer wish to serve as a [moderator](governance.md#moderator), please inform an [administrator](governance.md#administrator) and post a new issue of type "Moderator offboarding" at <https://github.com/r-multiverse/>.
+If you no longer wish to serve as a [moderator](governance.md#moderator), please inform an [administrator](governance.md#administrator) by posting a new issue of type "Moderator offboarding" at <https://github.com/r-multiverse/help>.
 The administrator will then remove you from the [R-multiverse GitHub moderator team](https://github.com/orgs/r-multiverse/teams/moderators) and submit a pull request to remove your entry from the [team page on the website](https://github.com/r-multiverse/r-multiverse.github.io/blob/main/team.md).
 
 # Scope
@@ -190,5 +190,5 @@ Please post to <https://github.com/r-multiverse/moderation/issues> to notify an 
 # Contact
 
 If you have questions, please post a [discussion thread](https://github.com/r-multiverse/help/discussions).
-If you need to communicate confidentially, please email `administrators@r-multiverse.org`.
-
+To communicate confidentially among the [administrators](team.md#administrators) and other [moderators](team.md#moderators), please post a new issue, discussion, or comment to the private repository at <https://github.com/r-multiverse/moderation>.
+If you need to communicate confidentially with only the administrators, please email `administrators@r-multiverse.org`.
