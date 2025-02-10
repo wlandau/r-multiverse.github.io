@@ -82,7 +82,7 @@ This GitHub team has maintainer access to <https://github.com/r-multiverse/contr
 ## Offboarding
 
 If you no longer wish to serve as a [moderator](governance.md#moderator), please inform an [administrator](governance.md#administrator) by posting a new issue of type "Moderator offboarding" at <https://github.com/r-multiverse/help>.
-The administrator will then remove you from the [R-multiverse moderator GitHub team](https://github.com/orgs/r-multiverse/teams/moderators) and submit a pull request to move you from the [moderator section](team.md#moderators) to the [alumni section](team.md#alumnni) on the [team page of the website](team.md).
+The administrator will then remove you from the [R-multiverse moderator GitHub team](https://github.com/orgs/r-multiverse/teams/moderators) and submit a pull request to transfer you from the [moderator section](team.md#moderators) to the [alumni section](team.md#alumnni) on the [team page of the website](team.md).
 
 # Scope
 
