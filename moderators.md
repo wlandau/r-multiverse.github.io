@@ -73,16 +73,16 @@ I would like to join R-multiverse as a Moderator. Please find my responses below
 If you are selected as a [moderator](governance.md#moderator) and you agree to join, please work with an [administrator](governance.md#administrator) to complete the onboarding process:
 
 1. Please open a new issue of type "Moderator onboarding" at <https://github.com/r-multiverse/help/issues> to track the onboarding process.
-1. Please submit a pull request the [website repository](https://github.com/r-multiverse/r-multiverse.github.io) to add yourself to the [moderator](governance.md#moderator) list on the [teams page](https://github.com/r-multiverse/r-multiverse.github.io/blob/main/team.md).
+1. Please submit a pull request the [website repository](https://github.com/r-multiverse/r-multiverse.github.io) to add yourself to the [moderator section](team.md#moderators) on the [team page](team.md).
 Please include your full name, a description, your GitHub profile photo if available, and your professional affiliation if applicable.
 An [administrator](governance.md#administrator) will review and merge the pull request.
-1. Next, an [administrator](governance.md#administrator) will add you to the [R-multiverse GitHub moderator team](https://github.com/orgs/r-multiverse/teams/moderators).
-This team has maintainer access to <https://github.com/r-multiverse/contributions>, triage access to <https://github.com/r-multiverse/help> and <https://github.com/r-multiverse/topics>, and read access to <https://github.com/r-multiverse/moderation>.
+1. Next, an [administrator](governance.md#administrator) will add you to the [R-multiverse moderator GitHub team](https://github.com/orgs/r-multiverse/teams/moderators).
+This GitHub team has maintainer access to <https://github.com/r-multiverse/contributions>, triage access to <https://github.com/r-multiverse/help> and <https://github.com/r-multiverse/topics>, and read access to <https://github.com/r-multiverse/moderation>.
 
 ## Offboarding
 
 If you no longer wish to serve as a [moderator](governance.md#moderator), please inform an [administrator](governance.md#administrator) by posting a new issue of type "Moderator offboarding" at <https://github.com/r-multiverse/help>.
-The administrator will then remove you from the [R-multiverse GitHub moderator team](https://github.com/orgs/r-multiverse/teams/moderators) and submit a pull request to remove your entry from the [team page on the website](https://github.com/r-multiverse/r-multiverse.github.io/blob/main/team.md).
+The administrator will then remove you from the [R-multiverse moderator GitHub team](https://github.com/orgs/r-multiverse/teams/moderators) and submit a pull request to move you from the [moderator section](team.md#moderators) to the [alumni section](team.md#alumnni) on the [team page of the website](team.md).
 
 # Scope
 

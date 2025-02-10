@@ -99,6 +99,10 @@ He is one of the maintainers for the [Rocker](https://rocker-project.org/) proje
 
 :::
 
+## Alumni
+
+
+
 ## Roles
 
 * Administrators build the team, develop the infrastructure, and write the policies that govern R-multiverse.
