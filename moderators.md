@@ -52,7 +52,7 @@ All the other text can remain exactly as shown below, with no modification.
 ```
 To the R-multiverse Administrators:
 
-I would like to join R-multiverse as a Moderator. Please find my responses below.
+I would like to join R-multiverse as a moderator. Please find my responses below.
 
 * Full name: ___
 * Pronouns (examples: they/them, she/her, he/him): ___
