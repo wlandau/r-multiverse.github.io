@@ -142,7 +142,7 @@ A [moderator](governance.md#moderator) may close an [issue](https://github.com/r
 ## Enforcement
 
 [Administrators](team.md#administrators) take primary responsibility for enforcing all [R-multiverse policies](policies.md).
-[Moderators](governance.md#moderator) are granted the following limited-scope privileges and responsibilities to assist [administrators](team.md#administrators) with enforcement.
+[Moderators](governance.md#moderator) are delegated the following limited-scope privileges and responsibilities to assist [administrators](team.md#administrators) with enforcement.
 
 ### Blocking users
 
