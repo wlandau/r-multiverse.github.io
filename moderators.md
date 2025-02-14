@@ -35,7 +35,7 @@ Here is just a small list of examples:
 
 * Contribute packages to well-known repositories (or R-multiverse).
 * Contribute or [review](https://ropensci.org/software-review/) for [rOpenSci](https://ropensci.org).
-* Organize or speak at an R-focused conference. Examples include but are not limited to the [list at r-project.org](https://www.r-project.org/conferences/), [LatinR](https://latinr.org), and [R/Pharma](https://rinpharma.com/).
+* Organize or speak at an R-focused conference. Examples include but are not limited to the [list at r-project.org](https://www.r-project.org/conferences/), [posit::conf](https://posit.co/conference/), [LatinR](https://latinr.org), and [R/Pharma](https://rinpharma.com/).
 * Organize a chapter of [R-Ladies](https://www.meetup.com/R-ladies/).
 * Curate [R Weekly](https://rweekly.org).
 * Contribute to an [R Consortium ISC working group](https://r-consortium.org/all-projects/isc-working-groups.html).
