@@ -97,11 +97,12 @@ To add a dynamic 'R-multiverse' badge for package readme files, like the one abo
 
 If it becomes necessary to deregister a package from R-multiverse, you may submit a
 [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
-to remove the [package listing](https://github.com/r-multiverse/contributions/tree/main/packages).
+to edit the [package listing](https://github.com/r-multiverse/contributions/tree/main/packages).
+Please replace the URL/JSON contents with unstructured/free-form text to explain the reason for removing the package.
 To prevent a package of the same name from registering in R-multiverse,
-you may contribute a listing with free-form text (not a URL or JSON list).
+please do not delete the [package listing file](https://github.com/r-multiverse/contributions/tree/main/packages)
+unless the package name itself violates R-multiverse [policies](policies.md).
 Packages with missing or free-form listings are removed from [Community](community.md), and the subsequent [Production](production.qmd) snapshot will not include them. 
-
 
 ## Help
 
