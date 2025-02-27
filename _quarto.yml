@@ -7,7 +7,7 @@ project:
 
 website:
   title: "R-multiverse"
-  description: "A community-curated package repository system, powered by R-universe"
+  description: "A community-curated dual R package repository, powered by R-universe"
   site-url: "https://r-multiverse.org"
   favicon: "logo/logo-hexbin.png"
   image: "logo/logo-hexbin.png"
