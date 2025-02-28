@@ -11,25 +11,25 @@ which are mutually compatible and meet a high standard of quality.
 
 ## Users
 
-Production deploys in periodic snapshots throughout the year (details below).
-The current Production snapshot was created on `r snapshot_date()` when base R had version `r snapshot_r()`.
-All packages passed automated checks at that time.
-However, the same checks might not pass using a different version of R or
-different versions of dependencies from [CRAN](https://cran.r-project.org/).
+Production deploys in [periodic snapshots throughout the year](#schedule).
+Prior to each snapshot, packages are tested in a month-long [Staging](#staging) cycle
+in which healthy packages from [Community](community.md), dependencies from [CRAN](https://cran.r-project.org/),
+and the version of base R are all held constant.
 
-For the current snapshot, please use R version `r snapshot_r()` and [CRAN](https://cran.r-project.org/) dependencies
-from `r snapshot_date()` to ensure compatibility.
-[Posit Public Package Manager (p3m)](https://packagemanager.posit.co) can help.
-Example:^[Caveat: when setting two URLs in the repos argument, the same package may be in both repositories, and the highest version is always preferred.]
+The current Production snapshot was deployed on `r snapshot_date()` after [one month of testing](#staging) against R version `r snapshot_r()` and [CRAN](https://cran.r-project.org/) dependencies from `r staging_date()`.
+For optimal compatibility, please use [Production](production.qmd) with R `r snapshot_r()` and the [Posit Public Package Manager (p3m)](https://packagemanager.posit.co) snapshot of CRAN from `r staging_date()`.
+
 
 ```{r, eval = TRUE, echo = FALSE, results = "asis"}
 text <- c(
   "```r",
+  "getRversion()",
+  sprintf("#> [1] ‘%s’\n", snapshot_r()),
   "install.packages(",
   "  \"polars\",",
   "  repos = c(",
   "    \"https://production.r-multiverse.org\",",
-  sprintf("    \"https://packagemanager.posit.co/cran/%s\"", snapshot_date()),
+  sprintf("    \"https://packagemanager.posit.co/cran/%s\"", staging_date()),
   "  )",
   ")",
   "```"
@@ -62,13 +62,15 @@ Packages change slowly in Production, but they are mutually compatible.
 Rather than pull releases directly from [Community](community.md),
 Production draws from an intermediate repository called [Staging](#staging).
 The [Staging](#staging) repository is active during the month-long period prior to each snapshot.
-During that time, [Staging](#staging) stabilizes the Production candidates
-while still allowing bug fixes.
+During that time, [Staging](#staging) holds constant:
+
+1. The R-multiverse packages which are candidates for Production and currently pass automated checks.
+1. The versions of dependency packages from CRAN.
+1. The targeted version of base R.
 
 While [Staging](#staging) is active, if a package is failing one or more [R-multiverse checks](#checks),
 then new releases of that package are continuously pulled from [Community](community.md).
-Otherwise, [Staging](#staging) freezes the package at its current release
-and no longer accepts updates from [Community](community.md).
+Otherwise, if the package passes [checks](#checks), then [Staging](#staging) freezes the package at its current release version and no longer accepts updates from [Community](community.md).
 This freeze prevents new problems in reverse dependencies downstream.
 
 At snapshot time, Production creates the snapshot from the subset of package releases in
