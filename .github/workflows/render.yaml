@@ -3,10 +3,10 @@ on:
   push:
     branches: main
   schedule:
-    - cron: '0 18 15 2 *'  # February 15 at 6:00 PM UTC
-    - cron: '0 18 15 5 *'  # May 15 at 6:00 PM UTC
-    - cron: '0 18 15 8 *'  # August 15 at 6:00 PM UTC
-    - cron: '0 18 15 11 *' # November 15 at 6:00 PM UTC
+    - cron: '0 18 15 3 *'  # March 15 at 6:00 PM UTC
+    - cron: '0 18 15 5 *'  # June 15 at 6:00 PM UTC
+    - cron: '0 18 15 9 *'  # September 15 at 6:00 PM UTC
+    - cron: '0 18 15 12 *' # December 15 at 6:00 PM UTC
 
 name: render
 

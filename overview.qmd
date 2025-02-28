@@ -2,6 +2,10 @@
 title: "Overview"
 ---
 
+```{r, eval = TRUE, echo = FALSE}
+source("R/utils.R")
+```
+
 R-multiverse provides:
 
 1. A home for packages that fall outside the scope of other repositories such as CRAN and Bioconductor.
@@ -35,17 +39,19 @@ install.packages(
 )
 ```
 
-and from [Production](production.qmd):
+The current [Production](production.qmd) snapshot was deployed on `r snapshot_date()` after [one month of testing](production.qmd#staging) against R version `r snapshot_r()` and [CRAN](https://cran.r-project.org/) dependencies from `r staging_date()`.
+For optimal compatibility, please use [Production](production.qmd) with R `r snapshot_r()` and the [Posit Public Package Manager (p3m)](https://packagemanager.posit.co) snapshot of CRAN from `r staging_date()`:
 
 ```{r, eval = TRUE, echo = FALSE, results = "asis"}
-source("R/utils.R")
 text <- c(
   "```r",
+  "getRversion()",
+  sprintf("#> [1] ‘%s’\n", snapshot_r()),
   "install.packages(",
   "  \"polars\",",
   "  repos = c(",
   "    \"https://production.r-multiverse.org\",",
-  sprintf("    \"https://packagemanager.posit.co/cran/%s\"", snapshot_date()),
+  sprintf("    \"https://packagemanager.posit.co/cran/%s\"", staging_date()),
   "  )",
   ")",
   "```"
