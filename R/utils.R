@@ -8,7 +8,7 @@ snapshot_date <- function() {
     "production",
     "refs",
     "heads",
-    "main",
+    branch,
     "date_snapshot.txt"
   )
   cache[["snapshot_date"]] <- readLines(url(path))
@@ -25,7 +25,7 @@ staging_date <- function() {
     "production",
     "refs",
     "heads",
-    "main",
+    branch,
     "date_staging_start.txt"
   )
   cache[["staging_date"]] <- readLines(url(path))
@@ -42,11 +42,13 @@ snapshot_r <- function() {
     "production",
     "refs",
     "heads",
-    "main",
+    branch,
     "r_version_full.txt"
   )
   cache[["snapshot_r"]] <- readLines(url(path))
   cache[["snapshot_r"]]
 }
+
+branch <- "gh-pages"
 
 cache <- new.env(parent = emptyenv())

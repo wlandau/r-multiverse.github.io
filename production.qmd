@@ -14,7 +14,7 @@ which are mutually compatible and meet a high standard of quality.
 Production deploys in [periodic snapshots throughout the year](#schedule).
 Prior to each snapshot, packages are tested in a month-long [Staging](#staging) cycle
 in which healthy packages from [Community](community.md), dependencies from [CRAN](https://cran.r-project.org/),
-and the version of base R are all held constant.
+and the version of base R are all held constant.^[The patch version of base  R may change, but the major and minor versions are held constant.]
 
 The current Production snapshot was deployed on `r snapshot_date()` after [one month of testing](#staging) against R version `r snapshot_r()` and [CRAN](https://cran.r-project.org/) dependencies from `r staging_date()`.
 For optimal compatibility, please use [Production](production.qmd) with R `r snapshot_r()` and the [Posit Public Package Manager (p3m)](https://packagemanager.posit.co) snapshot of CRAN from `r staging_date()`.
@@ -66,7 +66,7 @@ During that time, [Staging](#staging) holds constant:
 
 1. The R-multiverse packages which are candidates for Production and currently pass automated checks.
 1. The versions of dependency packages from CRAN.
-1. The targeted version of base R.
+1. The targeted version of base R. (The patch version of R may change, but the major and minor versions do not change during a [Staging](#staging) cycle.)
 
 While [Staging](#staging) is active, if a package is failing one or more [R-multiverse checks](#checks),
 then new releases of that package are continuously pulled from [Community](community.md).
