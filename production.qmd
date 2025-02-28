@@ -39,7 +39,7 @@ cat(text, sep = "\n")
 
 ## Checks
 
-To reach Production, a package release must pass the following checks:
+To reach Production, a package release must comply with all R-multiverse [policies](policies.md), and it must pass the following automated checks:
 
 #### Legal
 
