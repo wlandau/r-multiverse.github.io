@@ -6,7 +6,7 @@ snapshot_date <- function() {
     "refs",
     "heads",
     "main",
-    "date.txt"
+    "date_snapshot.txt"
   )
   readLines(url(path))
 }
@@ -19,7 +19,7 @@ snapshot_r <- function() {
     "refs",
     "heads",
     "main",
-    "r_version.txt"
+    "r_version_full.txt"
   )
   readLines(url(path))
 }
