@@ -39,14 +39,30 @@ cat(text, sep = "\n")
 
 ## Checks
 
-To reach Production, a package release must pass the following R-multiverse checks:
+To reach Production, a package release must pass the following checks:
 
-1. `R CMD check` must pass (no errors or warnings) on Mac (R-release), Windows (R-release), Linux (R-devel).
-1. The release must not have an active [security advisory](https://github.com/RConsortium/r-advisory-database).
-1. The `DESCRIPTION` file must not have a `Remotes:` field.
-1. The current version number must be greater than the version numbers of past releases of the same package.
-1. The release must not strongly depend (`Depends:`, `Imports:`, `LinkingTo:`) on an R-multiverse package with any any of the above issues.
-^[However, an R-multiverse package can strongly depend a package from CRAN, regardless of CRAN check status, as long as that package remains available on CRAN.]
+#### Legal
+
+* The package must have a [free and open-source license](https://en.wikipedia.org/wiki/Free_and_open-source_software).
+
+#### Security
+
+* The release must not have an active [security advisory](https://github.com/RConsortium/r-advisory-database).
+
+#### Quality
+
+* `R CMD check` must pass in the [Staging universe](https://staging.r-multiverse.org) (no errors or warnings) on Mac (R-release), Windows (R-release), Linux (R-devel).
+
+#### Documentation
+
+* The version number of the current release must be strictly greater than the version numbers of all previous releases of the package.
+* If the package is on both CRAN and R-multiverse, the CRAN version number must not be higher than the R-multiverse one. 
+
+#### Dependencies
+
+* The `DESCRIPTION` file must not include a `Remotes:` field.
+* The package must not strongly depend (`Depends:`, `Imports:`, `LinkingTo:`) on an R-multiverse package with any of the above check issues.
+^[An R-multiverse package can strongly depend a package from CRAN, regardless of CRAN check status, as long as that package remains available on CRAN.]
 
 ## Snapshots
 
