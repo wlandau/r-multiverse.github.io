@@ -36,7 +36,7 @@ website:
           url: https://r-multiverse.org/topics
     - text: Guidance
       menu:
-        - text: Community
+        - text: Contributors
           url: contributors.md
         - text: Moderators
           url: moderators.md
