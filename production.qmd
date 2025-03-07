@@ -78,20 +78,16 @@ Packages change slowly in Production, but they are mutually compatible.
 Rather than pull releases directly from [Community](community.md),
 Production draws from an intermediate repository called [Staging](#staging).
 The [Staging](#staging) repository is active during the month-long period prior to each snapshot.
-During that time, [Staging](#staging) holds constant:
+During that time:
 
-1. The R-multiverse packages which are candidates for Production and currently pass automated checks.
-1. The versions of dependency packages from CRAN.
-1. The targeted version of base R. (The patch version of R may change, but the major and minor versions do not change during a [Staging](#staging) cycle.)
-
-While [Staging](#staging) is active, if a package is failing one or more [R-multiverse checks](#checks),
-then new releases of that package are continuously pulled from [Community](community.md).
-Otherwise, if the package passes [checks](#checks), then [Staging](#staging) freezes the package at its current release version and no longer accepts updates from [Community](community.md).
-This freeze prevents new problems in reverse dependencies downstream.
+1. The versions of base R and dependencies from CRAN do not change.^[The patch version of R may change, but the major and minor versions do not change during a [Staging](#staging) cycle.]
+1. No package can enter or leave the Staging repository.
+1. Once a package passes [R-multiverse checks](#checks) in Staging, it freezes.
+The version of the package in Staging is locked, and that version is guaranteed entry into the next Production snapshot.
 
 At snapshot time, Production creates the snapshot from the subset of package releases in
 [Staging](#staging) which pass [R-multiverse checks](#checks).
-A month after the snapshot, [Staging](#staging) resets (removes all its packages)
+A month after the snapshot, [Staging](#staging) resets
 so that an entirely new set of [Community](community.md) releases can become candidates for Production.
 
 ## Schedule
