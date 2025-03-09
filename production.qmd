@@ -37,6 +37,10 @@ text <- c(
 cat(text, sep = "\n")
 ```
 
+## Status
+
+The [Production status page](https://r-multiverse.org/status/production.html) lists all the packages staged for the next Production snapshot. 
+
 ## Checks
 
 To reach Production, a package release must comply with all R-multiverse [policies](policies.md), and it must pass the following automated checks:
@@ -82,8 +86,9 @@ During that time:
 
 1. The versions of base R and dependencies from CRAN do not change.^[The patch version of R may change, but the major and minor versions do not change during a [Staging](#staging) cycle.]
 1. No package can enter or leave the Staging repository.
-1. Once a package passes [R-multiverse checks](#checks) in Staging, it freezes.
-The version of the package in Staging is locked, and that version is guaranteed entry into the next Production snapshot.
+1. Once a package passes [R-multiverse checks](#checks) in Staging, it becomes staged:
+the version of the package in Staging is locked, and that version is guaranteed entry into the next Production snapshot.
+Staged packages are continuously reffreshed on the [Production status page](https://r-multiverse.org/status/production.html). 
 
 At the end of this month-long activity period, Production creates a snapshot from the subset of package releases in [Staging](#staging) which pass [R-multiverse checks](#checks).
 
