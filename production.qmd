@@ -81,7 +81,7 @@ Similar to the [Debian release cycle](https://release.debian.org), a [special St
 
 Staging happens in cycles.
 There are four cycles per year, and each cycle lasts three months.
-Each month is a distinct phase that hardens the upcoming snapshot.
+Each month is a distinct phase that hardens the targeted snapshot.
 
 
 
