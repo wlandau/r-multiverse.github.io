@@ -77,12 +77,13 @@ Packages change slowly in Production, but they are mutually compatible.
 
 Staging is the process that builds Production snapshots.
 The goal is to ensure that packages and their dependencies are fully functional and mutually compatible.
-Similar to the [Debian release cycle](https://release.debian.org), a special Staging repository gradually transitions a collection of unstable [Community](community.md) releases into a stable ecosystem of packages for a snapshot.
+Similar to the [Debian release cycle](https://release.debian.org), a [special Staging repository](https://staging.r-multiverse.org) gradually transforms a collection of unstable [Community](community.md) releases into a stable ecosystem of packages for Production.
+
+Staging happens in cycles.
+There are four cycles per year, and each cycle lasts three months.
+Each month is a distinct phase that hardens the upcoming snapshot.
 
 
-
-
-At the end of those two months, the Production snapshot is stable.
 
 Rather than pull releases directly from [Community](community.md),
 Production draws from an intermediate repository called [Staging](#staging).
