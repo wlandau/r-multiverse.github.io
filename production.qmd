@@ -11,20 +11,16 @@ which are mutually compatible and meet a high standard of quality.
 
 ## Users
 
-Production deploys in [periodic snapshots throughout the year](#schedule).
-Prior to each snapshot, packages are tested in a month-long [Staging](#staging) cycle
-in which healthy packages from [Community](community.md), dependencies from [CRAN](https://cran.r-project.org/),
-and the version of base R are all held constant.^[The patch version of base  R may change, but the major and minor versions are held constant.]
+R-multiverse deploys Production in [periodic snapshots throughout the year](#schedule).
+Prior to each snapshot, packages undergo a two-month [Staging](#staging) process that gradually freezes the release candidates and their dependencies.
 
-The current Production snapshot was deployed on `r snapshot_date()` after [one month of testing](#staging) against R version `r snapshot_r()` and [CRAN](https://cran.r-project.org/) dependencies from `r staging_date()`.
-For optimal compatibility, please use [Production](production.qmd) with R `r snapshot_r()` and the [Posit Public Package Manager (p3m)](https://packagemanager.posit.co) snapshot of CRAN from `r staging_date()`.
-
+The current Production snapshot was deployed on `r snapshot()$snapshot`.
+It was tested with the base R `r snapshot()$r` and [CRAN](https://cran.r-project.org/) packages from the [dependency freeze](#staging) on `r snapshot()$dependency_freeze`.
+Please use the `r snapshot()$dependency_freeze` CRAN snapshot from [Posit Public Package Manager (p3m)](https://packagemanager.posit.co) to install dependencies:
 
 ```{r, eval = TRUE, echo = FALSE, results = "asis"}
 text <- c(
   "```r",
-  "getRversion()",
-  sprintf("#> [1] ‘%s’\n", snapshot_r()),
   "install.packages(",
   "  \"polars\",",
   "  repos = c(",
@@ -79,9 +75,18 @@ Packages change slowly in Production, but they are mutually compatible.
 
 ## Staging
 
+Staging is the process that builds Production snapshots.
+The goal is to ensure that packages and their dependencies are fully functional and mutually compatible.
+Similar to the [Debian release cycle](https://release.debian.org), a special Staging repository gradually transitions a collection of unstable [Community](community.md) releases into a stable ecosystem of packages for a snapshot.
+
+
+
+
+At the end of those two months, the Production snapshot is stable.
+
 Rather than pull releases directly from [Community](community.md),
 Production draws from an intermediate repository called [Staging](#staging).
-The [Staging](#staging) repository is active during the month-long period just prior to each snapshot.
+[Staging](#staging) tries to transition package releases .
 During that time:
 
 1. The versions of base R and dependencies from CRAN do not change.^[The patch version of R may change, but the major and minor versions do not change during a [Staging](#staging) cycle.]

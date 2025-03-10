@@ -1,54 +1,21 @@
-snapshot_date <- function() {
-  if (!is.null(cache[["snapshot_date"]])) {
-    return(cache[["snapshot_date"]])
+snapshot <- function() {
+  if (!is.null(cache[["snapshot"]])) {
+    return(cache[["snapshot"]])
   }
-  path <- file.path(
-    "https://raw.githubusercontent.com",
-    "r-multiverse",
-    "production",
-    "refs",
-    "heads",
-    branch,
-    "date_snapshot.txt"
-  )
-  cache[["snapshot_date"]] <- readLines(url(path))
-  cache[["snapshot_date"]]
+  url <- "https://production.r-multiverse.org/snapshots.json"
+  snapshot <- jsonlite::stream_in(gzcon(url(url)), verbose = FALSE)
+  
+  # testing:
+  snapshot$snapshot <- Sys.Date()
+  snapshot$dependency_freeze <- snapshot$reset
+  snapshot$candidate_freeze <- snapshot$staging
+  
+  
+  dates <- as.Date(snapshot$snapshot)
+  date <- max(dates[dates <= Sys.Date()])
+  snapshot <- snapshot[snapshot$snapshot == date,, drop = FALSE]
+  cache[["snapshot"]] <- snapshot
+  cache[["snapshot"]]
 }
-
-staging_date <- function() {
-  if (!is.null(cache[["staging_date"]])) {
-    return(cache[["staging_date"]])
-  }
-  path <- file.path(
-    "https://raw.githubusercontent.com",
-    "r-multiverse",
-    "production",
-    "refs",
-    "heads",
-    branch,
-    "date_staging_start.txt"
-  )
-  cache[["staging_date"]] <- readLines(url(path))
-  cache[["staging_date"]]
-}
-
-snapshot_r <- function() {
-  if (!is.null(cache[["snapshot_r"]])) {
-    return(cache[["snapshot_r"]])
-  }
-  path <- file.path(
-    "https://raw.githubusercontent.com",
-    "r-multiverse",
-    "production",
-    "refs",
-    "heads",
-    branch,
-    "r_version_full.txt"
-  )
-  cache[["snapshot_r"]] <- readLines(url(path))
-  cache[["snapshot_r"]]
-}
-
-branch <- "gh-pages"
 
 cache <- new.env(parent = emptyenv())
