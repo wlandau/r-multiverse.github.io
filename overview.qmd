@@ -73,8 +73,9 @@ and release version of base R from the same day that the R-multiverse snapshot w
 
 ## Infrastructure
 
-R-multiverse is powered by [R-universe](https://r-universe.dev/), [GitHub Actions](https://github.com/features/actions),
-and the public source code repositories in the [R-multiverse GitHub organization](https://github.com/r-multiverse).
+All [R-multiverse source code](https://github.com/r-multiverse) is public and open-source, and most of it is released under the [MIT license](https://github.com/r-multiverse/multiverse.internals/blob/main/LICENSE.md). 
+R-multiverse is powered by [R-universe](https://r-universe.dev/), [GitHub Actions](https://github.com/features/actions), and [Cloudflare](https://www.cloudflare.com/).
+[Cloudflare](https://www.cloudflare.com/) manages the `r-multiverse.org` domain and hosts [Production](production.qmd) snapshots in an [R2 bucket](https://www.cloudflare.com/developer-platform/products/r2/).
 
 ## How you can help
 
