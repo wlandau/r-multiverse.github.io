@@ -1,21 +1,31 @@
 snapshot <- function() {
-  if (!is.null(cache[["snapshot"]])) {
-    return(cache[["snapshot"]])
+  snapshots <- snapshots()
+  dates <- as.Date(snapshots$snapshot)
+  date <- max(dates[dates <= Sys.Date()])
+  snapshots[snapshots$snapshot == date,, drop = FALSE]
+}
+
+archive <- function() {
+  snapshots <- snapshots()
+  dates <- as.Date(snapshots$snapshot)
+  snapshots[dates <= Sys.Date(),, drop = FALSE]
+}
+
+snapshots <- function() {
+  if (!is.null(cache[["snapshots"]])) {
+    return(cache[["snapshots"]])
   }
   url <- "https://production.r-multiverse.org/snapshots.json"
-  snapshot <- jsonlite::stream_in(gzcon(url(url)), verbose = FALSE)
+  snapshots <- jsonlite::stream_in(gzcon(url(url)), verbose = FALSE)
   
-  # testing:
-  snapshot$snapshot <- Sys.Date()
-  snapshot$dependency_freeze <- snapshot$reset
-  snapshot$candidate_freeze <- snapshot$staging
+    # testing:
+  snapshots$snapshot <- Sys.Date()
+  snapshots$dependency_freeze <- snapshots$reset
+  snapshots$candidate_freeze <- snapshots$staging
   
   
-  dates <- as.Date(snapshot$snapshot)
-  date <- max(dates[dates <= Sys.Date()])
-  snapshot <- snapshot[snapshot$snapshot == date,, drop = FALSE]
-  cache[["snapshot"]] <- snapshot
-  cache[["snapshot"]]
+  cache[["snapshots"]] <- snapshots
+  cache[["snapshots"]]
 }
 
 cache <- new.env(parent = emptyenv())
