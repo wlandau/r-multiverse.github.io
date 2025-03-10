@@ -75,7 +75,7 @@ and release version of base R from the same day that the R-multiverse snapshot w
 
 All [R-multiverse source code](https://github.com/r-multiverse) is public and open-source.
 The code is licensed under [MIT](https://github.com/r-multiverse/multiverse.internals/blob/main/LICENSE.md), and the [logo](https://github.com/r-multiverse/r-multiverse.github.io/tree/main/logo) has a [Creative Commons Attribution-ShareAlike 4.0 International license](https://github.com/r-multiverse/r-multiverse.github.io/blob/main/logo/LICENSE.md). 
-R-multiverse is powered by [R-universe](https://r-universe.dev/), [GitHub Actions](https://github.com/features/actions), and [Cloudflare](https://www.cloudflare.com/).
+R-multiverse leverages [R-universe](https://r-universe.dev/), [GitHub Actions](https://github.com/features/actions), and [Cloudflare](https://www.cloudflare.com/).
 [Cloudflare](https://www.cloudflare.com/) manages the `r-multiverse.org` domain and hosts [Production](production.qmd) snapshots in an [R2 bucket](https://www.cloudflare.com/developer-platform/products/r2/).
 
 ## How you can help
