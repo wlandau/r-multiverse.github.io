@@ -17,13 +17,6 @@ snapshots <- function() {
   }
   url <- "https://production.r-multiverse.org/snapshots.json"
   snapshots <- jsonlite::stream_in(gzcon(url(url)), verbose = FALSE)
-  
-    # testing:
-  snapshots$snapshot <- Sys.Date()
-  snapshots$dependency_freeze <- snapshots$reset
-  snapshots$candidate_freeze <- snapshots$staging
-  
-  
   cache[["snapshots"]] <- snapshots
   cache[["snapshots"]]
 }
