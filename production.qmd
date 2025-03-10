@@ -63,9 +63,9 @@ A package can only upgrade in [Staging](https://staging.r-multiverse.org) if:
 Staged packages appear on the [Production status page](https://r-multiverse.org/status/production.html) and are guaranteed admittance into the next snapshot.
 If a package is already staged but its [checks](#checks) fail later in month 2, then the package is still staged and will still enter the upcoming snapshot.
 
-### Month 3: snapshot and full freeze
+### Month 3: production snapshot
 
-The Production snapshot finalizes and publishes on day 1 of month 3.
+The Production snapshot finalizes on day 1 of month 3.^[The `install.packages()` URL may be reachable before the snapshot date, but the contents are not finalized until the actual day of the snapshot.]
 Production does not add, remove, or update packages at any other time.
 ^[A package is only removed from a snapshot if it becomes absolutely necessary to do so,
 e.g. because of an egregious [policy](policies.md) violation.]
@@ -80,7 +80,7 @@ This gives the [R-multiverse administrators](team.md#administrators) time to fix
 [Staging](#staging) follows the same schedule each year.
 Each month-long phase of [Staging](#staging) starts on the 15th of the month.
 
-| Quarter | Dependency freeze begins | Candidate freeze begins | Snapshot publishes and full freeze begins |
+| Quarter | Dependency freeze begins | Candidate freeze begins | Production snapshot finalizes |
 |---|---|---|---|
 | Q1 | January 15 | February 15 | March 15 |
 | Q2 | April 15 | May 15 | June 15 |
