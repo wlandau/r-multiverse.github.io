@@ -1,14 +1,7 @@
 snapshot <- function() {
   snapshots <- snapshots()
   dates <- as.Date(snapshots$snapshot)
-  date <- max(dates[dates <= Sys.Date()])
-  snapshots[snapshots$snapshot == date,, drop = FALSE]
-}
-
-archive <- function() {
-  snapshots <- snapshots()
-  dates <- as.Date(snapshots$snapshot)
-  snapshots[dates <= Sys.Date(),, drop = FALSE]
+  snapshots[dates == max(dates),, drop = FALSE]
 }
 
 snapshots <- function() {

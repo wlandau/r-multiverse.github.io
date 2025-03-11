@@ -127,5 +127,5 @@ The following table lists all past and present Production snapshots.
 It includes the start date of each phase of [Staging](#staging), the compatible version of base R, and the URLs for the `repos` argument of `install.packages()`.
 
 ```{r, echo = FALSE}
-gt::gt(archive())
+gt::gt(snapshots())
 ```
