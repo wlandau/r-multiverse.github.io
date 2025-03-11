@@ -124,8 +124,9 @@ In addition, each package has its own individual [status page](https://r-multive
 ## Archive
 
 The following table lists all past and present Production snapshots.
-It includes the start date of each phase of [Staging](#staging), the compatible version of base R, and the URLs for the `repos` argument of `install.packages()`.
+It includes the start date of each phase of [Staging](#staging) and the compatible version of base R.
+The URLs for the `repos` argument of `install.packages()` can be inferred from the dates below.
 
 ```{r, echo = FALSE}
-gt::gt(snapshots())
+gt::gt(snapshots()[, c("r", "dependency_freeze", "candidate_freeze", "snapshot")])
 ```
