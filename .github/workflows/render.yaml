@@ -26,7 +26,7 @@ jobs:
           use-public-rspm: true
 
       - name: Install R package dependencies.
-        run: install.packages(c("gt", "knitr", "rmarkdown", "rversions"))
+        run: install.packages(c("gt", "knitr", "rmarkdown", "rversions", "tidyselect"))
         shell: Rscript {0}
 
       - name: Cache results
