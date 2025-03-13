@@ -79,8 +79,8 @@ To contribute a package to a topic, simply list the topic URL in the `DESCRIPTIO
 and then create a new GitHub/GitLab release.
 A bot periodically scans [Community](community.md) and updates the list of packages in each topic.
 
-To contribute a topic, submit a pull request to <https://github.com/r-multiverse/topics> to add a new text file (with no file extension) whose name is the topic name and whose contents describe the topic.
-The bot generates HTML pages from these text files.
+To contribute a topic, submit a pull request to <https://github.com/r-multiverse/topics> to add a new [topic listing file](https://github.com/r-multiverse/topics/tree/main/topics).
+The name of the file is the topic name, and the contents describe the topic.
 
 ## Badges
 
