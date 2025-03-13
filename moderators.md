@@ -152,8 +152,8 @@ The [administrator](team.md#administrator) will manually remove the package from
 ## Topics
 
 We encourage moderators to contribute [R-multiverse topics](https://r-multiverse.org/topics/) about their fields of expertise.
-To do so, submit a pull request to <https://github.com/r-multiverse/topics> to add a [topic listing file](https://github.com/r-multiverse/topics/tree/main/topics) to describe the subject matter ([example here](https://github.com/r-multiverse/topics/blob/main/bayesian)).
-A bot periodically rebuilds the website from the [listings](https://github.com/r-multiverse/topics/tree/main/topics).
+To do so, submit a [pull request](https://github.com/r-multiverse/topics/pulls) to add a [topic listing file](https://github.com/r-multiverse/topics/tree/main/topics) that describes the subject matter ([example here](https://github.com/r-multiverse/topics/blob/main/bayesian)).
+A scheduled job periodically rebuilds the website from the [listings](https://github.com/r-multiverse/topics/tree/main/topics).
 Seasoned [contributors](governance.md#contributor) will see your topic [listed here](https://r-multiverse.org/topics/) and add searchable keywords to their [contributions](https://github.com/r-multiverse/contributions/pulls) accordingly.
 
 ## Discussions
