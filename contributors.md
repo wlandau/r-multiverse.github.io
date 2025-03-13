@@ -73,11 +73,12 @@ You can read more about it [here in the Production page](production.qmd#status).
 
 ## Topics
 
-R-multiverse has a ["topics" system](https://r-multiverse.org/topics/index.html) for organizing packages into subject matter areas.
+R-multiverse has a [topics website](https://r-multiverse.org/topics/index.html) that organizes packages into subject matter areas.
 Each topic has a page that lists the packages in its area ([example](https://r-multiverse.org/topics/bayesian.html)).
 To contribute a package to a topic, simply list the topic URL in the `DESCRIPTION` file ([example](https://github.com/ropensci/stantargets/blob/db7d119ea0599eac3ce01a42bee27c9908754943/DESCRIPTION#L22)).
 and then create a new GitHub/GitLab release.
 To contribute a topic, submit a [pull request](https://github.com/r-multiverse/topics) to add a new [topic listing file](https://github.com/r-multiverse/topics/tree/main/topics) that describes the new topic.
+A scheduled job periodically rebuilds the website from the [listings](https://github.com/r-multiverse/topics/tree/main/topics).
 
 ## Badges
 
