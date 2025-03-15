@@ -50,7 +50,7 @@ text <- c(
   "install.packages(",
   "  \"polars\",",
   "  repos = c(",
-  "    \"https://production.r-multiverse.org\",",
+  sprintf("    \"https://production.r-multiverse.org/%\",", snapshot()$snapshot),
   sprintf("    \"https://packagemanager.posit.co/cran/%s\"", snapshot()$dependency_freeze),
   "  )",
   ")",
