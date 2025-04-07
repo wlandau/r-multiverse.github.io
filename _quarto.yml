@@ -16,16 +16,30 @@ website:
     logo: "logo/logo-hexbin.png"
     logo-alt: "R-multiverse"
     left:
-    - overview.qmd
-    - text: "Repositories"
+    - text: About
+      menu:
+        - text: Overview
+          url: overview.qmd
+        - text: Team
+          url: team.md
+    - text: Repositories
       menu:
         - text: Community
           url: community.md
         - text: Production
           url: production.qmd
-    - contributors.md
-    - moderators.md
-    - team.md
+    - text: Packages
+      menu:
+        - text: Status
+          url: https://r-multiverse.org/status
+        - text: Topics
+          url: https://r-multiverse.org/topics
+    - text: Guidance
+      menu:
+        - text: Contributors
+          url: contributors.md
+        - text: Moderators
+          url: moderators.md
     - policies.md
     tools:
       - icon: github
@@ -39,7 +53,7 @@ website:
         aria-label: "R-multiverse Community Universe"
         href: https://community.r-multiverse.org
   page-footer:
-    left: "&copy; 2024 the R-multiverse project."
+    left: "&copy; 2025 the R-multiverse project."
     right: "<a href='https://r-consortium.org' style='text-decoration:none'>Supported by the R Consortium</a>."
 
 format:

@@ -110,27 +110,51 @@ If you have trouble, please ask an [administrator](governance.md#administrator) 
 ## Removing Contributions
 
 It may become necessary to remove packages from R-multiverse, either because of [policy](policies.md) violations or at the request of the maintainers.
-To remove a package, edit the text in its [contribution listing file](https://github.com/r-multiverse/contributions/tree/main/packages):
+A package exists at several levels in R-multiverse, and it is complicated to manually remove a package.
+If needed, please follow the steps below to remove a package.
+
+### Removing registration
+
+To remove a package's registration, edit the text in its [contribution listing file](https://github.com/r-multiverse/contributions/tree/main/packages):
 replace the URL/JSON with free-form text that explains why the package was removed. For example:
 
 ```
-This package was removed from R-multiverse because the latest release had "LICENSE: TBD" in the DESCRIPTION file, which is not a valid FOSS license. R-multiverse requires a valid FOSS license to ensure the copyrights of the authors are protected (see https://r-multiverse.org/aup.html#intellectual-property and https://r-multiverse.org/aup.html#enforcement-and-reporting-violations).
+This package was removed from R-multiverse because the latest release had
+"LICENSE: TBD" in the DESCRIPTION file, which is not a valid FOSS license.
+R-multiverse requires a valid FOSS license to ensure the copyrights of the
+authors are protected
+(see https://r-multiverse.org/aup.html#intellectual-property and
+https://r-multiverse.org/aup.html#enforcement-and-reporting-violations).
 ```
 
-The [Community repository](https://github.com/r-multiverse/community) will then automatically detect the unstructured text and remove the package.
+### Removing from the Community repository
+
+If a package's registration is removed as above, then an automated process will remove the package from the [Community repository](https://github.com/r-multiverse/community) without further intervention.
 Unless the package name itself violates R-multiverse [policies](policies.md), please do not delete the [contribution listing file](https://github.com/r-multiverse/contributions/tree/main/packages).
 ^[In this case, the [contribution listing file](https://github.com/r-multiverse/contributions/tree/main/packages) serves as a placeholder in case a contributor wants to reuse the same name for a different package.]
 
-In an emergency that requires the immediate removal of a package, please also manually delete the [Community `packages.json` file](https://github.com/r-multiverse/community/blob/main/packages.json) and [Staging `packages.json` file](https://github.com/r-multiverse/staging/blob/main/packages.json).
+In an emergency that requires the immediate removal of a package, please also manually delete the package's list entry in the [Community `packages.json` file](https://github.com/r-multiverse/community/blob/main/packages.json).
+
+### Removing from the Staging repository
+
+It is important to keep the [Staging repository](https://github.com/r-multiverse/staging) as stable as possible in order to produce reliable [Production snapshots](production.qmd).
+Please only remove a package from the [Staging repository](https://github.com/r-multiverse/staging) if it is absolutely necessary, i.e. a [policy](policies.md) violation.
+
+To remove a package from the [Staging repository](https://github.com/r-multiverse/staging) repository, please submit a pull request to delete the package's list entry in the [Staging `packages.json` file](https://github.com/r-multiverse/staging/blob/main/packages.json).
+An [administrator](team.md#administrator) will review and approve as soon as possible.
+
+### Removing from Production snapshots
+
+Production snapshots are meant to be permanent, and packages are removed only if absolutely necessary, i.e. a [policy](policies.md) violation.
+If a package must be removed from one or more Production snapshots, please contact an [administrator](team.md#administrator), either through the [moderator issue tracker](https://github.com/r-multiverse/moderation) or `administrators@r-multiverse.org`.
+The [administrator](team.md#administrator) will manually remove the package from the [Cloudflare R2](https://developers.cloudflare.com/r2/) bucket that hosts the snapshots.
 
 ## Topics
 
 We encourage moderators to contribute [R-multiverse topics](https://r-multiverse.org/topics/) about their fields of expertise.
-To do so, submit a pull request to <https://github.com/r-multiverse/topics> to add a text file describing the subject matter ([example here](https://github.com/r-multiverse/topics/blob/main/bayesian)).^[Through triage access, R-multiverse [moderators](governance.md#moderator) are authorized to merge these pull requests.
-Please only edit the plain files without file extensions.
-All the HTML files are automatically generated.]
-A bot periodically rebuilds the website based on these text files.
-Seasoned [contributors](governance.md#contributor) will see your topic [listed here](https://r-multiverse.org/topics/) and add keywords to their [contributions](https://github.com/r-multiverse/contributions/pulls) accordingly.
+To do so, submit a [pull request](https://github.com/r-multiverse/topics/pulls) to add a [topic listing file](https://github.com/r-multiverse/topics/tree/main/topics) that describes the subject matter ([example here](https://github.com/r-multiverse/topics/blob/main/bayesian)).
+A scheduled job periodically rebuilds the website from the [listings](https://github.com/r-multiverse/topics/tree/main/topics).
+Seasoned [contributors](governance.md#contributor) will see your topic [listed here](https://r-multiverse.org/topics/) and add searchable keywords to their [contributions](https://github.com/r-multiverse/contributions/pulls) accordingly.
 
 ## Discussions
 

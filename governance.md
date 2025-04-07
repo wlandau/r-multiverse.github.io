@@ -32,7 +32,8 @@ It is expected that this governance document will evolve over time as needs aris
 
 ## R-multiverse Stakeholders
 
-We recognize five groups of individuals related to the project.
+We recognize four groups of individuals related to the project.
+The names of the current Moderators and Administrators can be found on the [Team page](https://r-multiverse.org/team.html).
 
 ### User
 
@@ -123,19 +124,6 @@ If a Proposal is passed, it will come into effect one calendar month after the P
 If a Proposal is not passed within one calendar month of the posting of the Proposal, then the Proposal lapses and is not enacted until such a time that it passes.
 
 Voting shall take place publicly under the same Proposal that was initially posted.
-
-## Project Leadership
-
-### R-multiverse Management Committee (RMC)
-
-The current composition of the RMC is as follows.
-
-Name in alphabetical order
-
-- Charlie Gao
-- Will Landau
-- Jeroen Ooms
-- Maëlle Salmon
 
 ## Language
 

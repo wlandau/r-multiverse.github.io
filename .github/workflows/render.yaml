@@ -3,10 +3,10 @@ on:
   push:
     branches: main
   schedule:
-    - cron: '0 18 15 3 *'  # March 15 at 6:00 PM UTC
-    - cron: '0 18 15 5 *'  # June 15 at 6:00 PM UTC
-    - cron: '0 18 15 9 *'  # September 15 at 6:00 PM UTC
-    - cron: '0 18 15 12 *' # December 15 at 6:00 PM UTC
+    - cron: '0 * 15-22 3 *'  # March 15-22 every hour on the hour
+    - cron: '0 * 15-22 6 *'  # June 15-22 every hour on the hour
+    - cron: '0 * 15-22 9 *'  # September 15-22 every hour on the hour
+    - cron: '0 * 15-22 12 *' # December 15-22 every hour on the hour
 
 name: render
 
@@ -26,7 +26,7 @@ jobs:
           use-public-rspm: true
 
       - name: Install R package dependencies.
-        run: install.packages(c("knitr", "rmarkdown", "rversions"))
+        run: install.packages(c("gt", "knitr", "rmarkdown", "rversions"))
         shell: Rscript {0}
 
       - name: Cache results

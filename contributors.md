@@ -63,9 +63,8 @@ that the package maintainer
 ## Production
 
 R-multiverse updates the [Production](production.qmd) repository in quarterly snapshots.
-As part of this process, an intermediate Staging repository hosts
-packages and performs checks.
-Visit [this page](production.qmd) to learn more about [Production](production.qmd).
+The [Production status page](https://r-multiverse.org/status/production.html) list the packages successfully staged for the next Production snapshot. 
+Visit the [Production documentation](production.qmd) to learn how the process works.
 
 ## Status
 
@@ -74,14 +73,12 @@ You can read more about it [here in the Production page](production.qmd#status).
 
 ## Topics
 
-R-multiverse has a ["topics" system](https://r-multiverse.org/topics/index.html) for organizing packages into subject matter areas.
+R-multiverse has a [topics website](https://r-multiverse.org/topics/index.html) that organizes packages into subject matter areas.
 Each topic has a page that lists the packages in its area ([example](https://r-multiverse.org/topics/bayesian.html)).
 To contribute a package to a topic, simply list the topic URL in the `DESCRIPTION` file ([example](https://github.com/ropensci/stantargets/blob/db7d119ea0599eac3ce01a42bee27c9908754943/DESCRIPTION#L22)).
 and then create a new GitHub/GitLab release.
-A bot periodically scans [Community](community.md) and updates the list of packages in each topic.
-
-To contribute a topic, submit a pull request to <https://github.com/r-multiverse/topics> to add a new text file (with no file extension) whose name is the topic name and whose contents describe the topic.
-The bot generates HTML pages from these text files.
+To contribute a topic, submit a [pull request](https://github.com/r-multiverse/topics) to add a new [topic listing file](https://github.com/r-multiverse/topics/tree/main/topics) that describes the new topic.
+A scheduled job periodically rebuilds the website from the [listings](https://github.com/r-multiverse/topics/tree/main/topics).
 
 ## Badges
 
