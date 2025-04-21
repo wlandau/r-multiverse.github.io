@@ -126,7 +126,7 @@ In addition, each package has its own individual [status page](https://r-multive
 
 The following table lists all past and present Production snapshots, with more recent snapshots listed higher.
 Snapshots over a year old do not have binaries.
-It includes the start date of each phase of [Staging](#staging) and the compatible version of base R.
+The table includes the start date of each phase of [Staging](#staging) and the compatible version of base R.
 The URLs for the `repos` argument of `install.packages()` can be inferred from the dates below.
 
 ```{r, echo = FALSE}
