@@ -14,7 +14,8 @@ Prior to each snapshot, packages undergo a [Staging](#staging) process that grad
 ## Users
 
 The current Production snapshot was deployed on `r snapshot()$snapshot`.
-It was tested with the base R `r snapshot()$r` and [CRAN](https://cran.r-project.org/) packages from the [dependency freeze](#staging) on `r snapshot()$dependency_freeze`.
+It includes package sources, Mac OS binaries, and Windows binaries.^[Binaries over a year old are automatically removed.]
+The snapshot was tested with the base R `r snapshot()$r` and [CRAN](https://cran.r-project.org/) packages from the [dependency freeze](#staging) on `r snapshot()$dependency_freeze`.
 Please use the `r snapshot()$dependency_freeze` CRAN snapshot from [Posit Public Package Manager (p3m)](https://packagemanager.posit.co) to install dependencies:
 
 ```{r, eval = TRUE, echo = FALSE, results = "asis"}
@@ -124,6 +125,7 @@ In addition, each package has its own individual [status page](https://r-multive
 ## Archive
 
 The following table lists all past and present Production snapshots, with more recent snapshots listed higher.
+Snapshots over a year old do not have binaries.
 It includes the start date of each phase of [Staging](#staging) and the compatible version of base R.
 The URLs for the `repos` argument of `install.packages()` can be inferred from the dates below.
 
