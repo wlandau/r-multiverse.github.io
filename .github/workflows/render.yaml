@@ -9,6 +9,8 @@ on:
     - cron: '0 * 15-22 12 *' # December 15-22 every hour on the hour
 
 name: render
+permissions:
+  contents: write
 
 jobs:
   render:
