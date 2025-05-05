@@ -64,9 +64,10 @@ cat(text, sep = "\n")
 R-multiverse does not replace [CRAN](https://cran.r-project.org/).
 In fact, most R-multiverse packages depend on [CRAN](https://cran.r-project.org/) packages.
 In production environments,
-[Production](production.qmd) snapshots should be deployed alongside
-the [p3m](https://packagemanager.posit.co) [CRAN](https://cran.r-project.org/) version
-and release version of base R from the same day that the R-multiverse snapshot was created.
+the [Production](production.qmd) snapshot should be deployed alongside the version of base R
+and the [p3m](https://packagemanager.posit.co) version of [CRAN](https://cran.r-project.org/) 
+from the day of the corresponding [dependency freeze](production.qmd#month-1-dependency-freeze).
+See the documentation of [Production](production.qmd) for more details.
 
 ## Infrastructure
 
