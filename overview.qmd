@@ -42,7 +42,7 @@ install.packages(
 [Production](production.qmd) is deployed in periodic snapshots throughout the year.
 The current Production snapshot was deployed on `r snapshot()$snapshot`.
 It was tested with the base R `r snapshot()$r` and [CRAN](https://cran.r-project.org/) packages from the [dependency freeze](#staging) on `r snapshot()$dependency_freeze`.
-Please use the `r snapshot()$dependency_freeze` CRAN snapshot from [Posit Public Package Manager (p3m)](https://packagemanager.posit.co) to install dependencies:
+Please use the `r snapshot()$dependency_freeze` version of CRAN from [Posit Public Package Manager (p3m)](https://packagemanager.posit.co) to install dependencies:^[[Posit Public Package Manager (p3m)](https://packagemanager.posit.co) might not actually snapshot CRAN every day, but it still hosts a usable `https://packagemanager.posit.co/cran/yyyy-mm-dd` URL, even if the underlying physical snapshot came from an earlier day. <https://p3m.dev/__api__/repos/cran/transaction-dates> lists all the physical snapshots.]
 
 ```{r, eval = TRUE, echo = FALSE, results = "asis"}
 text <- c(
@@ -64,9 +64,10 @@ cat(text, sep = "\n")
 R-multiverse does not replace [CRAN](https://cran.r-project.org/).
 In fact, most R-multiverse packages depend on [CRAN](https://cran.r-project.org/) packages.
 In production environments,
-[Production](production.qmd) snapshots should be deployed alongside
-the [CRAN](https://cran.r-project.org/) package dependencies
-and release version of base R from the same day that the R-multiverse snapshot was created.
+the [Production](production.qmd) snapshot should be deployed alongside the version of base R
+and the [p3m](https://packagemanager.posit.co) version of [CRAN](https://cran.r-project.org/) 
+from the day of the corresponding [dependency freeze](production.qmd#month-1-dependency-freeze).
+See the documentation of [Production](production.qmd) for more details.
 
 ## Infrastructure
 

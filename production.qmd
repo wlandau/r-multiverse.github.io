@@ -16,7 +16,7 @@ Prior to each snapshot, packages undergo a [Staging](#staging) process that grad
 The current Production snapshot was deployed on `r snapshot()$snapshot`.
 It includes package sources, Mac OS binaries, and Windows binaries.^[Binaries over a year old are automatically removed.]
 The snapshot was tested with the base R `r snapshot()$r` and [CRAN](https://cran.r-project.org/) packages from the [dependency freeze](#staging) on `r snapshot()$dependency_freeze`.
-Please use the `r snapshot()$dependency_freeze` CRAN snapshot from [Posit Public Package Manager (p3m)](https://packagemanager.posit.co) to install dependencies:
+Please use the `r snapshot()$dependency_freeze` version of CRAN from [Posit Public Package Manager (p3m)](https://packagemanager.posit.co) to install dependencies:^[[Posit Public Package Manager (p3m)](https://packagemanager.posit.co) might not actually snapshot CRAN every day, but it still hosts a usable `https://packagemanager.posit.co/cran/yyyy-mm-dd` URL, even if the underlying physical snapshot came from an earlier day. <https://p3m.dev/__api__/repos/cran/transaction-dates> lists all the physical snapshots.]
 
 ```{r, eval = TRUE, echo = FALSE, results = "asis"}
 text <- c(
@@ -46,7 +46,7 @@ Each month is a distinct phase that gradually hardens the packages that will ent
 
 ### Month 1: dependency freeze
 
-Here, the [Staging repository](https://staging.r-multiverse.org) freezes the versions of base R^[Patch versions of base R can still update. For example, if the targeted base R version is 4.4, [checks](#checks) may enforce R 4.4.0, 4.4.1, 4.4.2, or 4.4.3.] and packages from [CRAN](https://cran.r-project.org)^[R-multiverse uses the [Posit Public Package Manager](https://packagemanager.posit.co/) snapshot of [CRAN](https://cran.r-project.org) from month 1 day 1.].
+Here, the [Staging repository](https://staging.r-multiverse.org) freezes the versions of base R^[Patch versions of base R can still update. For example, if the targeted base R version is 4.4, [checks](#checks) may enforce R 4.4.0, 4.4.1, 4.4.2, or 4.4.3.] and packages from [CRAN](https://cran.r-project.org)^[R-multiverse uses the [Posit Public Package Manager (p3m)](https://packagemanager.posit.co/) version of [CRAN](https://cran.r-project.org) from month 1 day 1. `p3m` might not have a physical snapshot from that precise day, but it provides a usable `install.packages()` URL. The physical snapshot might come from an earlier day. <https://p3m.dev/__api__/repos/cran/transaction-dates> lists the physical snapshots.].
 For the purpose of running and enforcing [checks](#checks), these versions of dependencies do not change until after the snapshot is finalized on month 3 day 1.
 New [Community](community.md) package releases freely enter and leave the [Staging repository](https://staging.r-multiverse.org).
 This process gives packages, contributors, and the [Staging repository](https://staging.r-multiverse.org) itself an entire month to adjust to a fixed and predictable set of dependencies.
