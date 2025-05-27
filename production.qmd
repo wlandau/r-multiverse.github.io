@@ -91,7 +91,7 @@ Each month-long phase of [Staging](#staging) starts on the 15th of the month.
 ## Checks
 
 To reach Production, a package release must comply with all R-multiverse [policies](policies.md).
-In addition, it must pass the following list of automated checks in the [Staging repository](#staging) at least once during the [candidate freeze](#candidate-freeze):
+In addition, it must pass the following list of automated checks in the [Staging repository](#staging) at least once during the current [candidate freeze](#candidate-freeze):
 
 #### Legal
 
@@ -113,8 +113,7 @@ In addition, it must pass the following list of automated checks in the [Staging
 #### Dependencies
 
 * The `DESCRIPTION` file must not include a `Remotes:` field.
-* All strong dependencies^[A strong dependency is another package listed in the `Depends:`, `Imports:`, or `LinkingTo:` field of the `DESCRIPTION` file.] from R-multiverse must also qualify^[The dependency must pass at least once during the [candidate freeze](#candidate-freeze), but not necessarily at the same time as the downstream packages that depend on it.] for Production.
-^[An R-multiverse package can strongly depend on a package from CRAN, regardless of CRAN check status, as long as the CRAN package exists in the Posit Public Package manager snapshot used in [Staging](#staging).]
+* All strong dependencies^[A strong dependency is another package listed in the `Depends:`, `Imports:`, or `LinkingTo:` field of the `DESCRIPTION` file.] from R-multiverse^[An R-multiverse package can strongly depend on a package from CRAN, regardless of CRAN check status, as long as the CRAN package exists in the Posit Public Package manager snapshot used in [Staging](#staging).] must also qualify^[The dependency must pass at least once during the current [candidate freeze](#candidate-freeze), but not necessarily at the same time as the downstream packages that depend on it.] for Production.
 
 ## Status
 
