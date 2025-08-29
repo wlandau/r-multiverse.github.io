@@ -40,7 +40,7 @@ install.packages(
 ```
 
 [Production](production.qmd) is deployed in periodic snapshots throughout the year.
-The current Production snapshot was deployed on `r snapshot()$snapshot`.
+The current Production snapshot was deployed on `r snapshot()$snapshot`, and it has `r nrow(available.packages(repos = sprintf("https://production.r-multiverse.org/%s", snapshot()$snapshot)))` packages.
 It was tested with the base R `r snapshot()$r` and [CRAN](https://cran.r-project.org/) packages from the [dependency freeze](production.qmd#staging) on `r snapshot()$dependency_freeze`.
 Please use the `r snapshot()$dependency_freeze` version of CRAN from [Posit Public Package Manager (p3m)](https://packagemanager.posit.co) to install dependencies:^[[Posit Public Package Manager (p3m)](https://packagemanager.posit.co) might not actually snapshot CRAN every day, but it still hosts a usable `https://packagemanager.posit.co/cran/yyyy-mm-dd` URL, even if the underlying physical snapshot came from an earlier day. <https://p3m.dev/__api__/repos/cran/transaction-dates> lists all the physical snapshots.]
 
