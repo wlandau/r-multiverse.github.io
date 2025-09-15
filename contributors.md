@@ -57,8 +57,9 @@ This process is facilitated by public [GitHub Actions](https://github.com/featur
 ## Updating your package
 
 To update your package to a new version on R-multiverse, simply create a new release on [GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) or [GitLab](https://docs.gitlab.com/user/project/releases/).
-Please be sure to set the new release as the latest release.
-Sometimes this does not happen automatically.
+[`usethis::use_github_release()`](https://usethis.r-lib.org/reference/use_github_release.html) makes this process easy for packages hosted on GitHub.^[See <https://juliasilge.com/blog/r-pkg-release/> for an example of a comprehensive package release workflow.]
+If you instead create the release manually in the GitHub.com web interface, please be sure to set the new release as the latest release.
+Sometimes the newest release does not automatically become "latest".
 On GitHub, there is an important check box near the bottom of the web form:
 
 ![](./images/latest-release-checkbox.png)
