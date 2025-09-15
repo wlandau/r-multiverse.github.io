@@ -50,15 +50,20 @@ in the title of the pull request.
 
 ## Community
 
-After registration, the latest release of the package will
-automatically appear in the [Community](community.md) repository.
-[GitHub Actions](https://github.com/features/actions) workflows periodically
-read all the [package listings](https://github.com/r-multiverse/contributions/tree/main/packages),
-generate an [R-universe](https://r-universe.dev) [`packages.json`](https://github.com/r-multiverse/community/blob/main/packages.json) file,
-and host the [Community](community.md) repository as a [universe](https://r-universe.dev).
-The [Community](community.md) repository automatically distributes new releases
-that the package maintainer 
-[creates on GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)/[GitLab](https://docs.gitlab.com/ee/user/project/releases/).
+After registration, the latest GitHub/GitLab release of the package will
+automatically appear in the [Community](community.md) repository, and you will see it in the dashboard at <https://community.r-multiverse.org>.
+This process is facilitated by public [GitHub Actions](https://github.com/features/actions) workflows on both R-multiverse and R-universe^[Publishing a registered package requires 3 workflows in sequence: <https://github.com/r-multiverse/community/actions/workflows/review.yaml>, <https://github.com/r-multiverse/community/actions/workflows/packages.yaml>, and <https://github.com/r-universe/r-multiverse/actions/workflows/sync.yml>.], and it may take a few hours.
+
+## Updating your package
+
+To update your package to a new version on R-multiverse, simply create a new release on [GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) or [GitLab](https://docs.gitlab.com/user/project/releases/).
+Please be sure to set the new release as the latest release.
+Sometimes this does not happen automatically.
+On GitHub, there is an important check box near the bottom of the web form:
+
+![](./images/latest-release.png)
+
+If successful, the new version of your package should appear at <https://community.r-multiverse.org> after [the Community universe automatically refreshes](https://github.com/r-universe/r-multiverse/actions/workflows/sync.yml).
 
 ## Production
 
