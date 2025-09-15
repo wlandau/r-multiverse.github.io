@@ -61,7 +61,11 @@ Please be sure to set the new release as the latest release.
 Sometimes this does not happen automatically.
 On GitHub, there is an important check box near the bottom of the web form:
 
-![](./images/latest-release.png)
+![](./images/latest-release-checkbox.png)
+
+After you create the release, you should see a "Latest" label on the right-hand side of the title.
+
+![](./images/latest-release-label.png)
 
 If successful, the new version of your package should appear at <https://community.r-multiverse.org> after [the Community universe automatically refreshes](https://github.com/r-universe/r-multiverse/actions/workflows/sync.yml).
 
