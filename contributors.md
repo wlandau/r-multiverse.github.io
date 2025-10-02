@@ -29,7 +29,7 @@ multiverse.internals::review_package(
 
 Tips:
 
-* For security and practical reasons, [`multiverse.internals::review_package()`](https://r-multiverse.org/multiverse.internals/reference/review_package.html) only returns the first finding it sees. Please see [this section](https://r-multiverse.org/multiverse.internals/reference/review_package.html#details) for the full list of registration checks.
+* For security and practical reasons, [`multiverse.internals::review_package()`](https://r-multiverse.org/multiverse.internals/reference/review_package.html) only returns the first finding it sees. Please see [this list](https://r-multiverse.org/multiverse.internals/reference/review_package.html#details) for the full set of automated pre-registration checks.
 * Not all findings are problems, but some may trigger manual review and delay the acceptance of your package.
 
 ## Registration
