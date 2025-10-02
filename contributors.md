@@ -21,8 +21,8 @@ install.packages(
   repos = c("https://community.r-multiverse.org", getOption("repos"))
 )
 multiverse.internals::review_package(
-  package = "polars",
-  name = "https://github.com/pola-rs/r-polars"
+  name = "polars",
+  url = "https://github.com/pola-rs/r-polars"
 )
 #> [1] "Package name 'polars' is different from the repository name in the URL 'https://github.com/pola-rs/r-polars'"
 ```
