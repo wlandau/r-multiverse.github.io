@@ -10,12 +10,7 @@ This page explains how to contribute packages to R-multiverse.
 including package contributions.
 Administrators, moderators, and contributors are all subject to the terms therein.
 The [review policy](review.md) specifically governs package contribution and review.
-
-In addition, R-multiverse pulls R packages directly from
-[releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) on GitHub and GitLab.
-Before contributing a package to R-multiverse, please ensure it is available
-in a public GitHub/GitLab source code repository with at least one
-[release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) ([example](https://github.com/pola-rs/r-polars/releases/tag/v0.21.0)).
+In particular, please ensure your package has a valid free open-source (FOSS) license and a formal [release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases).
 
 You can run [`multiverse.internals::review_package()`](https://r-multiverse.org/multiverse.internals/reference/review_package.html) to check for yourself if your package is compliant.
 For example:
