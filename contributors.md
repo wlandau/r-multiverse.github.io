@@ -24,7 +24,6 @@ multiverse.internals::review_package(
   name = "polars",
   url = "https://github.com/pola-rs/r-polars"
 )
-#> [1] "Package name 'polars' is different from the repository name in the URL 'https://github.com/pola-rs/r-polars'"
 ```
 
 Not all findings are problems, but some may trigger manual review and delay the acceptance of your package.
