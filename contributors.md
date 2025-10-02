@@ -17,6 +17,23 @@ Before contributing a package to R-multiverse, please ensure it is available
 in a public GitHub/GitLab source code repository with at least one
 [release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) ([example](https://github.com/pola-rs/r-polars/releases/tag/v0.21.0)).
 
+You can run [`multiverse.internals::review_package()`](https://r-multiverse.org/multiverse.internals/reference/review_package.html) to check for yourself if your package is compliant.
+For example:
+
+```r
+install.packages(
+  "multiverse.internals",
+  repos = c("https://community.r-multiverse.org", getOption("repos"))
+)
+multiverse.internals::review_package(
+  package = "polars",
+  name = "https://github.com/pola-rs/r-polars"
+)
+#> [1] "Package name 'polars' is different from the repository name in the URL 'https://github.com/pola-rs/r-polars'"
+```
+
+Not all findings are problems, but some may trigger manual review and delay the acceptance of your package.
+
 ## Registration
 
 To register a package with R-multiverse:
