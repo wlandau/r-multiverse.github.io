@@ -12,7 +12,7 @@ Administrators, moderators, and contributors are all subject to the terms therei
 The [review policy](review.md) specifically governs package contribution and review.
 In particular, please ensure your package has a valid free open-source (FOSS) license and a formal [release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases).
 
-You can run [`multiverse.internals::review_package()`](https://r-multiverse.org/multiverse.internals/reference/review_package.html) to check for yourself if your package is compliant.
+You can run [`multiverse.internals::review_package()`](https://r-multiverse.org/multiverse.internals/reference/review_package.html) to check if your package is compliant.
 For example:
 
 ```r
@@ -26,7 +26,7 @@ multiverse.internals::review_package(
 )
 ```
 
-Not all findings are problems, but some may trigger manual review and delay the acceptance of your package.
+Not all findings are problems, but some may delay the acceptance of your package.
 
 ## Registration
 
