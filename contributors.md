@@ -40,9 +40,10 @@ you may instead write custom JSON list with fields `package`, `url`, `subdir`, a
 
 ### Pull request review
 
-An automated process periodically scans and reviews each new pull request to <https://github.com/r-multiverse/contributions>.
-The bot either merges the pull request or flags it for manual review by a [moderator](governance.md#moderator),
-depending on criteria explained in the [review policy](review.md).
+A pull request in <https://github.com/r-multiverse/contributions/pulls> is reviewed by a bot and usually by a human [moderator](governance.md#moderator).
+If the pull request author is a public member of [one of these GitHub organizations](https://github.com/r-multiverse/contributions/blob/main/organizations), then the bot may skip the human and accept the contribution automatically.
+This privilege is a special level of trust we extend to accountable human members of known reputable communities.
+You may propose a new organization via pull request, and the administrators will confidentially discuss the security implications before deciding whether to add it.
 
 Some moderators only review packages specific to a subject matter area,
 so please consider mentioning a [topic](https://r-multiverse.org/topics/index.html)
