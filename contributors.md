@@ -42,7 +42,7 @@ you may instead write custom JSON list with fields `package`, `url`, `subdir`, a
 
 A pull request in <https://github.com/r-multiverse/contributions/pulls> is reviewed by a bot and usually by a human [moderator](governance.md#moderator).
 If the pull request author is a public member of [one of these GitHub organizations](https://github.com/r-multiverse/contributions/blob/main/organizations), then the bot may skip the human and accept the contribution automatically.
-This is an extra level of trust we extend to accountable human members of communities that are well-established, trustworthy, and reputable.
+This privilege is an extra level of trust we extend to accountable human members of communities that are well-established, trustworthy, and reputable.
 You may propose a new organization via pull request, and the administrators will confidentially discuss the security implications before deciding whether to add it.
 
 Some moderators only review packages specific to a subject matter area,
