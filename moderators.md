@@ -97,8 +97,8 @@ If you have a question, please post a discussion to <https://github.com/r-multiv
 
 The role of a [moderator](governance.md#moderator) is to read contributions at <https://github.com/r-multiverse/contributions/pulls>, merge the pull requests that comply with [R-multiverse official policies](policies.md), and either close the pull request (without merging) or ask for changes in non-compliant cases.
 
-When the bot triggers manual review, please run [`multiverse.internals::review_package()`](https://r-multiverse.org/multiverse.internals/reference/review_package.html) locally.
-This function attempts to run the [list of automated pre-registration checks](review.md#automatic-acceptance).
+When the bot triggers manual review, please run [`multiverse.internals::review_package()`](https://r-multiverse.org/multiverse.internals/reference/review_package.html) on each of the submitted packages.
+This function runs the [list of automated pre-registration checks](review.md#automatic-acceptance).
 
 As a [moderator](governance.md#moderator), you may optionally restrict your review to packages in your area of expertise.
 Simply search [contributions](https://github.com/r-multiverse/contributions/pulls) for relevant keywords, including [R-multiverse topics](https://r-multiverse.org/topics/).
