@@ -114,7 +114,7 @@ To add a dynamic 'R-multiverse' badge for package readme files, like the one abo
 
 ## Installation instructions
 
-In the `REAMDE` of your package, it is good practice to include installation instructions ([example](https://github.com/pola-rs/r-polars/blob/main/README.md#install)).
+In the `README` of your package, it is good practice to include installation instructions ([example](https://github.com/pola-rs/r-polars/blob/main/README.md#install)).
 Please see the [overview page](https://r-multiverse.org/overview.html#installing-packages) for general instructions on installing packages from R-multiverse.
 Feel free to adapt these instructions for your own package.
 
