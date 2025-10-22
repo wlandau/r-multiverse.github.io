@@ -88,6 +88,20 @@ R-multiverse updates the [Production](production.qmd) repository in quarterly sn
 The [Production status page](https://r-multiverse.org/status/production.html) list the packages successfully staged for the next Production snapshot. 
 Visit the [Production documentation](production.qmd) to learn how the process works.
 
+## Checks
+
+To help get your package into [Production](production.qmd), you can check each development commit against same versions of R and packages as in the [Staging universe](production.qmd).
+That way, when you create a new release of your package, you can be more confident that your package will pass [checks](production.qmd#checks).
+
+If you host your source code on GitHub, simply add a small workflow file to your package:
+
+```r
+usethis::use_github_action(url = "https://github.com/r-multiverse/workflows/blob/main/examples/r-multiverse-staging.yaml")
+```
+
+Then commit that file to GitHub.
+From that point on, every commit will trigger a [GitHub Actions](https://github.com/features/actions) workflow that runs `R CMD check` in an environment that approximates [Staging](production.qmd).
+
 ## Status
 
 It is good practice to check the health of your contributed package using [R-multiverse status system](https://r-multiverse.org/status/index.html).
