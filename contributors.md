@@ -90,8 +90,8 @@ Visit the [Production documentation](production.qmd) to learn how the process wo
 
 ## Checks
 
-To help get your package into [Production](production.qmd), you can check each development commit against same versions of R and packages as in the [Staging universe](production.qmd).
-That way, when you create a new release of your package, you can be more confident that your package will pass [checks](production.qmd#checks).
+Before you release a new version of your package, you can check the development version in an environment that approximates [Staging](production.qmd).
+This will help you pass [checks](production.qmd#checks) and get into [Production](production.qmd).
 
 If you host your source code on GitHub, simply add a small workflow file to your package:
 
@@ -99,8 +99,12 @@ If you host your source code on GitHub, simply add a small workflow file to your
 usethis::use_github_action(url = "https://github.com/r-multiverse/workflows/blob/main/examples/r-multiverse-staging.yaml")
 ```
 
-Then commit that file to GitHub.
-From that point on, every commit will trigger a [GitHub Actions](https://github.com/features/actions) workflow that runs `R CMD check` in an environment that approximates [Staging](production.qmd).
+Then commit that file to GitHub, navigate to the "Actions" section of your repository, and run the `r-multiverse-staging` workflow:
+
+![](./images/r-multiverse-staging.png)
+
+`R CMD check` will run on Mac, Linux, and Windows.
+The workflow uses the same versions of base R and R packages that R-multiverse enforces in [Staging](production.qmd).
 
 ## Status
 
