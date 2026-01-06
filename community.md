@@ -28,9 +28,9 @@ install.packages(
 
 Anyone can [contribute](contributors.md) packages to Community via GitHub.
 After a one-time registration process for a package,
-the package maintainer directly controls distribution through the
-[release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
-system on GitHub/GitLab.
+the package maintainer directly controls distribution through
+[source code releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+on GitHub, GitLab, or Codeberg.
 Each new
 [release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
 automatically deploys to the repository without any manual intervention.

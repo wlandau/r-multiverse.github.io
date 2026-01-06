@@ -43,10 +43,10 @@ Watch this 1-minute video to learn how:
 ### Package listings
 
 A package listing is a text file in <https://github.com/r-multiverse/contributions/tree/main/packages>
-which points to the home of the package on GitHub/GitLab.
+which points to the source code repository of the package.^[R-multiverse supports GitHub, GitLab, and Codeberg.]
 The file name of each listing is the name of the package.
-In most cases, the file itself contains the package URL on GitHub or GitLab ([example](https://github.com/r-multiverse/contributions/blob/main/packages/polars)).
-But if the package is a subdirectory of the GitHub/GitLab repository,
+In most cases, the file itself contains the package URL ([example](https://github.com/r-multiverse/contributions/blob/main/packages/polars)).
+But if the package is a subdirectory of the source code repository,
 you may instead write custom JSON list with fields `package`, `url`, `subdir`, and `branch: "*release"` ([example](https://github.com/r-multiverse/contributions/blob/main/packages/arrow)).
 
 ### Pull request review
@@ -62,13 +62,13 @@ in the title of the pull request.
 
 ## Community
 
-After registration, the latest GitHub/GitLab release of the package will
+After registration, the latest maintainer-controlled source code release of the package will
 automatically appear in the [Community](community.md) repository, and you will see it in the dashboard at <https://community.r-multiverse.org>.
 This process is facilitated by public [GitHub Actions](https://github.com/features/actions) workflows on both R-multiverse and R-universe^[Publishing a registered package requires 3 workflows in sequence: <https://github.com/r-multiverse/community/actions/workflows/review.yaml>, <https://github.com/r-multiverse/community/actions/workflows/packages.yaml>, and <https://github.com/r-universe/r-multiverse/actions/workflows/sync.yml>.], and it may take a few hours.
 
 ## Updating your package
 
-To update your package to a new version on R-multiverse, simply create a new release on [GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) or [GitLab](https://docs.gitlab.com/user/project/releases/).
+To update your package to a new version on R-multiverse, simply create a new release on [GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases), [GitLab](https://docs.gitlab.com/user/project/releases/), or [Codeberg](https://docs.codeberg.org/git/using-tags/).
 [`usethis::use_github_release()`](https://usethis.r-lib.org/reference/use_github_release.html) makes this process easy for packages hosted on GitHub.^[See <https://juliasilge.com/blog/r-pkg-release/> for an example of a comprehensive package release workflow.]
 If you instead create the release manually in the GitHub.com web interface, please be sure to set the new release as the latest release.
 Sometimes the newest release does not automatically become "latest".
@@ -117,7 +117,7 @@ You can read more about it [here in the Production page](production.qmd#status).
 R-multiverse has a [topics website](https://r-multiverse.org/topics/index.html) that organizes packages into subject matter areas.
 Each topic has a page that lists the packages in its area ([example](https://r-multiverse.org/topics/bayesian.html)).
 To contribute a package to a topic, simply list the topic URL in the `DESCRIPTION` file ([example](https://github.com/ropensci/stantargets/blob/db7d119ea0599eac3ce01a42bee27c9908754943/DESCRIPTION#L22)).
-and then create a new GitHub/GitLab release.
+and then create a new release in your source code repository.
 To contribute a topic, submit a [pull request](https://github.com/r-multiverse/topics) to add a new [topic listing file](https://github.com/r-multiverse/topics/tree/main/topics) that describes the new topic.
 A scheduled job periodically rebuilds the website from the [listings](https://github.com/r-multiverse/topics/tree/main/topics).
 

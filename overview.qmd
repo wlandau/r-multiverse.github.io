@@ -17,7 +17,7 @@ R-multiverse provides:
 R-multiverse hosts two R package repositories:
 
 1. [Community](community.md): an open, inclusive, community-curated repository
-of R package releases pulled directly from their maintainers via GitHub and GitLab.
+of R package releases pulled directly from GitHub, GitLab, and Codeberg.
 2. [Production](production.qmd): a quarterly snapshot from [Community](community.md)
 of releases which pass transparent automated checks.
 
@@ -50,8 +50,14 @@ text <- c(
   "install.packages(",
   "  \"polars\",",
   "  repos = c(",
-  sprintf("    \"https://production.r-multiverse.org/%s\",", snapshot()$snapshot),
-  sprintf("    \"https://packagemanager.posit.co/cran/%s\"", snapshot()$dependency_freeze),
+  sprintf(
+    "    \"https://production.r-multiverse.org/%s\",",
+    snapshot()$snapshot
+  ),
+  sprintf(
+    "    \"https://packagemanager.posit.co/cran/%s\"",
+    snapshot()$dependency_freeze
+  ),
   "  )",
   ")",
   "```"

@@ -27,11 +27,11 @@ and if the [pull request](https://github.com/r-multiverse/contributions/pulls) i
 and if each new [contributed listing](https://github.com/r-multiverse/contributions/tree/main/packages):
 
 1. Is a single line of text with a valid HTTPS URL.
-1. Points to an existing public GitHub/GitLab repository.
+1. Points to an existing public source code repository.
 
-and if the contributed GitHub/GitLab repository:
+and if the contributed source code repository:
 
-1. Includes a GitHub/GitLab [release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases).
+1. Includes a [release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases).
 1. Includes an R package at the top level whose package name is the same as the repository name.
 1. Is listed in the `URL` field of the corresponding CRAN page (if a package with the same name is on CRAN).
 
