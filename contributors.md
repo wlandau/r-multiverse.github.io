@@ -103,8 +103,9 @@ Then commit that file to GitHub, navigate to the "Actions" section of your repos
 
 ![](./images/r-multiverse-staging.png)
 
-`R CMD check` will run on Mac, Linux, and Windows.
-The workflow uses the same versions of base R and R packages that R-multiverse enforces in [Staging](production.qmd).
+`R CMD check` will run in the [Staging](production.md#staging) universe on multiple platforms and multiple versions of R.
+To enter [Production](production.md), your package must pass these [Staging](production.md#staging) checks for R-release on Mac, Linux, and Windows.
+Other R versions and operating systems are not enforced.
 
 ## Status
 
