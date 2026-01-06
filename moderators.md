@@ -199,10 +199,10 @@ An [administrator](team.md#administrators) will respond and work with you on a r
 After resolving the issue, the [administrator](team.md#administrators) will publicly notify all R-multiverse stakeholders in a new issue thread at <https://github.com/r-multiverse/help>.
 The public thread will not disclose the identities of any victims of the incident or any [moderators](governance.md#moderator) involved in its resolution.
 
-### Reporting to GitHub/GitLab
+### Reporting to source code platforms
 
-A violation of [R-multiverse policies](policies.md) may also violate [GitHub policies](https://docs.github.com/en/site-policy) or [GitLab policies](https://handbook.gitlab.com/handbook/legal/): for example, a malicious user or a package with malware.
-If that is the case, please immediately report the user and/or package using [GitHub's "Report abuse or spam" webform](https://support.github.com/contact/report-abuse?category=report-abuse&report=other&report_type=unspecified) or [GitLab's "Report abuse" procedure](https://docs.gitlab.com/ee/user/report_abuse.html).
+A violation of [R-multiverse policies](policies.md) may also violate the policies of [GitHub](https://docs.github.com/en/site-policy), [GitLab](https://handbook.gitlab.com/handbook/legal/), or [Codeberg](https://codeberg.org/Codeberg/org/src/branch/main/TermsOfUse.md): for example, a malicious user or a package with malware.
+If that is the case, please immediately report the user and/or package using [GitHub's "Report abuse or spam" webform](https://support.github.com/contact/report-abuse?category=report-abuse&report=other&report_type=unspecified), [GitLab's "Report abuse" procedure](https://docs.gitlab.com/ee/user/report_abuse.html), or the [equivalent for Codeberg](https://docs.codeberg.org/contact/#abuse).
 
 ### Reporting to the R Consortium Advisory Database
 
